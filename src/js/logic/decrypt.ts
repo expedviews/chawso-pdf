@@ -1,5 +1,9 @@
 import { showLoader, hideLoader, showAlert } from '../ui.js';
-import { downloadFile, initializeQpdf, readFileAsArrayBuffer } from '../utils/helpers.js';
+import {
+  downloadFile,
+  initializeQpdf,
+  readFileAsArrayBuffer,
+} from '../utils/helpers.js';
 import { state } from '../state.js';
 
 export async function decrypt() {
