@@ -5,6 +5,7 @@ import type { SocketData } from '../types';
 import { extractAllPdfs } from '../types';
 import { mergePdfs } from '../../utils/pdf-operations';
 import { loadPdfDocument } from '../../utils/load-pdf-document.js';
+import { wfError } from '../errors';
 
 export class MergeNode extends BaseWorkflowNode {
   readonly category = 'Organize & Manage' as const;
@@ -23,7 +24,7 @@ export class MergeNode extends BaseWorkflowNode {
     const allInputs = Object.values(inputs).flat();
     const allPdfs = extractAllPdfs(allInputs);
     if (allPdfs.length === 0)
-      throw new Error('No PDFs connected to Merge node');
+      throw new Error(wfError('noPdfsConnected', { node: 'Merge' }));
 
     const mergedBytes = await mergePdfs(allPdfs.map((p) => p.bytes));
     const mergedDoc = await loadPdfDocument(mergedBytes);
