@@ -7,7 +7,8 @@ export interface InterleaveFile {
 }
 
 export async function interleavePdfs(
-  files: InterleaveFile[]
+  files: InterleaveFile[],
+  options?: { retainPageLabels?: boolean }
 ): Promise<Uint8Array> {
   if (files.length < 2) {
     throw new Error(wfError('alternateMergeNeedsTwo'));
@@ -50,6 +51,7 @@ export async function interleavePdfs(
         command: 'interleave',
         files,
         cpdfUrl: cpdfBaseUrl + 'coherentpdf.browser.min.js',
+        retainPageLabels: options?.retainPageLabels === true,
       },
       files.map((f) => f.data)
     );
