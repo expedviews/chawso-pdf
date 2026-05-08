@@ -7,7 +7,9 @@
     "allTools": "Alle Werkzeuge",
     "docs": "Docs",
     "openMainMenu": "Hauptmenü öffnen",
-    "language": "Sprache"
+    "language": "Sprache",
+    "searchLanguage": "Sprache suchen…",
+    "noLanguagesFound": "Keine Sprachen gefunden"
   },
   "donation": {
     "message": "Liebst du BentoPDF? Hilf uns, es kostenlos und Open Source zu halten!",
@@ -96,6 +98,18 @@
       "webpImages": "WebP-Bilder"
     }
   },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "step1Title": "Datei hochladen",
+    "step1": "Klicken oder Datei hierher ziehen",
+    "step2Title": "Verarbeiten",
+    "step2": "Klicken Sie auf die Verarbeitungsschaltfläche",
+    "step3Title": "Herunterladen",
+    "step3": "Speichern Sie Ihre verarbeitete Datei sofort"
+  },
+  "relatedTools": {
+    "title": "Verwandte PDF-Tools"
+  },
   "loader": {
     "processing": "Verarbeite..."
   },
@@ -171,6 +185,7 @@
   "faq": {
     "title": "Häufig gestellte",
     "questions": "Fragen",
+    "sectionTitle": "Häufig gestellte Fragen",
     "isFree": {
       "question": "Ist BentoPDF wirklich kostenlos?",
       "answer": "Ja, absolut. Alle Werkzeuge auf BentoPDF sind zu 100% kostenlos nutzbar, ohne Dateilimits, ohne Anmeldung und ohne Wasserzeichen. Wir glauben, dass jeder Zugang zu einfachen, leistungsstarken PDF-Werkzeugen verdient, ohne Bezahlschranke."
@@ -355,18 +370,6 @@
     "errorRendering": "Fehler beim Rendern der Seitenvorschau",
     "error": "Fehler",
     "failedToLoad": "Laden fehlgeschlagen"
-  },
-  "howItWorks": {
-    "title": "So funktioniert's",
-    "step1Title": "Datei hochladen",
-    "step1": "Klicken oder Datei hierher ziehen",
-    "step2Title": "Verarbeiten",
-    "step2": "Klicken Sie auf die Verarbeitungsschaltfläche",
-    "step3Title": "Herunterladen",
-    "step3": "Speichern Sie Ihre verarbeitete Datei sofort"
-  },
-  "relatedTools": {
-    "title": "Verwandte PDF-Tools"
   },
   "simpleMode": {
     "title": "PDF-Werkzeuge",

@@ -100,8 +100,11 @@
   },
   "howItWorks": {
     "title": "Hoe het werkt",
+    "step1Title": "Bestand uploaden",
     "step1": "Klik of sleep je bestand hierheen",
+    "step2Title": "Verwerken",
     "step2": "Klik op de verwerkingsknop",
+    "step3Title": "Downloaden",
     "step3": "Sla je verwerkte bestand direct op"
   },
   "relatedTools": {
@@ -132,6 +135,10 @@
     "resetToDefaults": "Terugzetten naar standaard",
     "fullWidthMode": "Volledige breedte",
     "fullWidthDescription": "Gebruik de volledige breedte van het scherm in plaats van een gecentreerde kolom",
+    "compactMode": "Compacte modus",
+    "compactModeDescription": "Toon hulpprogramma's als compacte lijst in plaats van kaarten",
+    "advancedSettings": "Geavanceerde instellingen",
+    "advancedSettingsDescription": "Externe verwerkingsmodules configureren (PyMuPDF, Ghostscript, CoherentPDF)",
     "settingsAutoSaved": "Instellingen worden automatisch opgeslagen",
     "clickToSet": "Klik om in te stellen",
     "pressKeys": "Druk toetsen…",
@@ -269,7 +276,8 @@
     "file": "Bestand",
     "files": "Bestanden",
     "close": "Sluiten",
-    "convert": "Converteren"
+    "convert": "Converteren",
+    "unknownError": "Onbekende fout"
   },
   "about": {
     "hero": {
