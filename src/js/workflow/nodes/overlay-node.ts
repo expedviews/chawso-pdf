@@ -5,6 +5,7 @@ import type { SocketData } from '../types';
 import { requirePdfInput, extractSinglePdf } from '../types';
 import { initializeQpdf } from '../../utils/helpers.js';
 import { loadPdfDocument } from '../../utils/load-pdf-document.js';
+import { wfError } from '../errors';
 
 export class OverlayNode extends BaseWorkflowNode {
   readonly category = 'Organize & Manage' as const;
@@ -28,7 +29,7 @@ export class OverlayNode extends BaseWorkflowNode {
     const baseInputs = requirePdfInput(inputs, 'Overlay');
     const overlayInputs = inputs['overlay'];
     if (!overlayInputs || overlayInputs.length === 0) {
-      throw new Error('Overlay node requires an overlay PDF input.');
+      throw new Error(wfError('overlayRequiresPdf'));
     }
 
     const basePdf = extractSinglePdf(baseInputs[0]);
@@ -40,7 +41,7 @@ export class OverlayNode extends BaseWorkflowNode {
     const mode = modeControl?.value === 'underlay' ? '--underlay' : '--overlay';
 
     const qpdf = await initializeQpdf();
-    const uid = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
+    const uid = `${Date.now()}_${crypto.randomUUID().slice(0, 7)}`;
     const inputPath = `/tmp/input_overlay_${uid}.pdf`;
     const overlayPath = `/tmp/overlay_${uid}.pdf`;
     const outputPath = `/tmp/output_overlay_${uid}.pdf`;

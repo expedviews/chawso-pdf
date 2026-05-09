@@ -5,7 +5,11 @@ import { createIcons, icons } from 'lucide';
 import '@phosphor-icons/web/regular';
 import * as pdfjsLib from 'pdfjs-dist';
 import '../css/styles.css';
-import { formatShortcutDisplay, formatStars } from './utils/helpers.js';
+import {
+  escapeHtml,
+  formatShortcutDisplay,
+  formatStars,
+} from './utils/helpers.js';
 import {
   initI18n,
   applyTranslations,
@@ -206,7 +210,7 @@ const init = async () => {
     'PDF to Greyscale': 'tools:pdfToGreyscale',
     'PDF to JSON': 'tools:pdfToJson',
     'OCR PDF': 'tools:ocrPdf',
-    'Alternate & Mix Pages': 'tools:alternateMix',
+    'Alternate & Mix Pages': 'tools:alternateMerge',
     'PDF Overlay': 'tools:pdfOverlay',
     'Organize & Duplicate': 'tools:duplicateOrganize',
     'Add Attachments': 'tools:addAttachments',
@@ -623,7 +627,9 @@ const init = async () => {
     }
 
     // Apply to all page uploaders
-    const pageUploaders = document.querySelectorAll('#tool-uploader');
+    const pageUploaders = document.querySelectorAll(
+      '#tool-uploader, #signature-editor'
+    );
     pageUploaders.forEach((uploader) => {
       if (enabled) {
         uploader.classList.remove('max-w-2xl', 'max-w-5xl');
@@ -845,10 +851,10 @@ const init = async () => {
 
       if (confirmMode) {
         dom.warningCancelBtn.style.display = '';
-        dom.warningConfirmBtn.textContent = 'Proceed';
+        dom.warningConfirmBtn.textContent = t('warning.proceed');
       } else {
         dom.warningCancelBtn.style.display = 'none';
-        dom.warningConfirmBtn.textContent = 'OK';
+        dom.warningConfirmBtn.textContent = t('alert.ok');
       }
 
       const handleConfirm = () => {
@@ -1051,8 +1057,8 @@ const init = async () => {
 
               await showWarningModal(
                 t('settings.warnings.alreadyInUse'),
-                `<strong>${displayCombo}</strong> ${t('settings.warnings.assignedTo')}<br><br>` +
-                  `<em>"${translatedToolName}"</em><br><br>` +
+                `<strong>${escapeHtml(displayCombo)}</strong> ${t('settings.warnings.assignedTo')}<br><br>` +
+                  `<em>"${escapeHtml(translatedToolName)}"</em><br><br>` +
                   t('settings.warnings.chooseDifferent'),
                 false
               );
@@ -1071,8 +1077,8 @@ const init = async () => {
               const displayCombo = formatShortcutDisplay(combo, isMac);
               const shouldProceed = await showWarningModal(
                 t('settings.warnings.reserved'),
-                `<strong>${displayCombo}</strong> ${t('settings.warnings.commonlyUsed')}<br><br>` +
-                  `"<em>${reservedWarning}</em>"<br><br>` +
+                `<strong>${escapeHtml(displayCombo)}</strong> ${t('settings.warnings.commonlyUsed')}<br><br>` +
+                  `"<em>${escapeHtml(reservedWarning)}</em>"<br><br>` +
                   `${t('settings.warnings.unreliable')}<br><br>` +
                   t('settings.warnings.useAnyway')
               );

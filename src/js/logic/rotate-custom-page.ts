@@ -85,7 +85,7 @@ function createPageWrapper(
 
   const canvasWrapper = document.createElement('div');
   canvasWrapper.className =
-    'thumbnail-wrapper flex items-center justify-center p-2 h-64';
+    'thumbnail-wrapper flex items-center justify-center p-2 h-64 pointer-events-none';
   canvasWrapper.style.transition = 'transform 0.3s ease';
   // Apply initial rotation if it exists (negated for canvas display)
   const initialRotation = pageState.rotations[pageIndex] || 0;
@@ -322,11 +322,9 @@ async function applyRotations() {
     }
 
     const rotatedPdfBytes = await newPdfDoc.save();
-    const originalName = pageState.file.name.replace(/\.pdf$/i, '');
-
     downloadFile(
       new Blob([new Uint8Array(rotatedPdfBytes)], { type: 'application/pdf' }),
-      `${originalName}_rotated.pdf`
+      pageState.file.name
     );
 
     showAlert(

@@ -470,8 +470,8 @@ The default URLs are set in `.env.production`:
 
 ```bash
 VITE_WASM_PYMUPDF_URL=https://cdn.jsdelivr.net/npm/@bentopdf/pymupdf-wasm@0.11.16/
-VITE_WASM_GS_URL=https://cdn.jsdelivr.net/npm/@bentopdf/gs-wasm/assets/
-VITE_WASM_CPDF_URL=https://cdn.jsdelivr.net/npm/coherentpdf/dist/
+VITE_WASM_GS_URL=https://cdn.jsdelivr.net/npm/@bentopdf/gs-wasm@0.1.1/assets/
+VITE_WASM_CPDF_URL=https://cdn.jsdelivr.net/npm/coherentpdf@2.5.5/dist/
 VITE_TESSERACT_WORKER_URL=
 VITE_TESSERACT_CORE_URL=
 VITE_TESSERACT_LANG_URL=
@@ -890,7 +890,7 @@ For the full list of editor categories, see the [self-hosting docs](https://bent
 BentoPDF runs as a non-root user using nginx-unprivileged for enhanced security:
 
 - **Non-Root Execution**: Container runs with minimal privileges using nginx-unprivileged
-- **Port 8080**: Uses high port number to avoid requiring root privileges
+- **Port 8080**: Uses high port number to avoid requiring root privileges (configurable via `PORT` env var)
 - **Security Best Practices**: Follows Principle of Least Privilege
 
 #### Basic Usage
@@ -899,6 +899,18 @@ BentoPDF runs as a non-root user using nginx-unprivileged for enhanced security:
 docker build -t bentopdf .
 docker run -p 8080:8080 bentopdf
 ```
+
+#### Custom Port
+
+By default, BentoPDF listens on port `8080` inside the container. To change this, set the `PORT` environment variable:
+
+```bash
+docker run -p 3000:9090 -e PORT=9090 ghcr.io/alam00000/bentopdf:latest
+```
+
+| Variable | Description                    | Default |
+| -------- | ------------------------------ | ------- |
+| `PORT`   | Nginx listen port in container | `8080`  |
 
 #### Custom User ID (PUID/PGID)
 
@@ -1088,10 +1100,14 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
    ```
 
 3. **Run the Development Server**:
+
    ```bash
    npm run dev
    ```
+
    The application will be available at `http://localhost:5173`.
+
+   > The dev server binds to `localhost` only by default. To expose it on your LAN (e.g. for mobile device testing), set `VITE_DEV_HOST=0.0.0.0 npm run dev`. The built-in CORS proxy at `/cors-proxy?url=` restricts targets to a known host allowlist; to permit additional hosts in development, set `VITE_DEV_CORS_PROXY_EXTRA_HOSTS="host1.example.com,host2.example.com"`.
 
 #### Option 2: Build and Run with Docker Compose
 
