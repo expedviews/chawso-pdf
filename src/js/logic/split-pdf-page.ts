@@ -20,6 +20,16 @@ import { showWasmRequiredDialog } from '../utils/wasm-provider.js';
 import JSZip from 'jszip';
 import { loadPdfDocument } from '../utils/load-pdf-document.js';
 import type { QpdfInstanceExtended } from '@/types';
+import {
+  parseRangeGroups,
+  evenOddIndices,
+  allPagesIndices,
+  nTimesGroups,
+  bookmarkSplitGroups,
+  groupFilename,
+  uniqueZipName,
+  extractPagesWithQpdf,
+} from '../utils/split-pdf-helpers.js';
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -325,37 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const extractPages = async (indices: number[]): Promise<Uint8Array> => {
         const instance = await ensureQpdf();
-        const outputPath = '/split-output.pdf';
-        const pageSpec = indices.map((index) => index + 1).join(',');
-        const exitCode = instance.callMain([
-          inputPath,
-          '--remove-unreferenced-resources=yes',
-          '--pages',
-          '.',
-          pageSpec,
-          '--',
-          outputPath,
-        ]);
-        try {
-          if (exitCode !== 0 && exitCode !== 3) {
-            throw new Error(
-              `Failed to extract pages (qpdf exit code ${exitCode}).`
-            );
-          }
-          const bytes = instance.FS.readFile(outputPath, {
-            encoding: 'binary',
-          });
-          if (!bytes || bytes.length === 0) {
-            throw new Error('Page extraction produced an empty PDF.');
-          }
-          return bytes;
-        } finally {
-          try {
-            instance.FS.unlink(outputPath);
-          } catch (cleanupError) {
-            console.warn('Failed to clean up qpdf output file:', cleanupError);
-          }
-        }
+        return extractPagesWithQpdf(instance, inputPath, indices);
       };
 
       switch (splitMode) {
@@ -364,37 +344,10 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('page-range') as HTMLInputElement
           ).value;
           if (!pageRangeInput) throw new Error('Choose a valid page range.');
-          const ranges = pageRangeInput.split(',');
 
-          const rangeGroups: number[][] = [];
-          for (const range of ranges) {
-            const trimmedRange = range.trim();
-            if (!trimmedRange) continue;
-
-            const groupIndices: number[] = [];
-            if (trimmedRange.includes('-')) {
-              const [start, end] = trimmedRange.split('-').map(Number);
-              if (
-                isNaN(start) ||
-                isNaN(end) ||
-                start < 1 ||
-                end > totalPages ||
-                start > end
-              )
-                continue;
-              for (let i = start; i <= end; i++) groupIndices.push(i - 1);
-            } else {
-              const pageNum = Number(trimmedRange);
-              if (isNaN(pageNum) || pageNum < 1 || pageNum > totalPages)
-                continue;
-              groupIndices.push(pageNum - 1);
-            }
-
-            if (groupIndices.length > 0) {
-              rangeGroups.push(groupIndices);
-              indicesToExtract.push(...groupIndices);
-            }
-          }
+          const { groups: rangeGroups, indices: rangeIndices } =
+            parseRangeGroups(pageRangeInput, totalPages);
+          indicesToExtract.push(...rangeIndices);
 
           if (oneFilePerUnit) outputGroups = rangeGroups;
           break;
@@ -406,16 +359,12 @@ document.addEventListener('DOMContentLoaded', () => {
           ) as HTMLInputElement;
           if (!choiceElement)
             throw new Error('Please select even or odd pages.');
-          const choice = choiceElement.value;
-          for (let i = 0; i < totalPages; i++) {
-            if (choice === 'even' && (i + 1) % 2 === 0)
-              indicesToExtract.push(i);
-            if (choice === 'odd' && (i + 1) % 2 !== 0) indicesToExtract.push(i);
-          }
+          const choice = choiceElement.value === 'even' ? 'even' : 'odd';
+          indicesToExtract = evenOddIndices(choice, totalPages);
           break;
         }
         case 'all':
-          indicesToExtract = Array.from({ length: totalPages }, (_, i) => i);
+          indicesToExtract = allPagesIndices(totalPages);
           outputGroups = indicesToExtract.map((i) => [i]);
           break;
         case 'visual':
@@ -462,21 +411,11 @@ document.addEventListener('DOMContentLoaded', () => {
             throw new Error('No bookmarks found at the selected level.');
           }
 
-          splitPages.sort((a, b) => a - b);
           const zip = new JSZip();
+          const bookmarkGroups = bookmarkSplitGroups(splitPages, totalPages);
 
-          for (let i = 0; i < splitPages.length; i++) {
-            const startPage = i === 0 ? 0 : splitPages[i];
-            const endPage =
-              i < splitPages.length - 1
-                ? splitPages[i + 1] - 1
-                : totalPages - 1;
-
-            const pageIndices = Array.from(
-              { length: endPage - startPage + 1 },
-              (_, idx) => startPage + idx
-            );
-            const pdfBytes2 = await extractPages(pageIndices);
+          for (let i = 0; i < bookmarkGroups.length; i++) {
+            const pdfBytes2 = await extractPages(bookmarkGroups[i]);
             zip.file(`split-${i + 1}.pdf`, pdfBytes2);
           }
 
@@ -497,17 +436,10 @@ document.addEventListener('DOMContentLoaded', () => {
           if (nValue < 1) throw new Error('N must be at least 1.');
 
           const zip2 = new JSZip();
-          const numSplits = Math.ceil(totalPages / nValue);
+          const chunks = nTimesGroups(nValue, totalPages);
 
-          for (let i = 0; i < numSplits; i++) {
-            const startPage = i * nValue;
-            const endPage = Math.min(startPage + nValue - 1, totalPages - 1);
-            const pageIndices = Array.from(
-              { length: endPage - startPage + 1 },
-              (_, idx) => startPage + idx
-            );
-
-            const pdfBytes3 = await extractPages(pageIndices);
+          for (let i = 0; i < chunks.length; i++) {
+            const pdfBytes3 = await extractPages(chunks[i]);
             zip2.file(`split-${i + 1}.pdf`, pdfBytes3);
           }
 
@@ -530,14 +462,6 @@ document.addEventListener('DOMContentLoaded', () => {
         throw new Error('No pages were selected for splitting.');
       }
 
-      const groupFilename = (group: number[]) => {
-        const minPage = Math.min(...group) + 1;
-        const maxPage = Math.max(...group) + 1;
-        return minPage === maxPage
-          ? `page-${minPage}.pdf`
-          : `pages-${minPage}-${maxPage}.pdf`;
-      };
-
       if (outputGroups && outputGroups.length > 0) {
         if (outputGroups.length === 1) {
           const pdfBytes = await extractPages(outputGroups[0]);
@@ -551,15 +475,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const usedNames = new Map<string, number>();
           for (const group of outputGroups) {
             const pdfBytes = await extractPages(group);
-            let name = groupFilename(group);
-            const seen = usedNames.get(name);
-            if (seen !== undefined) {
-              usedNames.set(name, seen + 1);
-              name = name.replace(/\.pdf$/, `-${seen + 1}.pdf`);
-            } else {
-              usedNames.set(name, 0);
-            }
-            zip.file(name, pdfBytes);
+            zip.file(uniqueZipName(groupFilename(group), usedNames), pdfBytes);
           }
           const zipBlob = await zip.generateAsync({ type: 'blob' });
           downloadFile(zipBlob, 'split-pages.zip');
