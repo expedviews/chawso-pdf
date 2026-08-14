@@ -400,7 +400,8 @@
       "noFile": "No File",
       "noFileExplanation": "Please upload a PDF file first.",
       "conversionSuccess": "PDF converted to TIFFs successfully!",
-      "conversionError": "Failed to convert PDF to TIFF. The file might be corrupted."
+      "conversionError": "Failed to convert PDF to TIFF. The file might be corrupted.",
+      "conversionOutOfMemory": "The browser ran out of memory while converting. Try a lower DPI, or uncheck the multi-page TIFF option to convert pages one at a time."
     }
   },
   "pdfToCbz": {
