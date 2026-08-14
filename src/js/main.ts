@@ -545,7 +545,11 @@ const init = async () => {
     document.getElementById('github-stars-mobile'),
   ];
 
-  if (githubStarsElements.some((el) => el) && !__SIMPLE_MODE__) {
+  if (
+    githubStarsElements.some((el) => el) &&
+    !__SIMPLE_MODE__ &&
+    !__DISABLE_GITHUB_STARS__
+  ) {
     fetch('https://api.github.com/repos/alam00000/bentopdf')
       .then((response) => response.json())
       .then((data) => {
