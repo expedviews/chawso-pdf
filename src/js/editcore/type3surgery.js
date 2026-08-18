@@ -375,7 +375,7 @@ export async function protectType3Text(bytes) {
       `/Contents ${cnum} 0 R`
     );
     if (fonts.resRef >= 0) {
-      let res = fonts.resBody;
+      let res = fonts.resBody.trim();
       const xo = res.match(/\/XObject\s*<<([\s\S]*?)>>/);
       res = xo
         ? res.replace(xo[0], `/XObject <<${xo[1]} ${entries} >>`)
@@ -493,7 +493,7 @@ export async function protectFragileText(bytes) {
       `/Contents ${cnum} 0 R`
     );
     if (rref) {
-      let res = resBody;
+      let res = resBody.trim();
       const xo = res.match(/\/XObject\s*<<([\s\S]*?)>>/);
       res = xo
         ? res.replace(xo[0], `/XObject <<${xo[1]} ${entries} >>`)
