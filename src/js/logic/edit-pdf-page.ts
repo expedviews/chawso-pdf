@@ -8,7 +8,7 @@ import { getEditorDisabledCategories } from '../utils/disabled-tools.js';
 import { editorFontFallback } from '../config/editor-fonts.js';
 
 const embedPdfWasmUrl = new URL(
-  'bentopdf-viewer/dist/pdfium.wasm',
+  'bentopdf-pdfium/editcore.wasm',
   import.meta.url
 ).href;
 
