@@ -6,7 +6,6 @@ import type { Connect, Plugin } from 'vite';
 // import basicSsl from '@vitejs/plugin-basic-ssl';
 import tailwindcss from '@tailwindcss/vite';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
-import { viteStaticCopy } from 'vite-plugin-static-copy';
 import viteCompression from 'vite-plugin-compression';
 import handlebars from 'vite-plugin-handlebars';
 import { resolve } from 'path';
@@ -509,13 +508,6 @@ export default defineConfig(() => {
     console.log('[Vite] Using local WASM files only');
   }
 
-  const staticCopyTargets = [
-    {
-      src: 'node_modules/bentopdf-viewer/dist/pdfium.wasm',
-      dest: 'embedpdf',
-    },
-  ];
-
   return {
     base: (process.env.BASE_URL || '/').replace(/\/?$/, '/'),
     plugins: [
@@ -543,9 +535,6 @@ export default defineConfig(() => {
           global: false,
           process: true,
         },
-      }),
-      viteStaticCopy({
-        targets: staticCopyTargets,
       }),
       viteCompression({
         algorithm: 'brotliCompress',
