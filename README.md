@@ -113,7 +113,7 @@ BentoPDF does **not** bundle AGPL-licensed processing libraries in its source co
 
 ## ⭐ Stargazers over time
 
-[![Star History Chart](https://api.star-history.com/svg?repos=alam00000/bentopdf&type=Date)](https://star-history.com/#alam00000/bentopdf&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=alam00000/bentopdf&type=Date)](https://star-history.dera.page/#alam00000/bentopdf&Date)
 
 ---
 
