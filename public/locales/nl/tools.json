@@ -219,7 +219,7 @@
     "statusReadingFileMainThread": "Bestand lezen (Hoofdthread)...",
     "statusGenerating": "Inhoudsopgave genereren...",
     "errorReadingFileWithMessage": "Fout bij lezen bestand: {{message}}",
-    "successGeneratedDownloadStarted": "Inhoudsopgave succesvol gegenereerd! Download gestart.",
+    "successGeneratedDownloadStarted": "Inhoudsopgave met succes gegenereerd! Download gestart.",
     "workerErrorWithMessage": "Fout: {{message}}",
     "workerErrorOccurred": "Er is een worker-fout opgetreden. Controleer de console voor details."
   },
@@ -275,7 +275,7 @@
     "invalidRangeMessage": "Regel {{number}} heeft een ongeldig paginabereik: {{range}}",
     "allPages": "alle pagina's",
     "emptyOutputMessage": "CoherentPDF heeft een leeg bestand geproduceerd.",
-    "successMessage": "Paginalabels zijn succesvol toegevoegd!",
+    "successMessage": "Paginalabels zijn met succes toegevoegd!",
     "processErrorMessage": "Kon de paginalabels niet toevoegen.",
     "styleOptions": {
       "DecimalArabic": "Decimale cijfers",
@@ -426,7 +426,7 @@
       "converting": "JSON-bestanden naar PDF converteren...",
       "readError": "Fout bij lezen bestanden: {{message}}",
       "creatingZip": "ZIP-bestand maken...",
-      "success": "JSON-bestanden succesvol naar PDF geconverteerd! ZIP-download gestart.",
+      "success": "JSON-bestanden met succes naar PDF geconverteerd! ZIP-download gestart.",
       "zipError": "Fout bij maken ZIP: {{message}}",
       "workerError": "Worker-fout: {{message}}",
       "getStarted": "Selecteer JSON-bestanden om te beginnen"
@@ -544,7 +544,7 @@
       "invalidFileExplanation": "Upload een PDF-bestand.",
       "noFile": "Geen bestand",
       "noFileExplanation": "Upload eerst een PDF-bestand.",
-      "conversionSuccess": "PDF succesvol geconverteerd naar CBZ!",
+      "conversionSuccess": "PDF met succes geconverteerd naar CBZ!",
       "conversionError": "Kan PDF niet converteren naar CBZ. Het bestand is mogelijk beschadigd."
     }
   },
@@ -564,7 +564,7 @@
       "converting": "PDF's naar JSON converteren...",
       "readError": "Fout bij lezen bestanden: {{message}}",
       "creatingZip": "ZIP-bestand maken...",
-      "success": "PDF's succesvol naar JSON geconverteerd! ZIP-download gestart.",
+      "success": "PDF's met succes naar JSON geconverteerd! ZIP-download gestart.",
       "zipError": "Fout bij maken ZIP: {{message}}",
       "workerError": "Worker-fout: {{message}}",
       "getStarted": "Selecteer PDF-bestanden om te beginnen"
@@ -1058,7 +1058,7 @@
     "tsaSectionTitle": "Tijdstempelserver (TSA)",
     "selectTsa": "Selecteer een TSA-server",
     "applyTimestamp": "Tijdstempel toepassen",
-    "successMessage": "PDF succesvol voorzien van tijdstempel! Het tijdstempel kan in elke PDF-lezer worden geverifieerd."
+    "successMessage": "PDF met succes voorzien van tijdstempel! Het tijdstempel kan in elke PDF-lezer worden geverifieerd."
   },
   "emailToPdf": {
     "name": "E-mail naar PDF",
@@ -1225,7 +1225,7 @@
     "saveConfiguration": "Configuratie opslaan",
     "savingConfiguration": "Configuratie opslaan...",
     "savedTitle": "Opgeslagen",
-    "savedMessage": "Configuratie succesvol opgeslagen!",
+    "savedMessage": "Configuratie met succes opgeslagen!",
     "errorTitle": "Fout",
     "failedSave": "Kon configuratie niet opslaan: {{message}}",
     "emptyUrlTitle": "Lege URL",
