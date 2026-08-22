@@ -9092,7 +9092,15 @@ async function saveFile() {
   a.click();
   URL.revokeObjectURL(a.href);
   state.dirty = false;
-  toast('Saved ' + ((bytes.length / 1024) | 0) + ' KB');
+  const savedKb = (bytes.length / 1024) | 0;
+  if (onSaved) onSaved(savedKb, state.fileName);
+  else toast('Saved ' + savedKb + ' KB');
+}
+
+let onSaved = null;
+
+function setOnSaved(fn) {
+  onSaved = typeof fn === 'function' ? fn : null;
 }
 
 function wireUI() {
@@ -9975,4 +9983,11 @@ async function addImageFromFile(file) {
   } else if (state.undo.length) state.undo.pop();
 }
 
-export { openFile, engineReady, setZoom, getZoom, getDocDescription };
+export {
+  openFile,
+  engineReady,
+  setZoom,
+  getZoom,
+  getDocDescription,
+  setOnSaved,
+};

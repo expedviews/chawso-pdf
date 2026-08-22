@@ -299,6 +299,13 @@ export function scriptFallbackFamilies(cps) {
     ],
     [[[0x10a0, 0x10ff]], ['Noto Sans Georgian', 'Sylfaen', 'Arial Unicode MS']],
     [[[0x1200, 0x137f]], ['Kefa', 'Nyala', 'Noto Sans Ethiopic']],
+    [
+      [[0x0f00, 0x0fff]],
+      ['Kailasa', 'Microsoft Himalaya', 'Noto Sans Tibetan'],
+    ],
+    [[[0x13a0, 0x13ff]], ['Plantagenet Cherokee', 'Noto Sans Cherokee']],
+    [[[0x0700, 0x074f]], ['Noto Sans Syriac', 'Estrangelo Edessa']],
+    [[[0x0780, 0x07bf]], ['Noto Sans Thaana', 'MV Boli']],
   ];
   const out = [];
   for (const cp of cps) {
