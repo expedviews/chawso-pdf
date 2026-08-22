@@ -510,6 +510,9 @@ export default defineConfig(() => {
 
   return {
     base: (process.env.BASE_URL || '/').replace(/\/?$/, '/'),
+    worker: {
+      format: 'es' as const,
+    },
     plugins: [
       // basicSsl(),
       handlebars({
