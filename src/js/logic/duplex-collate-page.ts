@@ -381,6 +381,52 @@ function updatePreviewSummary() {
 }
 
 /**
+ * Shows an in-page confirmation dialog and resolves with the user's choice.
+ */
+function showConfirm(message: string): Promise<boolean> {
+  const modal = document.getElementById('confirm-modal');
+  const messageEl = document.getElementById('confirm-message');
+  const cancelBtn = document.getElementById('confirm-cancel');
+  const proceedBtn = document.getElementById('confirm-proceed');
+
+  if (!modal || !messageEl || !cancelBtn || !proceedBtn) {
+    return Promise.resolve(window.confirm(message));
+  }
+
+  messageEl.textContent = message;
+  modal.classList.remove('hidden');
+
+  const previousActive = document.activeElement as HTMLElement | null;
+
+  return new Promise<boolean>((resolve) => {
+    const close = (result: boolean) => {
+      modal.classList.add('hidden');
+      cancelBtn.removeEventListener('click', onCancel);
+      proceedBtn.removeEventListener('click', onProceed);
+      modal.removeEventListener('click', onBackdrop);
+      document.removeEventListener('keydown', onKeydown);
+      previousActive?.focus();
+      resolve(result);
+    };
+
+    const onCancel = () => close(false);
+    const onProceed = () => close(true);
+    const onBackdrop = (e: MouseEvent) => {
+      if (e.target === modal) close(false);
+    };
+    const onKeydown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') close(false);
+    };
+
+    cancelBtn.addEventListener('click', onCancel);
+    proceedBtn.addEventListener('click', onProceed);
+    modal.addEventListener('click', onBackdrop);
+    document.addEventListener('keydown', onKeydown);
+    cancelBtn.focus();
+  });
+}
+
+/**
  * Creates a new PDF containing the source pages referenced by index.
  */
 async function createPdfFromIndices(
@@ -445,7 +491,7 @@ async function processDuplexCollate() {
     backOrder
   );
   if (frontCount !== backCount) {
-    const proceed = window.confirm(
+    const proceed = await showConfirm(
       translate(
         'tools:duplexCollate.unevenConfirmMessage',
         `The front block has ${frontCount} page(s) and the back block has ${backCount} page(s).\nThis usually means a page was scanned twice or is missing.\n\nThe ${Math.abs(frontCount - backCount)} unpaired page(s) will be appended at the end.\n\nContinue anyway?`,
@@ -513,24 +559,41 @@ async function processDuplexCollate() {
       return;
     }
 
-    const zip = new JSZip();
-    let fileCount = 0;
+    const documents: Array<{ name: string; bytes: Uint8Array }> = [];
     for (let start = 0; start < order.length; start += pagesPerDocument) {
       const chunk = order.slice(start, start + pagesPerDocument);
       if (chunk.length === 0) continue;
       const chunkBytes = await createPdfFromIndices(duplexState.pdfDoc, chunk);
-      fileCount += 1;
-      zip.file(`${baseName}_doc_${fileCount}.pdf`, chunkBytes);
+      documents.push({
+        name: `${baseName}_doc_${documents.length + 1}.pdf`,
+        bytes: chunkBytes,
+      });
+    }
+
+    const fileCount = documents.length;
+
+    if (fileCount === 0) {
+      hideLoader();
+      showAlert(
+        translate('common.error', 'Error'),
+        translate(
+          'tools:duplexCollate.processErrorMessage',
+          'Failed to collate PDF.'
+        )
+      );
+      return;
     }
 
     if (fileCount === 1) {
-      const firstChunk = order.slice(0, pagesPerDocument);
-      const bytes = await createPdfFromIndices(duplexState.pdfDoc, firstChunk);
-      const blob = new Blob([bytesToArrayBuffer(bytes)], {
+      const blob = new Blob([bytesToArrayBuffer(documents[0].bytes)], {
         type: 'application/pdf',
       });
-      downloadFile(blob, `${baseName}_doc_1.pdf`);
+      downloadFile(blob, documents[0].name);
     } else {
+      const zip = new JSZip();
+      for (const { name, bytes } of documents) {
+        zip.file(name, bytes);
+      }
       const zipBlob = await zip.generateAsync({ type: 'blob' });
       downloadFile(zipBlob, `${baseName}_collated_grouped.zip`);
     }

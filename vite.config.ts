@@ -710,6 +710,7 @@ export default defineConfig(() => {
             __dirname,
             'src/pages/alternate-merge.html'
           ),
+          'duplex-collate': resolve(__dirname, 'src/pages/duplex-collate.html'),
           'compare-pdfs': resolve(__dirname, 'src/pages/compare-pdfs.html'),
           'add-attachments': resolve(
             __dirname,
