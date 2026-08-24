@@ -3,6 +3,7 @@ import { showAlert, showLoader, hideLoader } from '../ui.js';
 import { formatBytes, downloadFile } from '../utils/helpers.js';
 import { loadPdfWithPasswordPrompt } from '../utils/password-prompt.js';
 import { loadPdfDocument } from '../utils/load-pdf-document.js';
+import { t } from '../i18n/index.js';
 import { PDFDocument } from 'pdf-lib';
 import JSZip from 'jszip';
 
@@ -16,6 +17,15 @@ const duplexState: DuplexState = {
   file: null,
   pdfDoc: null,
   totalPages: 0,
+};
+
+const translate = (
+  key: string,
+  fallback: string,
+  options?: Record<string, unknown>
+) => {
+  const translation = t(key, options);
+  return translation && translation !== key ? translation : fallback;
 };
 
 if (document.readyState === 'loading') {
@@ -106,11 +116,17 @@ async function handleFile(file: File) {
     file.type !== 'application/pdf' &&
     !file.name.toLowerCase().endsWith('.pdf')
   ) {
-    showAlert('Invalid File', 'Please select a PDF file.');
+    showAlert(
+      translate('tools:duplexCollate.invalidFileTitle', 'Invalid File'),
+      translate(
+        'tools:duplexCollate.invalidFileMessage',
+        'Please select a PDF file.'
+      )
+    );
     return;
   }
 
-  showLoader('Loading PDF...');
+  showLoader(translate('tools:duplexCollate.loadingPdf', 'Loading PDF...'));
 
   try {
     const result = await loadPdfWithPasswordPrompt(file);
@@ -133,7 +149,13 @@ async function handleFile(file: File) {
   } catch (error) {
     console.error('Error loading PDF:', error);
     hideLoader();
-    showAlert('Error', 'Failed to load PDF file.');
+    showAlert(
+      translate('common.error', 'Error'),
+      translate(
+        'tools:duplexCollate.loadErrorMessage',
+        'Failed to load PDF file.'
+      )
+    );
   }
 }
 
@@ -173,7 +195,14 @@ function updateFileDisplay() {
 
   const metaSpan = document.createElement('div');
   metaSpan.className = 'text-xs text-gray-400';
-  metaSpan.textContent = `${formatBytes(duplexState.file.size)} • ${duplexState.totalPages} pages`;
+  metaSpan.textContent = translate(
+    'tools:duplexCollate.fileMeta',
+    `${formatBytes(duplexState.file.size)} - ${duplexState.totalPages} pages`,
+    {
+      size: formatBytes(duplexState.file.size),
+      count: duplexState.totalPages,
+    }
+  );
 
   infoContainer.append(nameSpan, metaSpan);
 
@@ -208,7 +237,13 @@ function showOddPageWarning() {
   if (!banner) return;
   if (duplexState.totalPages % 2 !== 0) {
     banner.classList.remove('hidden');
-    banner.textContent = `⚠ Odd page count (${duplexState.totalPages}). A duplex scan should have an even number of pages — you may have a missing or extra page.`;
+    banner.textContent = translate(
+      'tools:duplexCollate.oddPageWarning',
+      `Odd page count (${duplexState.totalPages}). A duplex scan should have an even number of pages; you may have a missing or extra page.`,
+      {
+        count: duplexState.totalPages,
+      }
+    );
   } else {
     banner.classList.add('hidden');
     banner.textContent = '';
@@ -318,15 +353,27 @@ function updatePreviewSummary() {
     backOrder
   );
 
-  summary.textContent =
-    `Front block: ${frontCount} page(s), back block: ${backCount} page(s). ` +
-    `Output: ${order.length} page(s), in front/back sequence.`;
+  summary.textContent = translate(
+    'tools:duplexCollate.previewSummary',
+    `Front block: ${frontCount} page(s), back block: ${backCount} page(s). Output: ${order.length} page(s), in front/back sequence.`,
+    {
+      frontCount,
+      backCount,
+      outputCount: order.length,
+    }
+  );
 
   if (frontCount !== backCount) {
     warning.classList.remove('hidden');
-    warning.textContent =
-      `Front and back block lengths differ (${frontCount} front vs ${backCount} back). ` +
-      `The ${Math.abs(frontCount - backCount)} extra page(s) on the longer side will be appended unpaired at the end.`;
+    warning.textContent = translate(
+      'tools:duplexCollate.previewMismatchWarning',
+      `Front and back block lengths differ (${frontCount} front vs ${backCount} back). The ${Math.abs(frontCount - backCount)} extra page(s) on the longer side will be appended unpaired at the end.`,
+      {
+        frontCount,
+        backCount,
+        extraCount: Math.abs(frontCount - backCount),
+      }
+    );
   } else {
     warning.classList.add('hidden');
     warning.textContent = '';
@@ -365,8 +412,11 @@ function bytesToArrayBuffer(bytes: Uint8Array): ArrayBuffer {
 async function processDuplexCollate() {
   if (!duplexState.file || !duplexState.pdfDoc || duplexState.totalPages < 2) {
     showAlert(
-      'Missing File',
-      'Please upload a PDF with at least 2 pages before processing.'
+      translate('tools:duplexCollate.missingFileTitle', 'Missing File'),
+      translate(
+        'tools:duplexCollate.missingFileMessage',
+        'Please upload a PDF with at least 2 pages before processing.'
+      )
     );
     return;
   }
@@ -374,8 +424,14 @@ async function processDuplexCollate() {
   const splitPoint = getSplitPoint();
   if (splitPoint <= 0 || splitPoint >= duplexState.totalPages) {
     showAlert(
-      'Invalid Split Point',
-      `Split point must be between page 1 and page ${duplexState.totalPages - 1}.`
+      translate('tools:duplexCollate.invalidSplitTitle', 'Invalid Split Point'),
+      translate(
+        'tools:duplexCollate.invalidSplitMessage',
+        `Split point must be between page 1 and page ${duplexState.totalPages - 1}.`,
+        {
+          maxSplit: duplexState.totalPages - 1,
+        }
+      )
     );
     return;
   }
@@ -390,10 +446,15 @@ async function processDuplexCollate() {
   );
   if (frontCount !== backCount) {
     const proceed = window.confirm(
-      `The front block has ${frontCount} page(s) and the back block has ${backCount} page(s).\n` +
-        `This usually means a page was scanned twice or is missing.\n\n` +
-        `The ${Math.abs(frontCount - backCount)} unpaired page(s) will be appended at the end.\n\n` +
-        `Continue anyway?`
+      translate(
+        'tools:duplexCollate.unevenConfirmMessage',
+        `The front block has ${frontCount} page(s) and the back block has ${backCount} page(s).\nThis usually means a page was scanned twice or is missing.\n\nThe ${Math.abs(frontCount - backCount)} unpaired page(s) will be appended at the end.\n\nContinue anyway?`,
+        {
+          frontCount,
+          backCount,
+          extraCount: Math.abs(frontCount - backCount),
+        }
+      )
     );
     if (!proceed) return;
   }
@@ -413,13 +474,18 @@ async function processDuplexCollate() {
     (!Number.isFinite(pagesPerDocument) || pagesPerDocument < 1)
   ) {
     showAlert(
-      'Invalid Group Size',
-      'Please enter a valid number of pages per original document.'
+      translate('tools:duplexCollate.invalidGroupTitle', 'Invalid Group Size'),
+      translate(
+        'tools:duplexCollate.invalidGroupMessage',
+        'Please enter a valid number of pages per original document.'
+      )
     );
     return;
   }
 
-  showLoader('Collating duplex scan...');
+  showLoader(
+    translate('tools:duplexCollate.collatingLoader', 'Collating duplex scan...')
+  );
 
   try {
     const { order } = buildDuplexOrder(
@@ -436,7 +502,14 @@ async function processDuplexCollate() {
       });
       downloadFile(blob, `${baseName}_collated.pdf`);
       hideLoader();
-      showAlert('Success', 'Collated PDF generated successfully.', 'success');
+      showAlert(
+        translate('common.success', 'Success'),
+        translate(
+          'tools:duplexCollate.successMessage',
+          'Collated PDF generated successfully.'
+        ),
+        'success'
+      );
       return;
     }
 
@@ -464,14 +537,26 @@ async function processDuplexCollate() {
 
     hideLoader();
     showAlert(
-      'Success',
-      `Collation complete. Generated ${fileCount} grouped file(s).`,
+      translate('common.success', 'Success'),
+      translate(
+        'tools:duplexCollate.successGroupedMessage',
+        `Collation complete. Generated ${fileCount} grouped file(s).`,
+        {
+          fileCount,
+        }
+      ),
       'success'
     );
   } catch (error) {
     console.error('Duplex collate error:', error);
     hideLoader();
-    showAlert('Error', 'Failed to collate PDF.');
+    showAlert(
+      translate('common.error', 'Error'),
+      translate(
+        'tools:duplexCollate.processErrorMessage',
+        'Failed to collate PDF.'
+      )
+    );
   }
 }
 

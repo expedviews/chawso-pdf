@@ -1,1 +1,1 @@
-npx -y node@20.19.0 ./node_modules/lint-staged/bin/lint-staged.js
+npx lint-staged
