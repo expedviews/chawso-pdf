@@ -1,22 +1,20 @@
 ---
 {
-  'title': 'How to Edit a PDF Without Uploading It Anywhere | BentoPDF Blog',
-  'h1': 'How to edit a PDF without uploading it anywhere',
-  'ogTitle': 'How to Edit a PDF Without Uploading It Anywhere',
-  'breadcrumb': 'Edit a PDF without uploading',
-  'description': 'Edit PDF text, fill forms, redact, and sign in your browser while the file stays on your device. Step by step, with the right tool for each job.',
-  'card': 'Rewrite text, fill forms, redact properly, and sign, locally on your device.',
-  'date': '2026-09-03',
-  'cta':
-    {
-      'heading': 'Edit your PDF now',
-      'text': 'Free, no signup. Your file stays on your device.',
-      'href': '/edit-pdf',
-      'label': 'Open the PDF editor',
-    },
+  "title": "How to Edit a PDF Without Uploading It Anywhere | BentoPDF Blog",
+  "h1": "How to edit a PDF without uploading it anywhere",
+  "ogTitle": "How to Edit a PDF Without Uploading It Anywhere",
+  "breadcrumb": "Edit a PDF without uploading",
+  "description": "Edit PDF text, fill forms, redact, and sign in your browser while the file stays on your device. Step by step, with the right tool for each job.",
+  "card": "Rewrite text, fill forms, redact properly, and sign, locally on your device.",
+  "date": "2026-09-03",
+  "cta": {
+    "heading": "Edit your PDF now",
+    "text": "Free, no signup. Your file stays on your device.",
+    "href": "/edit-pdf",
+    "label": "Open the PDF editor"
+  }
 }
 ---
-
 You can edit a PDF in your browser without uploading the file to a server.
 
 Open [BentoPDF's PDF editor](/edit-pdf), pick your file, make your changes, and download the result. The PDF stays on your device. There's no account and no watermark.
