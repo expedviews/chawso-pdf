@@ -273,8 +273,14 @@
     </style>
   </head>
 
-  <body class="antialiased bg-gray-900 h-screen flex flex-col overflow-hidden">
+  <body
+    class="antialiased bg-gray-900 h-[100dvh] flex flex-col overflow-hidden"
+  >
     {{> navbar }}
+
+    <h1 class="sr-only">
+      PDF Workflow Builder Free Online - Chain PDF Tools Into One Run
+    </h1>
 
     <!-- Main Workflow Layout -->
     <div id="workflow-app" class="flex flex-1 min-h-0">
@@ -404,6 +410,8 @@
         <div id="settings-content" class="flex-1 p-3 space-y-3"></div>
       </aside>
     </div>
+
+    {{> footer-compact }}
 
     <!-- Loader Modal -->
     <div

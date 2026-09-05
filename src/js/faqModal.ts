@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeBtn = document.getElementById('faq-close-btn');
   if (!modal || !openBtn) return;
 
+  if (__SIMPLE_MODE__) {
+    openBtn.classList.add('hidden');
+    modal.remove();
+    return;
+  }
+
   const setOpen = (open: boolean) => {
     modal.classList.toggle('hidden', !open);
     modal.setAttribute('aria-hidden', open ? 'false' : 'true');
