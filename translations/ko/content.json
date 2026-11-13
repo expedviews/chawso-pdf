@@ -180,7 +180,7 @@
   "093be2d20e4f": "포털은 200KB 미만을 요구하는데 내 파일은 10MB입니다. 가능한가요?<1/>",
   "0958e3367649": "병합, 분할, 정리, 삭제, 회전, 빈 페이지 추가, 추출, 복제를 하나의 화면에서 처리합니다.",
   "096a81101b8d": "Convert PDF to PDF/A for long-term archiving. Free, no signup. Designed to run in your browser.",
-  "0977721a9d0e": "이 변환은 CPDF WebAssembly 빌드에 의존합니다. bentopdf.com에는 포함되어 있지만, 자체 호스팅 사본은 이 도구가 실행되기 전에 <1>WASM 설정</1>에서 CPDF WASM 파일을 구성해야 합니다.",
+  "0977721a9d0e": "The conversion depends on the CPDF WebAssembly build. The hosted Chawso PDF deployment includes it, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
   "09b0771af256": "Compress PDF to 1MB Free Online | Chawso PDF",
   "09b7cb0ec3e5": "감도 슬라이더는 실제로 무엇을 바꾸나요? <1/>",
   "09c68ae48960": "PNG를 삽입할 수 없으면 어떻게 되나요? <1/>",

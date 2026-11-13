@@ -88,7 +88,7 @@ if (isDevelopment) {
                 if (
                   confirm(
                     trText(
-                      'A new version of BentoPDF is available. Reload to update?'
+                      `A new version of ${__BRAND_NAME__ || 'Chawso PDF'} is available. Reload to update?`
                     )
                   )
                 ) {

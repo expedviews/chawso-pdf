@@ -180,7 +180,7 @@
   "093be2d20e4f": "Portal 200KB altı istiyor ama dosyam 10MB. Mümkün mü? <1/>",
   "0958e3367649": "Birleştirin, bölün, düzenleyin, silin, döndürün, boş sayfa ekleyin, çıkarın ve çoğaltın; hepsi tek bir arayüzde.",
   "096a81101b8d": "Convert PDF to PDF/A for long-term archiving. Free, no signup. Designed to run in your browser.",
-  "0977721a9d0e": "Dönüştürme, CPDF WebAssembly derlemesine bağlıdır. bentopdf.com'da dahildir, ancak kendi sunucusunda barındırılan bir kopyada bu aracın çalışması için <1>WASM ayarlarında</1> CPDF WASM dosyalarının yapılandırılması gerekir.",
+  "0977721a9d0e": "The conversion depends on the CPDF WebAssembly build. The hosted Chawso PDF deployment includes it, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
   "09b0771af256": "Compress PDF to 1MB Free Online | Chawso PDF",
   "09b7cb0ec3e5": "Hassasiyet kaydırıcısı tam olarak neyi değiştirir? <1/>",
   "09c68ae48960": "Bir PNG gömülemezse ne olur? <1/>",

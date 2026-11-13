@@ -180,7 +180,7 @@
   "093be2d20e4f": "Cổng yêu cầu dưới 200KB nhưng tệp của tôi là 10MB. Có làm được không?<1/>",
   "0958e3367649": "Gộp, Chia, Sắp xếp, Xóa, Xoay, Thêm trang trống, Trích xuất và Nhân đôi trong một giao diện thống nhất.",
   "096a81101b8d": "Convert PDF to PDF/A for long-term archiving. Free, no signup. Designed to run in your browser.",
-  "0977721a9d0e": "Việc chuyển đổi phụ thuộc vào bản dựng WebAssembly của CPDF. Trên bentopdf.com nó đã được bao gồm, nhưng bản tự lưu trữ cần cấu hình các tệp CPDF WASM trong <1>cài đặt WASM</1> trước khi công cụ này chạy được.",
+  "0977721a9d0e": "The conversion depends on the CPDF WebAssembly build. The hosted Chawso PDF deployment includes it, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
   "09b0771af256": "Compress PDF to 1MB Free Online | Chawso PDF",
   "09b7cb0ec3e5": "Thanh trượt độ nhạy thực sự thay đổi điều gì? <1/>",
   "09c68ae48960": "Nếu không nhúng được một ảnh PNG thì sao? <1/>",

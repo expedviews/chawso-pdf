@@ -180,7 +180,7 @@
   "093be2d20e4f": "Portal meminta di bawah 200KB tetapi file saya 10MB. Mungkinkah?<1/>",
   "0958e3367649": "Gabung, Pisah, Atur, Hapus, Putar, Tambah Halaman Kosong, Ekstrak, dan Duplikat dalam satu antarmuka terpadu.",
   "096a81101b8d": "Convert PDF to PDF/A for long-term archiving. Free, no signup. Designed to run in your browser.",
-  "0977721a9d0e": "Konversi bergantung pada build WebAssembly CPDF. Di bentopdf.com sudah disertakan, tetapi salinan yang di-hosting sendiri memerlukan file WASM CPDF yang dikonfigurasi di <1>pengaturan WASM</1> sebelum alat ini dapat berjalan.",
+  "0977721a9d0e": "The conversion depends on the CPDF WebAssembly build. The hosted Chawso PDF deployment includes it, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
   "09b0771af256": "Compress PDF to 1MB Free Online | Chawso PDF",
   "09b7cb0ec3e5": "Apa sebenarnya yang diubah oleh slider sensitivitas? <1/>",
   "09c68ae48960": "Bagaimana jika PNG tidak bisa disematkan? <1/>",

@@ -180,7 +180,7 @@
   "093be2d20e4f": "Portalen vil have under 200KB, men min fil er 10MB. Er det muligt?<1/>",
   "0958e3367649": "Flet, del, organisér, slet, roter, tilføj tomme sider, udtræk og duplikér i én samlet brugerflade.",
   "096a81101b8d": "Convert PDF to PDF/A for long-term archiving. Free, no signup. Designed to run in your browser.",
-  "0977721a9d0e": "Konverteringen afhænger af CPDF WebAssembly-buildet. På bentopdf.com er det inkluderet, men en selvhostet kopi skal have CPDF WASM-filerne konfigureret i <1>WASM-indstillinger</1>, før dette værktøj kan køre.",
+  "0977721a9d0e": "The conversion depends on the CPDF WebAssembly build. The hosted Chawso PDF deployment includes it, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
   "09b0771af256": "Compress PDF to 1MB Free Online | Chawso PDF",
   "09b7cb0ec3e5": "Hvad ændrer følsomhedsskyderen egentlig? <1/>",
   "09c68ae48960": "Hvad hvis en PNG ikke kan indlejres? <1/>",

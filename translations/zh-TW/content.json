@@ -180,7 +180,7 @@
   "093be2d20e4f": "入口網站要求 200KB 以下，但我的檔案有 10MB，做得到嗎？<1/>",
   "0958e3367649": "在統一的介面中合併、分割、整理、刪除、旋轉、新增空白頁面、擷取和複製。",
   "096a81101b8d": "Convert PDF to PDF/A for long-term archiving. Free, no signup. Designed to run in your browser.",
-  "0977721a9d0e": "此轉換依賴 CPDF 的 WebAssembly 版本。bentopdf.com 上已內建，但自行託管的副本需要先在 <1>WASM 設定</1>中設定 CPDF WASM 檔案，此工具才能執行。",
+  "0977721a9d0e": "The conversion depends on the CPDF WebAssembly build. The hosted Chawso PDF deployment includes it, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
   "09b0771af256": "Compress PDF to 1MB Free Online | Chawso PDF",
   "09b7cb0ec3e5": "靈敏度滑桿實際上改變了什麼？ <1/>",
   "09c68ae48960": "如果 PNG 無法嵌入怎麼辦？<1/>",

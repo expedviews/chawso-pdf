@@ -4,9 +4,9 @@
   "entity": {
     "type": "organisation",
     "role": "owner",
-    "name": "Chawso PDF",
+    "name": "BentoPDF",
     "email": "contact@bentopdf.com",
-    "description": "Chawso PDF is building an independent, open source document technology ecosystem. Our goal is to replace the external dependencies behind PDF processing and document understanding with engines we develop and maintain ourselves: Kura for PDF processing, standards and preflight, Hyper Compress for compression, and BentoParse, a lightweight document understanding engine that runs fully offline on ordinary CPUs (not yet public). Chawso PDF, our browser based PDF toolkit, is the application through which these engines reach users.\n\nOur software runs locally, including in the browser through WebAssembly, so documents never have to leave the user's device. Chawso PDF, Kura and Hyper Compress are licensed under AGPL-3.0, and the work is sustained by commercial licenses sold to companies that embed them in closed-source products, alongside community sponsorships.",
+    "description": "BentoPDF is building an independent, open source document technology ecosystem. Our goal is to replace the external dependencies behind PDF processing and document understanding with engines we develop and maintain ourselves: Kura for PDF processing, standards and preflight, Hyper Compress for compression, and BentoParse, a lightweight document understanding engine that runs fully offline on ordinary CPUs (not yet public). BentoPDF, our browser based PDF toolkit, is the application through which these engines reach users.\n\nOur software runs locally, including in the browser through WebAssembly, so documents never have to leave the user's device. BentoPDF, Kura and Hyper Compress are licensed under AGPL-3.0, and the work is sustained by commercial licenses sold to companies that embed them in closed-source products, alongside community sponsorships.",
     "webpageUrl": {
       "url": "https://www.bentopdf.com",
       "wellKnown": "https://www.bentopdf.com/.well-known/funding-manifest-urls"
@@ -15,8 +15,8 @@
   "projects": [
     {
       "guid": "bentopdf",
-      "name": "Chawso PDF",
-      "description": "Chawso PDF is a privacy first PDF toolkit with 100+ tools that run entirely in the browser: merge, split, compress, edit, sign, OCR, convert and more, with no accounts and no task limits. Files are processed on the user's device through WebAssembly, and Chawso PDF is the application through which our own engines reach users. Hyper Compress already powers its compression tool.\n\nIt can be self hosted with a single Docker command, including in air gapped environments, which makes it a fit for people and organisations that cannot send documents to third party servers. Chawso PDF has over 15 million Docker downloads, more than 16,000 GitHub stars and 1,400 forks, and its interface is available in 24 languages.",
+      "name": "BentoPDF",
+      "description": "BentoPDF is a privacy first PDF toolkit with 100+ tools that run entirely in the browser: merge, split, compress, edit, sign, OCR, convert and more, with no uploads, no accounts and no task limits. Files are processed on the user's device through WebAssembly, and BentoPDF is the application through which our own engines reach users. Hyper Compress already powers its compression tool.\n\nIt can be self hosted with a single Docker command, including in air gapped environments, which makes it a fit for people and organisations that cannot send documents to third party servers. BentoPDF has over 15 million Docker downloads, more than 16,000 GitHub stars and 1,400 forks, and its interface is available in 24 languages.",
       "webpageUrl": {
         "url": "https://www.bentopdf.com",
         "wellKnown": "https://www.bentopdf.com/.well-known/funding-manifest-urls"
@@ -102,7 +102,7 @@
         "guid": "core-development",
         "status": "active",
         "name": "Core development and maintenance",
-        "description": "Funds sustained engineering time on Kura, Hyper Compress and BentoParse, and on Chawso PDF as the application that brings them to users: new engine capabilities, standards coverage, security and bug fixes, benchmarks, WebAssembly builds, and reviewing issues and pull requests.",
+        "description": "Funds sustained engineering time on Kura, Hyper Compress and BentoParse, and on BentoPDF as the application that brings them to users: new engine capabilities, standards coverage, security and bug fixes, benchmarks, WebAssembly builds, and reviewing issues and pull requests.",
         "amount": 50000,
         "currency": "USD",
         "frequency": "yearly",
