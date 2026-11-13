@@ -362,7 +362,7 @@
     "subtitle": "Vyplňte formuláre priamo v prehliadači. Podporuje aj formuláre XFA.",
     "uploadHint": "Nahrajte PDF s formulárovými poľami. Vyplňte ich priamo v prehliadači nižšie, potom kliknite na tlačidlo pre uloženie a stiahnutie vyplneného formulára. Podporuje aj formuláre XFA.",
     "xfaNoteTitle": "Poznámka k formulárom XFA:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) je starší formát, ktorý podporujú len niektoré prehliadače PDF, napríklad BentoPDF a Firefox. Ak otvoríte XFA PDF v inom softvéri a uvidíte prázdne strany alebo žiadne formulárové polia, znamená to, že tento prehliadač nepodporuje XFA. Pre správne zobrazenie a vyplnenie XFA formulárov použite Firefox alebo Vypĺňanie formulárov v BentoPDF."
+    "xfaNoteDescription": "XFA (XML Forms Architecture) je starší formát, ktorý podporujú len niektoré prehliadače PDF, napríklad Chawso PDF a Firefox. Ak otvoríte XFA PDF v inom softvéri a uvidíte prázdne strany alebo žiadne formulárové polia, znamená to, že tento prehliadač nepodporuje XFA. Pre správne zobrazenie a vyplnenie XFA formulárov použite Firefox alebo Vypĺňanie formulárov v Chawso PDF."
   },
   "createPdfForm": {
     "name": "Vytvoriť PDF formulár",
@@ -1010,8 +1010,8 @@
   },
   "digitalSignPdf": {
     "name": "Digitálny podpis PDF",
-    "pageTitle": "Digitálny podpis PDF - Pridať kryptografický podpis | BentoPDF",
-    "subtitle": "Pridať kryptografický digitálny podpis do vášho PDF pomocou certifikátov X.509. Podporuje formáty PKCS#12 (.pfx, .p12) a PEM. Váš súkromný kľúč nikdy neopustí váš prehliadač.",
+    "pageTitle": "Digitálny podpis PDF - Pridať kryptografický podpis | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "Certifikát",
     "uploadCert": "Nahrať certifikát (.pfx, .p12, .pem)",
     "certPassword": "Heslo certifikátu",
@@ -1086,7 +1086,7 @@
     "faqFormatsQuestion": "Aké formáty certifikátov sú podporované?",
     "faqFormatsAnswer": "Podporujeme certifikáty vo formáte PKCS#12 (.pfx, .p12), ktoré obsahujú váš certifikát a súkromný kľúč v jednom zašifrovanom súbore. Tieto sú bežne vydávané certifikačnými autoritami.",
     "faqPrivateKeyQuestion": "Je môj súkromný kľúč v bezpečí?",
-    "faqPrivateKeyAnswer": "Áno! Všetko spracovanie prebieha výhradne vo vašom prehliadači. Váš certifikát, súkromný kľúč ani súbory PDF nikdy neopustia vaše zariadenie a nie sú odosielané na žiadny server.",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "Bude podpis platný v PDF čítačkách?",
     "faqValidReadersAnswer": "Áno, nástroj vytvára štandardné PKCS#7 detached podpisy, ktoré rozpoznávajú všetky bežné prehliadače PDF. Pre plnú validáciu použite certifikát od dôveryhodnej Certifikačnej autority.",
     "applySignature": "Aplikovať digitálny podpis",
@@ -1096,12 +1096,12 @@
   },
   "validateSignaturePdf": {
     "name": "Overiť podpis PDF",
-    "pageTitle": "Overiť PDF podpis - Verifikácia digitálnych podpisov | BentoPDF",
+    "pageTitle": "Overiť PDF podpis - Verifikácia digitálnych podpisov | Chawso PDF",
     "subtitle": "Overte digitálne podpisy vo vašich PDF súboroch. Skontrolujte platnosť certifikátu, zobrazte údaje o podpisujúcom a potvrďte integritu dokumentu. Všetko spracovanie prebieha vo vašom prehliadači."
   },
   "timestampPdf": {
     "name": "Časová pečiatka PDF",
-    "pageTitle": "Časová pečiatka PDF Online zadarmo - RFC 3161 Dokument | BentoPDF",
+    "pageTitle": "Časová pečiatka PDF Online zadarmo - RFC 3161 Dokument | Chawso PDF",
     "subtitle": "Pridajte k vášmu PDF časovú pečiatku podľa RFC 3161 pomocou dôveryhodného servera časových pečiatok (TSA). Preukazuje, že váš dokument existoval v určitom okamihu. Nevyžaduje sa žiadny certifikát.",
     "tsaSectionTitle": "Server časových pečiatok (TSA)",
     "selectTsa": "Vyberte TSA server",
@@ -1287,7 +1287,7 @@
     "resetWithDefaults": "Vlastné prepísania boli vymazané. Predkonfigurované hodnoty sú aktívne.",
     "resetNoDefaults": "Všetky konfigurácie a moduly v medzipamäti boli vymazané.",
     "licenseTitle": "Upozornenie o licencii:",
-    "licenseDescription": "Externé moduly (PyMuPDF, Ghostscript, CoherentPDF) sú licencované pod licenciou AGPL-3.0 alebo podobnými \"copyleft\" licenciami. Konfiguráciou a používaním týchto modulov súhlasíte s ich príslušnými licenčnými podmienkami. BentoPDF je kompatibilné so žiadnou implementáciou Ghostscript WASM a PyMuPDF WASM, ktorá nasleduje očakávané rozhranie."
+    "licenseDescription": "Externé moduly (PyMuPDF, Ghostscript, CoherentPDF) sú licencované pod licenciou AGPL-3.0 alebo podobnými \"copyleft\" licenciami. Konfiguráciou a používaním týchto modulov súhlasíte s ich príslušnými licenčnými podmienkami. Chawso PDF je kompatibilné so žiadnou implementáciou Ghostscript WASM a PyMuPDF WASM, ktorá nasleduje očakávané rozhranie."
   },
   "pdfOverlay": {
     "name": "Prekrytie PDF",
@@ -1314,7 +1314,7 @@
     "faqSinglePageQuestion": "Môžem použiť jednostranové PDF ako prekrytie pre všetky strany?",
     "faqSinglePageAnswer": "Áno! Zapnite možnosť \"Opakovať\" a vaše PDF na prekrytie sa bude opakovať na všetkých stranách základu. Jednostranový vodoznak sa aplikuje na každú stranu.",
     "faqPrivacyQuestion": "Sú moje súbory v súkromí a v bezpečí?",
-    "faqPrivacyAnswer": "Absolútne! Všetko spracovanie prebieha vo vašom prehliadači. Vaše súbory nikdy neopustia vaše zariadenie, čo zabezpečuje úplné súkromie."
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "unlockPdf": {
     "name": "Odomknúť PDF",

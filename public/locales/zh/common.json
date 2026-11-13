@@ -13,7 +13,7 @@
     "breadcrumb": "面包屑导航"
   },
   "donation": {
-    "message": "喜欢 BentoPDF？帮助我们保持免费和开源！",
+    "message": "喜欢 Chawso PDF？帮助我们保持免费和开源！",
     "button": "捐赠"
   },
   "hero": {
@@ -30,14 +30,14 @@
   },
   "features": {
     "title": "为什么选择",
-    "bentoPdf": "BentoPDF?",
+    "bentoPdf": "Chawso PDF?",
     "noSignup": {
       "title": "无需注册",
       "description": "即刻开始，无需账户或电子邮件。"
     },
     "noUploads": {
-      "title": "无需上传",
-      "description": "100% 客户端处理，您的文件从未离开您的设备。"
+      "title": "Local Processing",
+      "description": "Designed for local processing in your browser."
     },
     "foreverFree": {
       "title": "永久免费",
@@ -165,7 +165,7 @@
     "proceed": "继续"
   },
   "compliance": {
-    "title": "您的数据从未离开您的设备",
+    "title": "Designed so your files stay on your device",
     "weKeep": "我们会保持",
     "yourInfoSafe": "您的信息安全",
     "byFollowingStandards": "，遵循全球安全标准。",
@@ -188,36 +188,36 @@
     "questions": "问题",
     "sectionTitle": "常见问题",
     "isFree": {
-      "question": "BentoPDF 真的免费吗？",
-      "answer": "是的，完全免费。BentoPDF 上的所有工具均可 100% 免费使用，没有文件限制，无需注册，也没有水印。我们相信每个人都应该能够使用简单、强大的 PDF 工具，而无需通过付费墙。"
+      "question": "Chawso PDF 真的免费吗？",
+      "answer": "是的，完全免费。Chawso PDF 上的所有工具均可 100% 免费使用，没有文件限制，无需注册，也没有水印。我们相信每个人都应该能够使用简单、强大的 PDF 工具，而无需通过付费墙。"
     },
     "areFilesSecure": {
       "question": "我的文件安全吗？它们在哪里处理？",
-      "answer": "您的文件非常安全，因为它们从未离开您的电脑。所有处理都直接在您的网络浏览器（客户端）中进行。我们从不将您的文件上传到服务器，因此您可以对文档保持完全的隐私和控制。"
+      "answer": "Chawso PDF is designed to process your files locally in your web browser. The tools are not built to upload your documents to our servers for processing, and processed copies are saved by your browser directly to your device. The security of your documents also depends on your own device and browser."
     },
     "platforms": {
       "question": "它适用于 Mac、Windows 和手机吗？",
-      "answer": "是的！由于 BentoPDF 完全在您的浏览器中运行，因此它适用于任何带有现代网络浏览器的操作系统，包括 Windows、macOS、Linux、iOS 和 Android。"
+      "answer": "Yes! Chawso PDF's tools are designed to run in your browser, so they work on any operating system with a modern web browser, including Windows, macOS, Linux, iOS, and Android."
     },
     "gdprCompliant": {
-      "question": "BentoPDF 符合 GDPR 吗？",
-      "answer": "是的。BentoPDF 完全符合 GDPR。由于所有文件处理都在您的浏览器中本地进行，并且我们从不收集或将您的文件传输到任何服务器，因此我们无法访问您的数据。这确保您始终掌控您的文档。"
+      "question": "Is Chawso PDF GDPR compliant?",
+      "answer": "Chawso PDF is designed so that the tools process your files locally in your browser, and the service is not intended to see their content. The hosting and content-delivery providers that serve the site receive standard connection metadata (such as your IP address and request URLs); see the privacy policy for details."
     },
     "dataStorage": {
       "question": "你们会存储或跟踪我的任何文件吗？",
-      "answer": "不。我们从不存储、跟踪或记录您的文件。您在 BentoPDF 上所做的所有操作都在您的浏览器内存中进行，并在您关闭页面后消失。没有上传，没有历史记录，也没有涉及服务器。"
+      "answer": "The tools are designed to process your files in your browser memory, and processed copies are saved by your browser directly to your device. The service is not designed to store, track, or log your files; see the privacy policy for what the hosting providers receive."
     },
     "different": {
-      "question": "BentoPDF 与其他 PDF 工具有何不同？",
-      "answer": "大多数 PDF 工具将您的文件上传到服务器进行处理。BentoPDF 从不这样做。我们使用安全、现代的网络技术直接在您的浏览器中处理您的文件。这意味着更快的性能、更强的隐私和完全的安心。"
+      "question": "Chawso PDF 与其他 PDF 工具有何不同？",
+      "answer": "大多数 PDF 工具将您的文件上传到服务器进行处理。Chawso PDF 从不这样做。我们使用安全、现代的网络技术直接在您的浏览器中处理您的文件。这意味着更快的性能、更强的隐私和完全的安心。"
     },
     "browserBased": {
       "question": "基于浏览器的处理如何保护我的安全？",
-      "answer": "通过完全在您的浏览器内部运行，BentoPDF 确保您的文件从未离开您的设备。这消除了服务器黑客攻击、数据泄露或未经授权访问的风险。您的文件始终属于您。"
+      "answer": "By processing files locally in your browser, Chawso PDF is designed to keep your documents on your own device rather than sending them to a server for processing."
     },
     "analytics": {
       "question": "你们使用 Cookie 或分析来跟踪我吗？",
-      "answer": "不会。BentoPDF 完全不会追踪您。我们不使用 Cookie、分析工具或任何追踪脚本，即使在正式网站 bentopdf.com 上也是如此。我们永远不知道您是谁，也不知道您用这些工具做了什么。"
+      "answer": "Chawso PDF does not require an account, and the site is designed to operate without analytics, advertising, or tracking scripts. Like any website, the hosting and content-delivery providers that serve the pages receive standard connection metadata such as your IP address and request URLs; see the privacy policy for details."
     }
   },
   "testimonials": {
@@ -227,11 +227,11 @@
   },
   "support": {
     "title": "喜欢这个项目？",
-    "description": "BentoPDF 是一个充满激情的项目，旨在为每个人提供免费、私密且强大的 PDF 工具箱。如果您觉得它有用，请考虑支持它的开发。每一杯咖啡都是莫大的支持！",
+    "description": "Chawso PDF 是一个充满激情的项目，旨在为每个人提供免费、私密且强大的 PDF 工具箱。如果您觉得它有用，请考虑支持它的开发。每一杯咖啡都是莫大的支持！",
     "buyMeCoffee": "请我喝杯咖啡"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. 保留所有权利。",
+    "copyright": "© 2026 Chawso PDF. 保留所有权利。",
     "version": "版本",
     "company": "公司",
     "aboutUs": "关于我们",
@@ -300,7 +300,7 @@
     "philosophy": {
       "label": "我们的核心理念",
       "title": "隐私至上。始终如一。",
-      "description": "在数据被商品化的时代，我们采取不同的方式。BentoPDF 工具的所有处理都在您的浏览器本地进行。这意味着您的文件从未接触我们的服务器，我们从不查看您的文档，也不跟踪您的操作。您的文档保持绝对的私密性。这不仅是一项功能；这是我们的基石。"
+      "description": "Chawso PDF's tools are designed to run locally in your browser: the service is not intended to see the content of your documents, and the site is designed to operate without tracking what you do."
     },
     "whyBentopdf": {
       "title": "为什么选择",
@@ -323,7 +323,7 @@
     },
     "cta": {
       "title": "准备好开始了吗？",
-      "description": "加入成千上万信任 BentoPDF 满足日常文档需求的用户。体验隐私和性能带来的不同。",
+      "description": "加入成千上万信任 Chawso PDF 满足日常文档需求的用户。体验隐私和性能带来的不同。",
       "button": "探索所有工具"
     }
   },

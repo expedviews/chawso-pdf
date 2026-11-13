@@ -13,7 +13,7 @@
     "breadcrumb": "Навігацыйная цепачка"
   },
   "donation": {
-    "message": "Падабаецца BentoPDF? Падтрымайце, каб ён заставаўся бясплатным і з адкрытым зыходным кодам!",
+    "message": "Падабаецца Chawso PDF? Падтрымайце, каб ён заставаўся бясплатным і з адкрытым зыходным кодам!",
     "button": "Ахвяраваць"
   },
   "hero": {
@@ -30,14 +30,14 @@
   },
   "features": {
     "title": "Чаму выбіраюць",
-    "bentoPdf": "BentoPDF?",
+    "bentoPdf": "Chawso PDF?",
     "noSignup": {
       "title": "Без рэгістрацыі",
       "description": "Пачынайце адразу, без уліковага запісу і электроннай пошты."
     },
     "noUploads": {
-      "title": "Без запампоўванняў",
-      "description": "100% на баку кліента, вашы файлы ніколі не пакідаюць прыладу."
+      "title": "Local Processing",
+      "description": "Designed for local processing in your browser."
     },
     "foreverFree": {
       "title": "Заўсёды бясплатна",
@@ -165,7 +165,7 @@
     "proceed": "Працягнуць"
   },
   "compliance": {
-    "title": "Вашы даныя ніколі не пакідаюць прыладу",
+    "title": "Designed so your files stay on your device",
     "weKeep": "Мы захоўваем",
     "yourInfoSafe": "вашу інфармацыю ў бяспецы",
     "byFollowingStandards": "паводле глабальных стандартаў.",
@@ -188,36 +188,36 @@
     "questions": "пытанні",
     "sectionTitle": "Частыя пытанні",
     "isFree": {
-      "question": "BentoPDF сапраўды бясплатны?",
-      "answer": "Так, абсалютна. Усе інструменты BentoPDF на 100% бясплатныя для выкарыстання, без лімітаў файлаў, без рэгістрацыі і без вадзяных знакаў. Мы верым, што кожны мае права доступу да простых і магутных інструментаў PDF без платных бар'ераў."
+      "question": "Chawso PDF сапраўды бясплатны?",
+      "answer": "Так, абсалютна. Усе інструменты Chawso PDF на 100% бясплатныя для выкарыстання, без лімітаў файлаў, без рэгістрацыі і без вадзяных знакаў. Мы верым, што кожны мае права доступу да простых і магутных інструментаў PDF без платных бар'ераў."
     },
     "areFilesSecure": {
       "question": "Ці ў бяспецы мае файлы? Дзе яны апрацоўваюцца?",
-      "answer": "Вашы файлы ў бяспецы настолькі, наколькі гэта магчыма, бо яны ніколі не пакідаюць ваш камп'ютар. Уся апрацоўка адбываецца непасрэдна ў вашым браўзеры (на баку кліента). Мы ніколі не запампоўваем вашы файлы на сервер, таму вы захоўваеце поўную прыватнасць і кантроль над сваімі дакументамі."
+      "answer": "Chawso PDF is designed to process your files locally in your web browser. The tools are not built to upload your documents to our servers for processing, and processed copies are saved by your browser directly to your device. The security of your documents also depends on your own device and browser."
     },
     "platforms": {
-      "question": "Ці працуе BentoPDF на Mac, Windows і мабільных прыладах?",
-      "answer": "Так! Паколькі BentoPDF працуе выключна ў браўзеры, ён працуе на любой аперацыйнай сістэме з сучасным вэб-браўзерам, уключаючы Windows, macOS, Linux, iOS і Android."
+      "question": "Ці працуе Chawso PDF на Mac, Windows і мабільных прыладах?",
+      "answer": "Yes! Chawso PDF's tools are designed to run in your browser, so they work on any operating system with a modern web browser, including Windows, macOS, Linux, iOS, and Android."
     },
     "gdprCompliant": {
-      "question": "Ці адпавядае BentoPDF GDPR?",
-      "answer": "Так. BentoPDF цалкам адпавядае GDPR. Паколькі ўся апрацоўка файлаў адбываецца лакальна ў браўзеры і мы ніколі не збіраем і не перадаём вашы файлы на сервер, мы не маем доступу да вашых даных. Гэта гарантуе, што вы заўсёды кантралюеце свае дакументы."
+      "question": "Is Chawso PDF GDPR compliant?",
+      "answer": "Chawso PDF is designed so that the tools process your files locally in your browser, and the service is not intended to see their content. The hosting and content-delivery providers that serve the site receive standard connection metadata (such as your IP address and request URLs); see the privacy policy for details."
     },
     "dataStorage": {
       "question": "Вы захоўваеце або адсочваеце мае файлы?",
-      "answer": "Не. Мы ніколі не захоўваем, не адсочваем і не запісваем звесткі пра вашы файлы. Усё, што вы робіце ў BentoPDF, адбываецца ў памяці вашага браўзера і знікае пасля закрыцця старонкі. Няма запампоўванняў, няма гісторыі і няма сервераў."
+      "answer": "The tools are designed to process your files in your browser memory, and processed copies are saved by your browser directly to your device. The service is not designed to store, track, or log your files; see the privacy policy for what the hosting providers receive."
     },
     "different": {
-      "question": "Чым BentoPDF адрозніваецца ад іншых інструментаў PDF?",
-      "answer": "Звычайна інструменты PDF запампоўваюць вашы файлы на сервер для апрацоўкі. BentoPDF ніколі так не робіць. Мы выкарыстоўваем бяспечныя сучасныя вэб-тэхналогіі, каб апрацоўваць вашы файлы непасрэдна ў браўзеры. Гэта азначае большую хуткасць, лепшую прыватнасць і поўны спакой."
+      "question": "Чым Chawso PDF адрозніваецца ад іншых інструментаў PDF?",
+      "answer": "Звычайна інструменты PDF запампоўваюць вашы файлы на сервер для апрацоўкі. Chawso PDF ніколі так не робіць. Мы выкарыстоўваем бяспечныя сучасныя вэб-тэхналогіі, каб апрацоўваць вашы файлы непасрэдна ў браўзеры. Гэта азначае большую хуткасць, лепшую прыватнасць і поўны спакой."
     },
     "browserBased": {
       "question": "Чаму апрацоўка ў браўзеры гэта бяспечна?",
-      "answer": "Працуючы цалкам у браўзеры, BentoPDF гарантуе, што вашы файлы ніколі не пакінуць вашу прыладу. Гэта ліквідуе рызыкі ўзлому сервераў, уцечак даных або несанкцыянаванага доступу. Вашы файлы застаюцца вашымі. Заўсёды."
+      "answer": "By processing files locally in your browser, Chawso PDF is designed to keep your documents on your own device rather than sending them to a server for processing."
     },
     "analytics": {
       "question": "Вы выкарыстоўваеце cookies або аналітыку, каб сачыць за мной?",
-      "answer": "Не. BentoPDF вас ніяк не адсочвае. Мы не выкарыстоўваем файлы cookie, аналітыку ці скрыпты адсочвання, нават на працоўным сайце bentopdf.com. Мы ніколі не ведаем, хто вы і што вы робіце з інструментамі."
+      "answer": "Chawso PDF does not require an account, and the site is designed to operate without analytics, advertising, or tracking scripts. Like any website, the hosting and content-delivery providers that serve the pages receive standard connection metadata such as your IP address and request URLs; see the privacy policy for details."
     }
   },
   "testimonials": {
@@ -227,11 +227,11 @@
   },
   "support": {
     "title": "Спадабалася мая праца?",
-    "description": "BentoPDF: гэта праект, створаны на энтузіязме з мэтай, каб кожны меў бясплатны, прыватны і магутны набор інструментаў PDF. Калі ён прыносіць вам карысць, падтрымайце распрацоўку. Дапамагае кожная кава!",
+    "description": "Chawso PDF: гэта праект, створаны на энтузіязме з мэтай, каб кожны меў бясплатны, прыватны і магутны набор інструментаў PDF. Калі ён прыносіць вам карысць, падтрымайце распрацоўку. Дапамагае кожная кава!",
     "buyMeCoffee": "Пачастуйце мяне кавай"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. Усе правы абаронены.",
+    "copyright": "© 2026 Chawso PDF. Усе правы абаронены.",
     "version": "Версія",
     "company": "Кампанія",
     "aboutUs": "Пра нас",
@@ -300,7 +300,7 @@
     "philosophy": {
       "label": "Наша асноўная філасофія",
       "title": "Прыватнасць на першым месцы. Заўсёды.",
-      "description": "У эпоху, калі даныя сталі таварам, мы выбіраем іншы шлях. Уся апрацоўка інструментаў BentoPDF адбываецца лакальна ў вашым браўзеры. Гэта значыць, што вашы файлы ніколі не трапляюць на нашы серверы, мы не бачым вашых дакументаў і не адсочваем, што вы робіце. Вашы дакументы застаюцца цалкам і безумоўна прыватнымі. Гэта не проста функцыя, гэта наш падмурак."
+      "description": "Chawso PDF's tools are designed to run locally in your browser: the service is not intended to see the content of your documents, and the site is designed to operate without tracking what you do."
     },
     "whyBentopdf": {
       "title": "Чаму",
@@ -323,7 +323,7 @@
     },
     "cta": {
       "title": "Гатовы пачаць?",
-      "description": "Далучайцеся да тысяч карыстальнікаў, якія давяраюць BentoPDF свае штодзённыя патрэбы з дакументамі. Адчуйце розніцу, якую даюць прыватнасць і прадукцыйнасць.",
+      "description": "Далучайцеся да тысяч карыстальнікаў, якія давяраюць Chawso PDF свае штодзённыя патрэбы з дакументамі. Адчуйце розніцу, якую даюць прыватнасць і прадукцыйнасць.",
       "button": "Паглядзець усе інструменты"
     }
   },

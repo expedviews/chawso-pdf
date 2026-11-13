@@ -362,7 +362,7 @@
     "subtitle": "Compila i moduli direttamente nel browser. Supporta anche i moduli XFA.",
     "uploadHint": "Carica un PDF con campi modulo. Compilali direttamente nel visualizzatore qui sotto, quindi clicca sul pulsante per salvare e scaricare il modulo compilato. Supporta anche moduli XFA.",
     "xfaNoteTitle": "Nota sui moduli XFA:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) è un formato legacy supportato solo da alcuni visualizzatori PDF come BentoPDF e Firefox. Se apri un PDF XFA in altri software e vedi pagine vuote o nessun campo modulo, significa che quel visualizzatore non supporta XFA. Per visualizzare e compilare correttamente i moduli XFA, usa Firefox o il Form Filler di BentoPDF."
+    "xfaNoteDescription": "XFA (XML Forms Architecture) è un formato legacy supportato solo da alcuni visualizzatori PDF come Chawso PDF e Firefox. Se apri un PDF XFA in altri software e vedi pagine vuote o nessun campo modulo, significa che quel visualizzatore non supporta XFA. Per visualizzare e compilare correttamente i moduli XFA, usa Firefox o il Form Filler di Chawso PDF."
   },
   "createPdfForm": {
     "name": "Crea modulo PDF",
@@ -1010,8 +1010,8 @@
   },
   "digitalSignPdf": {
     "name": "Firma digitale PDF",
-    "pageTitle": "Firma digitale PDF - Aggiungi firma crittografica | BentoPDF",
-    "subtitle": "Aggiungi una firma digitale crittografica al tuo PDF usando certificati X.509. Supporta i formati PKCS#12 (.pfx, .p12) e PEM. La tua chiave privata non lascia mai il browser.",
+    "pageTitle": "Firma digitale PDF - Aggiungi firma crittografica | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "Certificato",
     "uploadCert": "Carica certificato (.pfx, .p12, .pem)",
     "certPassword": "Password del certificato",
@@ -1086,7 +1086,7 @@
     "faqFormatsQuestion": "Quali formati di certificato sono supportati?",
     "faqFormatsAnswer": "Supportiamo certificati in formato PKCS#12 (.pfx, .p12) che contengono sia il certificato che la chiave privata in un singolo file cifrato. Sono comunemente emessi da autorità di certificazione.",
     "faqPrivateKeyQuestion": "La mia chiave privata è al sicuro?",
-    "faqPrivateKeyAnswer": "Sì! Tutta l'elaborazione avviene interamente nel tuo browser. Il tuo certificato, la chiave privata e i file PDF non lasciano mai il tuo dispositivo né vengono caricati su alcun server.",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "La firma sarà valida nei lettori PDF?",
     "faqValidReadersAnswer": "Sì, lo strumento crea firme separate PKCS#7 standard riconosciute da tutti i principali lettori PDF. Per una validazione completa, usa un certificato di un'autorità di certificazione affidabile.",
     "applySignature": "Applica firma digitale",
@@ -1096,12 +1096,12 @@
   },
   "validateSignaturePdf": {
     "name": "Verifica firma PDF",
-    "pageTitle": "Verifica firma PDF - Controlla firme digitali | BentoPDF",
+    "pageTitle": "Verifica firma PDF - Controlla firme digitali | Chawso PDF",
     "subtitle": "Verifica le firme digitali nei tuoi PDF. Controlla la validità del certificato, visualizza i dati del firmatario e conferma l'integrità del documento. Tutto avviene nel tuo browser."
   },
   "timestampPdf": {
     "name": "Marca temporale PDF",
-    "pageTitle": "Marca temporale PDF gratuita online - RFC 3161 | BentoPDF",
+    "pageTitle": "Marca temporale PDF gratuita online - RFC 3161 | Chawso PDF",
     "subtitle": "Aggiungi una marca temporale RFC 3161 al tuo PDF tramite un server TSA affidabile. Dimostra che il tuo documento esisteva in un momento specifico. Nessun certificato richiesto.",
     "tsaSectionTitle": "Server marca temporale (TSA)",
     "selectTsa": "Seleziona un server TSA",
@@ -1287,7 +1287,7 @@
     "resetWithDefaults": "Sovrascritture personalizzate cancellate. I valori preconfigurati sono attivi.",
     "resetNoDefaults": "Tutte le configurazioni e i moduli in cache sono stati cancellati.",
     "licenseTitle": "Avviso di licenza:",
-    "licenseDescription": "I moduli esterni (PyMuPDF, Ghostscript, CoherentPDF) sono concessi in licenza con AGPL-3.0 o licenze copyleft simili. Configurando e utilizzando questi moduli, accetti i rispettivi termini di licenza. BentoPDF è compatibile con qualsiasi implementazione WASM Ghostscript e PyMuPDF che segua l'interfaccia prevista."
+    "licenseDescription": "I moduli esterni (PyMuPDF, Ghostscript, CoherentPDF) sono concessi in licenza con AGPL-3.0 o licenze copyleft simili. Configurando e utilizzando questi moduli, accetti i rispettivi termini di licenza. Chawso PDF è compatibile con qualsiasi implementazione WASM Ghostscript e PyMuPDF che segua l'interfaccia prevista."
   },
   "pdfOverlay": {
     "name": "Sovrapposizione PDF",
@@ -1314,7 +1314,7 @@
     "faqSinglePageQuestion": "Posso usare un PDF di una sola pagina come sovrapposizione per tutte le pagine?",
     "faqSinglePageAnswer": "Sì! Attiva l'opzione \"Ripeti\" e le pagine di sovrapposizione si ripeteranno su tutte le pagine base. Una filigrana di una pagina verrà applicata a ogni pagina.",
     "faqPrivacyQuestion": "I miei file sono privati e sicuri?",
-    "faqPrivacyAnswer": "Assolutamente! Tutta l'elaborazione avviene nel tuo browser. I tuoi file non lasciano mai il tuo dispositivo, garantendo la massima privacy."
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "unlockPdf": {
     "name": "Sblocca PDF",

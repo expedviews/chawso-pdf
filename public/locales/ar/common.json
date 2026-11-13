@@ -13,7 +13,7 @@
     "breadcrumb": "مسار التنقل"
   },
   "donation": {
-    "message": "أعجبك BentoPDF؟ ساعدنا في إبقائه مجانيًا ومفتوح المصدر!",
+    "message": "أعجبك Chawso PDF؟ ساعدنا في إبقائه مجانيًا ومفتوح المصدر!",
     "button": "تبرّع"
   },
   "hero": {
@@ -30,14 +30,14 @@
   },
   "features": {
     "title": "لماذا تختار",
-    "bentoPdf": "BentoPDF؟",
+    "bentoPdf": "Chawso PDF؟",
     "noSignup": {
       "title": "بدون تسجيل",
       "description": "ابدأ فورًا، بدون حسابات أو بريد إلكتروني."
     },
     "noUploads": {
-      "title": "بدون رفع ملفات",
-      "description": "معالجة كاملة على جهازك، ملفاتك لا تغادر جهازك أبدًا."
+      "title": "Local Processing",
+      "description": "Designed for local processing in your browser."
     },
     "foreverFree": {
       "title": "مجاني للأبد",
@@ -165,7 +165,7 @@
     "proceed": "متابعة"
   },
   "compliance": {
-    "title": "بياناتك لا تغادر جهازك أبدًا",
+    "title": "Designed so your files stay on your device",
     "weKeep": "نحافظ على",
     "yourInfoSafe": "أمان معلوماتك",
     "byFollowingStandards": "باتباع معايير الأمان العالمية.",
@@ -188,36 +188,36 @@
     "questions": "الشائعة",
     "sectionTitle": "الأسئلة الشائعة",
     "isFree": {
-      "question": "هل BentoPDF مجاني حقًا؟",
-      "answer": "نعم، بالتأكيد. جميع أدوات BentoPDF مجانية 100% بدون حدود للملفات، بدون تسجيل، وبدون علامات مائية. نؤمن بأن الجميع يستحق الوصول إلى أدوات PDF بسيطة وقوية بدون حواجز دفع."
+      "question": "هل Chawso PDF مجاني حقًا؟",
+      "answer": "نعم، بالتأكيد. جميع أدوات Chawso PDF مجانية 100% بدون حدود للملفات، بدون تسجيل، وبدون علامات مائية. نؤمن بأن الجميع يستحق الوصول إلى أدوات PDF بسيطة وقوية بدون حواجز دفع."
     },
     "areFilesSecure": {
       "question": "هل ملفاتي آمنة؟ أين تتم معالجتها؟",
-      "answer": "ملفاتك آمنة قدر الإمكان لأنها لا تغادر جهازك أبدًا. تتم جميع المعالجة مباشرة في متصفحك (من جانب العميل). لا نقوم أبدًا برفع ملفاتك إلى خادم، لذا تحافظ على خصوصيتك الكاملة والتحكم في مستنداتك."
+      "answer": "Chawso PDF is designed to process your files locally in your web browser. The tools are not built to upload your documents to our servers for processing, and processed copies are saved by your browser directly to your device. The security of your documents also depends on your own device and browser."
     },
     "platforms": {
       "question": "هل يعمل على Mac وWindows والأجهزة المحمولة؟",
-      "answer": "نعم! بما أن BentoPDF يعمل بالكامل في متصفحك، فهو يعمل على أي نظام تشغيل بمتصفح حديث، بما في ذلك Windows وmacOS وLinux وiOS وAndroid."
+      "answer": "Yes! Chawso PDF's tools are designed to run in your browser, so they work on any operating system with a modern web browser, including Windows, macOS, Linux, iOS, and Android."
     },
     "gdprCompliant": {
-      "question": "هل BentoPDF متوافق مع GDPR؟",
-      "answer": "نعم. BentoPDF متوافق تمامًا مع GDPR. بما أن جميع معالجة الملفات تتم محليًا في متصفحك ولا نجمع أو ننقل ملفاتك إلى أي خادم، فليس لدينا وصول إلى بياناتك. هذا يضمن أنك دائمًا تتحكم في مستنداتك."
+      "question": "Is Chawso PDF GDPR compliant?",
+      "answer": "Chawso PDF is designed so that the tools process your files locally in your browser, and the service is not intended to see their content. The hosting and content-delivery providers that serve the site receive standard connection metadata (such as your IP address and request URLs); see the privacy policy for details."
     },
     "dataStorage": {
       "question": "هل تخزنون أو تتتبعون أيًا من ملفاتي؟",
-      "answer": "لا. لا نقوم أبدًا بتخزين أو تتبع أو تسجيل ملفاتك. كل ما تفعله على BentoPDF يحدث في ذاكرة متصفحك ويختفي بمجرد إغلاق الصفحة. لا يوجد رفع، لا سجلات، ولا خوادم معنية."
+      "answer": "The tools are designed to process your files in your browser memory, and processed copies are saved by your browser directly to your device. The service is not designed to store, track, or log your files; see the privacy policy for what the hosting providers receive."
     },
     "different": {
-      "question": "ما الذي يميز BentoPDF عن أدوات PDF الأخرى؟",
-      "answer": "معظم أدوات PDF ترفع ملفاتك إلى خادم للمعالجة. BentoPDF لا يفعل ذلك أبدًا. نستخدم تقنيات ويب حديثة وآمنة لمعالجة ملفاتك مباشرة في متصفحك. هذا يعني أداءً أسرع، خصوصية أقوى، وراحة بال كاملة."
+      "question": "ما الذي يميز Chawso PDF عن أدوات PDF الأخرى؟",
+      "answer": "معظم أدوات PDF ترفع ملفاتك إلى خادم للمعالجة. Chawso PDF لا يفعل ذلك أبدًا. نستخدم تقنيات ويب حديثة وآمنة لمعالجة ملفاتك مباشرة في متصفحك. هذا يعني أداءً أسرع، خصوصية أقوى، وراحة بال كاملة."
     },
     "browserBased": {
       "question": "كيف تحافظ المعالجة عبر المتصفح على أمانك؟",
-      "answer": "بالعمل بالكامل داخل متصفحك، يضمن BentoPDF أن ملفاتك لا تغادر جهازك أبدًا. هذا يلغي مخاطر اختراق الخوادم أو تسريب البيانات أو الوصول غير المصرح به. ملفاتك تبقى ملكك، دائمًا."
+      "answer": "By processing files locally in your browser, Chawso PDF is designed to keep your documents on your own device rather than sending them to a server for processing."
     },
     "analytics": {
       "question": "هل تستخدمون ملفات تعريف الارتباط أو التحليلات لتتبعي؟",
-      "answer": "لا. لا يتتبعك BentoPDF على الإطلاق. لا نستخدم ملفات تعريف الارتباط أو أدوات التحليلات أو أي نصوص تتبع، ولا حتى على الموقع المباشر bentopdf.com. لا نعرف أبدًا من أنت أو ماذا تفعل بالأدوات."
+      "answer": "Chawso PDF does not require an account, and the site is designed to operate without analytics, advertising, or tracking scripts. Like any website, the hosting and content-delivery providers that serve the pages receive standard connection metadata such as your IP address and request URLs; see the privacy policy for details."
     }
   },
   "testimonials": {
@@ -227,11 +227,11 @@
   },
   "support": {
     "title": "أعجبك عملنا؟",
-    "description": "BentoPDF مشروع شغف، صُمم لتوفير مجموعة أدوات PDF مجانية وخاصة وقوية للجميع. إذا وجدته مفيدًا، فكّر في دعم تطويره. كل قهوة تساعد!",
+    "description": "Chawso PDF مشروع شغف، صُمم لتوفير مجموعة أدوات PDF مجانية وخاصة وقوية للجميع. إذا وجدته مفيدًا، فكّر في دعم تطويره. كل قهوة تساعد!",
     "buyMeCoffee": "اشترِ لي قهوة"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. جميع الحقوق محفوظة.",
+    "copyright": "© 2026 Chawso PDF. جميع الحقوق محفوظة.",
     "version": "الإصدار",
     "company": "الشركة",
     "aboutUs": "من نحن",
@@ -300,7 +300,7 @@
     "philosophy": {
       "label": "فلسفتنا الأساسية",
       "title": "الخصوصية أولاً. دائمًا.",
-      "description": "في عصر أصبحت فيه البيانات سلعة، نتبع نهجًا مختلفًا. تتم جميع معالجة أدوات BentoPDF محليًا في متصفحك. هذا يعني أن ملفاتك لا تلمس خوادمنا أبدًا، ولا نرى مستنداتك، ولا نتتبع ما تفعله. مستنداتك تبقى خاصة تمامًا وبشكل قاطع. إنها ليست مجرد ميزة؛ إنها أساسنا."
+      "description": "Chawso PDF's tools are designed to run locally in your browser: the service is not intended to see the content of your documents, and the site is designed to operate without tracking what you do."
     },
     "whyBentopdf": {
       "title": "لماذا",
@@ -323,7 +323,7 @@
     },
     "cta": {
       "title": "مستعد للبدء؟",
-      "description": "انضم إلى آلاف المستخدمين الذين يثقون بـ BentoPDF لاحتياجات مستنداتهم اليومية. اختبر الفرق الذي يمكن أن تحدثه الخصوصية والأداء.",
+      "description": "انضم إلى آلاف المستخدمين الذين يثقون بـ Chawso PDF لاحتياجات مستنداتهم اليومية. اختبر الفرق الذي يمكن أن تحدثه الخصوصية والأداء.",
       "button": "استكشف جميع الأدوات"
     }
   },

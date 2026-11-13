@@ -362,7 +362,7 @@
     "subtitle": "ブラウザでフォームに直接入力します。XFAフォームもサポートします。",
     "uploadHint": "フォームフィールドのあるPDFをアップロードしてください。下のビューアで直接入力し、ボタンをクリックして入力済みフォームを保存・ダウンロードします。XFAフォームにも対応しています。",
     "xfaNoteTitle": "XFAフォームに関する注意:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) はレガシー形式で、BentoPDFやFirefoxなど特定のPDFビューアーのみが対応しています。他のソフトでXFA PDFを開いて空白ページまたはフォームフィールドが表示されない場合、そのビューアーはXFAに対応していません。XFAフォームを正しく表示・入力するには、FirefoxまたはBentoPDFのフォーム入力ツールを使用してください。"
+    "xfaNoteDescription": "XFA (XML Forms Architecture) はレガシー形式で、Chawso PDFやFirefoxなど特定のPDFビューアーのみが対応しています。他のソフトでXFA PDFを開いて空白ページまたはフォームフィールドが表示されない場合、そのビューアーはXFAに対応していません。XFAフォームを正しく表示・入力するには、FirefoxまたはChawso PDFのフォーム入力ツールを使用してください。"
   },
   "createPdfForm": {
     "name": "PDFフォームの作成",
@@ -1010,8 +1010,8 @@
   },
   "digitalSignPdf": {
     "name": "PDFへの電子署名",
-    "pageTitle": "デジタル署名PDF - 暗号化署名の追加 | BentoPDF",
-    "subtitle": "X.509証明書を使用してPDFに暗号デジタル署名を追加します。 PKCS#12(.pfx, .p12)およびPEM形式をサポートします。秘密キーがブラウザから離れることはありません。",
+    "pageTitle": "デジタル署名PDF - 暗号化署名の追加 | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "証明書",
     "uploadCert": "証明書のアップロード (.pfx, .p12)",
     "certPassword": "証明書のパスワード",
@@ -1086,7 +1086,7 @@
     "faqFormatsQuestion": "サポートされる証明書形式は?",
     "faqFormatsAnswer": "PKCS#12形式の証明書 (.pfx, .p12) をサポートしています。これには証明書と秘密鍵の両方が単一の暗号化ファイルに含まれており、通常は認証局が発行します。",
     "faqPrivateKeyQuestion": "秘密鍵は安全ですか?",
-    "faqPrivateKeyAnswer": "はい！すべての処理はブラウザ内で完結します。証明書、秘密鍵、PDFファイルがデバイスから外部に送信されたりサーバーにアップロードされることはありません。",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "署名はPDFリーダーで有効ですか?",
     "faqValidReadersAnswer": "はい、このツールは標準的なPKCS#7分離署名を作成し、すべての主要なPDFビューアーで認識されます。完全な検証には信頼された認証局の証明書を使用してください。",
     "applySignature": "デジタル署名を適用する",
@@ -1096,12 +1096,12 @@
   },
   "validateSignaturePdf": {
     "name": "PDF署名を検証する",
-    "pageTitle": "PDF 署名を検証する - デジタル署名を検証する | BentoPDF",
+    "pageTitle": "PDF 署名を検証する - デジタル署名を検証する | Chawso PDF",
     "subtitle": "PDFファイルのデジタル署名を検証します。証明書の有効性を確認、署名者の詳細を表示し、文書の整合性を確認します。すべての処理はブラウザ内で行われます。"
   },
   "timestampPdf": {
     "name": "PDFのタイムスタンプ",
-    "pageTitle": "タイムスタンプPDFオンライン無料 - RFC 3161ドキュメント タイムスタンプ | BentoPDF",
+    "pageTitle": "タイムスタンプPDFオンライン無料 - RFC 3161ドキュメント タイムスタンプ | Chawso PDF",
     "subtitle": "信頼できる Time Stamp Authority(TSA) サーバーを使用して、RFC 3161ドキュメントのタイムスタンプをPDFに追加します。文書が特定の時点で存在していたことを証明します。証明書は必要ありません。",
     "tsaSectionTitle": "タイムスタンプサーバー(TSA)",
     "selectTsa": "TSAサーバーを選択してください",
@@ -1287,7 +1287,7 @@
     "resetWithDefaults": "カスタムオーバーライドをクリアしました。事前設定されたデフォルトがアクティブです。",
     "resetNoDefaults": "すべての設定とキャッシュされたモジュールがクリアされました。",
     "licenseTitle": "ライセンス通知:",
-    "licenseDescription": "外部モジュール (PyMuPDF、Ghostscript、CoherentPDF) はAGPL-3.0または同様のコピーレフトライセンスでライセンスされています。これらのモジュールを設定して使用することにより、それぞれのライセンス条件に同意したことになります。BentoPDFは、期待されるインターフェースに従う任意のGhostscript WASMおよびPyMuPDF WASM実装と互換性があります。"
+    "licenseDescription": "外部モジュール (PyMuPDF、Ghostscript、CoherentPDF) はAGPL-3.0または同様のコピーレフトライセンスでライセンスされています。これらのモジュールを設定して使用することにより、それぞれのライセンス条件に同意したことになります。Chawso PDFは、期待されるインターフェースに従う任意のGhostscript WASMおよびPyMuPDF WASM実装と互換性があります。"
   },
   "pdfOverlay": {
     "name": "PDFオーバーレイ",
@@ -1314,7 +1314,7 @@
     "faqSinglePageQuestion": "単一ページのPDFをすべてのページのオーバーレイとして使用できますか？",
     "faqSinglePageAnswer": "はい！ 「ループ」オプションを有効にすると、オーバーレイPDFページがすべてのベース ページにわたって繰り返されます。単一ページのウォーターマークはすべてのページに適用されます。",
     "faqPrivacyQuestion": "私のファイルは非公開で安全ですか？",
-    "faqPrivacyAnswer": "絶対に！すべての処理はブラウザ内で行われます。ファイルがデバイスの外に出ることはなく、完全なプライバシーが確保されます。"
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "unlockPdf": {
     "name": "PDFのロック解除",

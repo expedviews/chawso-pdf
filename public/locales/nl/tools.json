@@ -362,7 +362,7 @@
     "subtitle": "Formulieren invullen vanuit de browser, incl. ondersteuning voor XFA-formulieren.",
     "uploadHint": "Upload een PDF met formuliervelden. Vul ze direct in in de viewer hieronder en klik op de knop om het ingevulde formulier op te slaan en te downloaden. Ondersteunt ook XFA-formulieren.",
     "xfaNoteTitle": "Opmerking over XFA-formulieren:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) is een verouderd formaat dat alleen door bepaalde PDF-viewers zoals BentoPDF en Firefox wordt ondersteund. Als je een XFA-PDF in andere software opent en lege pagina's of geen formuliervelden ziet, betekent dat dat die viewer XFA niet ondersteunt. Om XFA-formulieren correct te bekijken en in te vullen, gebruik je Firefox of de Form Filler van BentoPDF."
+    "xfaNoteDescription": "XFA (XML Forms Architecture) is een verouderd formaat dat alleen door bepaalde PDF-viewers zoals Chawso PDF en Firefox wordt ondersteund. Als je een XFA-PDF in andere software opent en lege pagina's of geen formuliervelden ziet, betekent dat dat die viewer XFA niet ondersteunt. Om XFA-formulieren correct te bekijken en in te vullen, gebruik je Firefox of de Form Filler van Chawso PDF."
   },
   "createPdfForm": {
     "name": "PDF-formulier aanmaken",
@@ -1010,8 +1010,8 @@
   },
   "digitalSignPdf": {
     "name": "Digitale handtekening",
-    "pageTitle": "Digitale handtekening - Cryptografische handtekening toevoegen | BentoPDF",
-    "subtitle": "Een cryptografische digitale handtekening toevoegen aan een PDF met behulp van X.509-certificaten. Ondersteunt PKCS#12 (.pfx, .p12) en PEM-formaten. Jouw privésleutel blijft op jouw browser.",
+    "pageTitle": "Digitale handtekening - Cryptografische handtekening toevoegen | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "Certificaat",
     "uploadCert": "Certificaat laden (.pfx, .p12, .pem)",
     "certPassword": "Certificaatwachtwoord",
@@ -1086,7 +1086,7 @@
     "faqFormatsQuestion": "Welke certificaatformaten worden ondersteund?",
     "faqFormatsAnswer": "We ondersteunen PKCS#12-formaat certificaten (.pfx, .p12) die zowel je certificaat als private sleutel in één versleuteld bestand bevatten. Deze worden meestal uitgegeven door certificaatautoriteiten.",
     "faqPrivateKeyQuestion": "Is mijn private sleutel veilig?",
-    "faqPrivateKeyAnswer": "Ja! Alle verwerking gebeurt volledig in je browser. Je certificaat, private sleutel en PDF-bestanden verlaten nooit je apparaat en worden niet naar een server geüpload.",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "Is de handtekening geldig in PDF-lezers?",
     "faqValidReadersAnswer": "Ja, de tool maakt standaard PKCS#7 detached signatures die door alle grote PDF-lezers worden herkend. Voor volledige validatie gebruik je een certificaat van een vertrouwde certificaatautoriteit.",
     "applySignature": "Digitale handtekening toepassen",
@@ -1096,12 +1096,12 @@
   },
   "validateSignaturePdf": {
     "name": "PDF-handtekening valideren",
-    "pageTitle": "PDF-handtekening valideren - Digitale handtekeningen verifiëren | BentoPDF",
+    "pageTitle": "PDF-handtekening valideren - Digitale handtekeningen verifiëren | Chawso PDF",
     "subtitle": "Digitale handtekeningen in een PDF-bestanden verifiëren. Controleer de geldigheid van het certificaat, bekijk de gegevens van de ondertekenaar en bevestig de integriteit van het document. Alle verwerking gebeurt binnen jouw browser."
   },
   "timestampPdf": {
     "name": "PDF tijdstempelen",
-    "pageTitle": "PDF tijdstempel gratis online - RFC 3161 documenttijdstempel | BentoPDF",
+    "pageTitle": "PDF tijdstempel gratis online - RFC 3161 documenttijdstempel | Chawso PDF",
     "subtitle": "Voeg een RFC 3161 tijdstempel toe aan je PDF via een vertrouwde TSA-server. Dit bewijst dat jouw document op een specifiek moment bestond. Geen certificaat vereist.",
     "tsaSectionTitle": "Tijdstempelserver (TSA)",
     "selectTsa": "Selecteer een TSA-server",
@@ -1287,7 +1287,7 @@
     "resetWithDefaults": "Aangepaste overrides gewist. Vooraf geconfigureerde standaardwaarden zijn actief.",
     "resetNoDefaults": "Alle configuraties en cachemodules zijn gewist.",
     "licenseTitle": "Licentiekennisgeving:",
-    "licenseDescription": "De externe modules (PyMuPDF, Ghostscript, CoherentPDF) zijn gelicentieerd onder AGPL-3.0 of vergelijkbare copyleft-licenties. Door deze modules te configureren en te gebruiken ga je akkoord met de respectievelijke licentievoorwaarden. BentoPDF is compatibel met elke Ghostscript WASM- en PyMuPDF WASM-implementatie die de verwachte interface volgt."
+    "licenseDescription": "De externe modules (PyMuPDF, Ghostscript, CoherentPDF) zijn gelicentieerd onder AGPL-3.0 of vergelijkbare copyleft-licenties. Door deze modules te configureren en te gebruiken ga je akkoord met de respectievelijke licentievoorwaarden. Chawso PDF is compatibel met elke Ghostscript WASM- en PyMuPDF WASM-implementatie die de verwachte interface volgt."
   },
   "pdfOverlay": {
     "name": "PDF-overlay",
@@ -1314,7 +1314,7 @@
     "faqSinglePageQuestion": "Kan ik een enkele pagina PDF als overlay voor alle pagina's gebruiken?",
     "faqSinglePageAnswer": "Ja! Schakel de optie \"Herhalen\" in en de overlay-pagina's worden herhaald over alle basispagina's. Een watermerk van één pagina wordt op elke pagina toegepast.",
     "faqPrivacyQuestion": "Zijn mijn bestanden privé en veilig?",
-    "faqPrivacyAnswer": "Absoluut! Alle verwerking vindt plaats in jouw browser. Jouw bestanden verlaten nooit jouw apparaat, wat volledige privacy garandeert."
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "unlockPdf": {
     "name": "PDF ontgrendelen",

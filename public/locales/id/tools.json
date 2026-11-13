@@ -362,7 +362,7 @@
     "subtitle": "Isi formulir langsung di browser. Juga mendukung formulir XFA.",
     "uploadHint": "Unggah PDF dengan bidang formulir. Isi langsung di penampil di bawah, lalu klik tombol untuk menyimpan dan mengunduh formulir yang telah diisi. Juga mendukung formulir XFA.",
     "xfaNoteTitle": "Catatan tentang Formulir XFA:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) adalah format lama yang hanya didukung oleh penampil PDF tertentu seperti BentoPDF dan Firefox. Jika Anda membuka PDF XFA di perangkat lunak lain dan melihat halaman kosong atau tidak ada bidang formulir, itu berarti penampil tersebut tidak mendukung XFA. Untuk melihat dan mengisi formulir XFA dengan benar, gunakan Firefox atau Form Filler BentoPDF."
+    "xfaNoteDescription": "XFA (XML Forms Architecture) adalah format lama yang hanya didukung oleh penampil PDF tertentu seperti Chawso PDF dan Firefox. Jika Anda membuka PDF XFA di perangkat lunak lain dan melihat halaman kosong atau tidak ada bidang formulir, itu berarti penampil tersebut tidak mendukung XFA. Untuk melihat dan mengisi formulir XFA dengan benar, gunakan Firefox atau Form Filler Chawso PDF."
   },
   "createPdfForm": {
     "name": "Buat Formulir PDF",
@@ -1010,8 +1010,8 @@
   },
   "digitalSignPdf": {
     "name": "Tanda Tangan Digital PDF",
-    "pageTitle": "Tanda Tangan Digital PDF - Tambah Tanda Tangan Kriptografi | BentoPDF",
-    "subtitle": "Tambah tanda tangan digital kriptografi ke PDF Anda menggunakan sertifikat X.509. Mendukung format PKCS#12 (.pfx, .p12) dan PEM. Kunci pribadi Anda tidak pernah meninggalkan browser Anda.",
+    "pageTitle": "Tanda Tangan Digital PDF - Tambah Tanda Tangan Kriptografi | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "Sertifikat",
     "uploadCert": "Unggah sertifikat (.pfx, .p12, .pem)",
     "certPassword": "Kata Sandi Sertifikat",
@@ -1086,7 +1086,7 @@
     "faqFormatsQuestion": "Format sertifikat apa yang didukung?",
     "faqFormatsAnswer": "Kami mendukung sertifikat format PKCS#12 (.pfx, .p12) yang berisi sertifikat dan kunci pribadi Anda dalam satu file terenkripsi. Biasanya diterbitkan oleh otoritas sertifikasi.",
     "faqPrivateKeyQuestion": "Apakah kunci pribadi saya aman?",
-    "faqPrivateKeyAnswer": "Ya! Semua pemrosesan terjadi sepenuhnya di browser Anda. Sertifikat, kunci pribadi, dan file PDF Anda tidak pernah meninggalkan perangkat atau diunggah ke server mana pun.",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "Apakah tanda tangan akan valid di pembaca PDF?",
     "faqValidReadersAnswer": "Ya, alat ini membuat tanda tangan terpisah PKCS#7 standar yang dikenali oleh semua pembaca PDF utama. Untuk validasi penuh, gunakan sertifikat dari Otoritas Sertifikasi yang terpercaya.",
     "applySignature": "Terapkan Tanda Tangan Digital",
@@ -1096,12 +1096,12 @@
   },
   "validateSignaturePdf": {
     "name": "Validasi Tanda Tangan PDF",
-    "pageTitle": "Validasi Tanda Tangan PDF - Verifikasi Tanda Tangan Digital | BentoPDF",
+    "pageTitle": "Validasi Tanda Tangan PDF - Verifikasi Tanda Tangan Digital | Chawso PDF",
     "subtitle": "Verifikasi tanda tangan digital di file PDF Anda. Periksa validitas sertifikat, lihat detail penandatangan, dan konfirmasi integritas dokumen. Semua pemrosesan terjadi di browser Anda."
   },
   "timestampPdf": {
     "name": "Stempel Waktu PDF",
-    "pageTitle": "Stempel Waktu PDF Gratis Online - RFC 3161 | BentoPDF",
+    "pageTitle": "Stempel Waktu PDF Gratis Online - RFC 3161 | Chawso PDF",
     "subtitle": "Tambahkan stempel waktu RFC 3161 ke PDF Anda menggunakan server TSA tepercaya. Membuktikan dokumen Anda ada pada waktu tertentu. Tidak memerlukan sertifikat.",
     "tsaSectionTitle": "Server Stempel Waktu (TSA)",
     "selectTsa": "Pilih server TSA",
@@ -1287,7 +1287,7 @@
     "resetWithDefaults": "Penimpaan kustom dihapus. Default yang dikonfigurasi sebelumnya aktif.",
     "resetNoDefaults": "Semua konfigurasi dan modul yang di-cache telah dihapus.",
     "licenseTitle": "Pemberitahuan Lisensi:",
-    "licenseDescription": "Modul eksternal (PyMuPDF, Ghostscript, CoherentPDF) dilisensikan di bawah AGPL-3.0 atau lisensi copyleft serupa. Dengan mengonfigurasi dan menggunakan modul-modul ini, Anda menyetujui ketentuan lisensi masing-masing. BentoPDF kompatibel dengan implementasi Ghostscript WASM dan PyMuPDF WASM apa pun yang mengikuti antarmuka yang diharapkan."
+    "licenseDescription": "Modul eksternal (PyMuPDF, Ghostscript, CoherentPDF) dilisensikan di bawah AGPL-3.0 atau lisensi copyleft serupa. Dengan mengonfigurasi dan menggunakan modul-modul ini, Anda menyetujui ketentuan lisensi masing-masing. Chawso PDF kompatibel dengan implementasi Ghostscript WASM dan PyMuPDF WASM apa pun yang mengikuti antarmuka yang diharapkan."
   },
   "pdfOverlay": {
     "name": "Overlay PDF",
@@ -1314,7 +1314,7 @@
     "faqSinglePageQuestion": "Bisakah saya menggunakan PDF satu halaman sebagai overlay untuk semua halaman?",
     "faqSinglePageAnswer": "Ya! Aktifkan opsi \"Ulangi\" dan halaman overlay Anda akan berulang di semua halaman dasar. Watermark satu halaman akan diterapkan ke setiap halaman.",
     "faqPrivacyQuestion": "Apakah file saya pribadi dan aman?",
-    "faqPrivacyAnswer": "Tentu saja! Semua pemrosesan terjadi di browser Anda. File Anda tidak pernah meninggalkan perangkat Anda, memastikan privasi penuh."
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "unlockPdf": {
     "name": "Buka Kunci PDF",

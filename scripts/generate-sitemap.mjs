@@ -19,13 +19,16 @@ const EXCLUDED_PAGES = new Set([
   'wasm-settings',
   // Upstream identity/marketing pages not deployed on Chawso PDF (removed
   // from dist post-build): upstream personal about page, upstream blog,
-  // advertising offer, Kura product page, upstream contact and terms.
+  // advertising offer, Kura product page, upstream contact and terms,
+  // and the upstream Hyper Compress commercial-licensing page (the engine stays
+  // bundled; the marketing/licensing page is upstream's).
   'about',
   'advertise',
   'blog',
   'contact',
   'kura',
   'terms',
+  'hyper-compress',
   // Tools disabled in this deployment (DISABLE_TOOLS env) must not appear in
   // the sitemap: their pages only show the disabled-tool screen.
   ...(process.env.DISABLE_TOOLS || '')

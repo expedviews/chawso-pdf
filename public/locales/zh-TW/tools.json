@@ -362,7 +362,7 @@
     "subtitle": "直接在您的瀏覽器中填寫表單。支援 XFA 表單。",
     "uploadHint": "上傳含有表單欄位的 PDF。在下方的檢視器中直接填寫，然後點選按鈕儲存並下載填寫好的表單。也支援 XFA 表單。",
     "xfaNoteTitle": "關於 XFA 表單的說明：",
-    "xfaNoteDescription": "XFA（XML Forms Architecture）是一種舊版格式，僅 BentoPDF 和 Firefox 等部分 PDF 檢視器支援。如果您在其他軟體中開啟 XFA PDF，看到空白頁面或沒有表單欄位，則表示該檢視器不支援 XFA。要正確檢視和填寫 XFA 表單，請使用 Firefox 或 BentoPDF 的表單填寫器。"
+    "xfaNoteDescription": "XFA（XML Forms Architecture）是一種舊版格式，僅 Chawso PDF 和 Firefox 等部分 PDF 檢視器支援。如果您在其他軟體中開啟 XFA PDF，看到空白頁面或沒有表單欄位，則表示該檢視器不支援 XFA。要正確檢視和填寫 XFA 表單，請使用 Firefox 或 Chawso PDF 的表單填寫器。"
   },
   "createPdfForm": {
     "name": "建立 PDF 表單",
@@ -1010,8 +1010,8 @@
   },
   "digitalSignPdf": {
     "name": "為 PDF 加上數位簽章",
-    "pageTitle": "為 PDF 加上數位簽章－新增密碼學簽章 | BentoPDF",
-    "subtitle": "使用 X.509 憑證為 PDF 加上密碼學數位簽章。支援 PKCS#12（.pfx、.p12）及 PEM 格式。私密金鑰絕不會離開瀏覽器。",
+    "pageTitle": "為 PDF 加上數位簽章－新增密碼學簽章 | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "憑證",
     "uploadCert": "上傳憑證（.pfx、.p12、.pem）",
     "certPassword": "憑證密碼",
@@ -1086,7 +1086,7 @@
     "faqFormatsQuestion": "支援哪些憑證格式？",
     "faqFormatsAnswer": "我們支援 PKCS#12 格式的憑證（.pfx、.p12），其中包含憑證和私密金鑰（一個加密檔案）。這些通常由憑證授權中心簽發。",
     "faqPrivateKeyQuestion": "我的私密金鑰安全嗎？",
-    "faqPrivateKeyAnswer": "是的！所有處理完全在您的瀏覽器中進行。您的憑證、私密金鑰和 PDF 檔案永遠不會離開您的裝置或上傳到任何伺服器。",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "簽章能在 PDF 閱讀器中驗證嗎？",
     "faqValidReadersAnswer": "是的，該工具會建立標準的 PKCS#7 分離式簽章，所有主要 PDF 檢視器都能辨識。若要完整驗證，請使用受信任憑證授權中心簽發的憑證。",
     "applySignature": "套用數位簽章",
@@ -1096,12 +1096,12 @@
   },
   "validateSignaturePdf": {
     "name": "驗證 PDF 數位簽章",
-    "pageTitle": "驗證 PDF 數位簽章－驗證數位簽章 | BentoPDF",
+    "pageTitle": "驗證 PDF 數位簽章－驗證數位簽章 | Chawso PDF",
     "subtitle": "驗證 PDF 檔案中的數位簽章。檢查憑證有效性、查看簽署者詳細資料並確認文件完整性。所有處理都在瀏覽器中進行。"
   },
   "timestampPdf": {
     "name": "PDF 時間戳記",
-    "pageTitle": "免費線上 PDF 時間戳記 - RFC 3161 文件時間戳記 | BentoPDF",
+    "pageTitle": "免費線上 PDF 時間戳記 - RFC 3161 文件時間戳記 | Chawso PDF",
     "subtitle": "透過可信賴的 TSA 伺服器為您的 PDF 新增 RFC 3161 時間戳記。證明您的文件在特定時間點存在。無需憑證。",
     "tsaSectionTitle": "時間戳記伺服器（TSA）",
     "selectTsa": "選擇 TSA 伺服器",
@@ -1287,7 +1287,7 @@
     "resetWithDefaults": "已清除自訂覆寫。預先設定的預設值已啟用。",
     "resetNoDefaults": "所有設定和快取模組均已清除。",
     "licenseTitle": "授權條款：",
-    "licenseDescription": "外部模組（PyMuPDF、Ghostscript、CoherentPDF）根據 AGPL-3.0 或類似的 copyleft 授權條款授權。設定及使用這些模組即表示您同意各自的授權條款。BentoPDF 與任何遵循預期介面的 Ghostscript WASM 和 PyMuPDF WASM 實作相容。"
+    "licenseDescription": "外部模組（PyMuPDF、Ghostscript、CoherentPDF）根據 AGPL-3.0 或類似的 copyleft 授權條款授權。設定及使用這些模組即表示您同意各自的授權條款。Chawso PDF 與任何遵循預期介面的 Ghostscript WASM 和 PyMuPDF WASM 實作相容。"
   },
   "pdfOverlay": {
     "name": "PDF 疊加",
@@ -1314,7 +1314,7 @@
     "faqSinglePageQuestion": "我可以使用單頁 PDF 作為所有頁面的疊加嗎？",
     "faqSinglePageAnswer": "可以！啟用重複使用功能後，疊加 PDF 的頁面會在所有基礎頁面上重複套用。單頁浮水印會套用至每一頁。",
     "faqPrivacyQuestion": "我的檔案是否私密安全？",
-    "faqPrivacyAnswer": "當然！所有處理都在您的瀏覽器中進行。您的檔案永遠不會離開您的裝置，確保完全隱私。"
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "unlockPdf": {
     "name": "解除鎖定 PDF",

@@ -362,7 +362,7 @@
     "subtitle": "Fyll i formulär direkt i webbläsaren. Stöder även XFA-formulär.",
     "uploadHint": "Ladda upp en PDF med formulärfält. Fyll i dem direkt i visaren nedan, klicka sedan på knappen för att spara och ladda ner det ifyllda formuläret. Stöder även XFA-formulär.",
     "xfaNoteTitle": "Anmärkning om XFA-formulär:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) är ett äldre format som bara stöds av vissa PDF-visare som BentoPDF och Firefox. Om du öppnar en XFA-PDF i annan programvara och ser tomma sidor eller inga formulärfält betyder det att visaren inte stöder XFA. För att visa och fylla i XFA-formulär korrekt, använd Firefox eller BentoPDFs formulärifyllare."
+    "xfaNoteDescription": "XFA (XML Forms Architecture) är ett äldre format som bara stöds av vissa PDF-visare som Chawso PDF och Firefox. Om du öppnar en XFA-PDF i annan programvara och ser tomma sidor eller inga formulärfält betyder det att visaren inte stöder XFA. För att visa och fylla i XFA-formulär korrekt, använd Firefox eller Chawso PDFs formulärifyllare."
   },
   "createPdfForm": {
     "name": "Skapa PDF-formulär",
@@ -1010,8 +1010,8 @@
   },
   "digitalSignPdf": {
     "name": "Digital signatur PDF",
-    "pageTitle": "Digital signatur PDF - Lägg till kryptografisk signatur | BentoPDF",
-    "subtitle": "Lägg till en kryptografisk digital signatur på din PDF med X.509-certifikat. Stöder PKCS#12 (.pfx, .p12) och PEM-format. Din privata nyckel lämnar aldrig din webbläsare.",
+    "pageTitle": "Digital signatur PDF - Lägg till kryptografisk signatur | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "Certifikat",
     "uploadCert": "Ladda upp certifikat (.pfx, .p12, .pem)",
     "certPassword": "Certifikatlösenord",
@@ -1086,7 +1086,7 @@
     "faqFormatsQuestion": "Vilka certifikatformat stöds?",
     "faqFormatsAnswer": "Vi stöder PKCS#12-formatcertifikat (.pfx, .p12) som innehåller både ditt certifikat och din privata nyckel i en enda krypterad fil. Dessa utfärdas vanligtvis av certifikatmyndigheter.",
     "faqPrivateKeyQuestion": "Är min privata nyckel säker?",
-    "faqPrivateKeyAnswer": "Ja! All bearbetning sker helt i din webbläsare. Ditt certifikat, din privata nyckel och dina PDF-filer lämnar aldrig din enhet eller laddas upp till någon server.",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "Kommer signaturen vara giltig i PDF-läsare?",
     "faqValidReadersAnswer": "Ja, verktyget skapar standard PKCS#7 detached signaturer som känns igen av alla större PDF-läsare. För full validering, använd ett certifikat från en betrodd certifikatmyndighet.",
     "applySignature": "Applicera digital signatur",
@@ -1096,12 +1096,12 @@
   },
   "validateSignaturePdf": {
     "name": "Validera PDF-signatur",
-    "pageTitle": "Validera PDF-signatur - Verifiera digitala signaturer | BentoPDF",
+    "pageTitle": "Validera PDF-signatur - Verifiera digitala signaturer | Chawso PDF",
     "subtitle": "Verifiera digitala signaturer i dina PDF-filer. Kontrollera certifikatgiltighet, visa signerardetaljer och bekräfta dokumentintegritet. All bearbetning sker i din webbläsare."
   },
   "timestampPdf": {
     "name": "Tidsstämpla PDF",
-    "pageTitle": "Tidsstämpla PDF gratis online - RFC 3161 dokumenttidsstämpel | BentoPDF",
+    "pageTitle": "Tidsstämpla PDF gratis online - RFC 3161 dokumenttidsstämpel | Chawso PDF",
     "subtitle": "Lägg till en RFC 3161 tidsstämpel till din PDF via en betrodd TSA-server. Bevisar att ditt dokument existerade vid en specifik tidpunkt. Inget certifikat krävs.",
     "tsaSectionTitle": "Tidsstämpelserver (TSA)",
     "selectTsa": "Välj en TSA-server",
@@ -1287,7 +1287,7 @@
     "resetWithDefaults": "Anpassade åsidosättningar rensade. Förkonfigurerade standardvärden är aktiva.",
     "resetNoDefaults": "Alla konfigurationer och cachade moduler har rensats.",
     "licenseTitle": "Licensmeddelande:",
-    "licenseDescription": "De externa modulerna (PyMuPDF, Ghostscript, CoherentPDF) är licensierade under AGPL-3.0 eller liknande copyleft-licenser. Genom att konfigurera och använda dessa moduler godkänner du deras respektive licensvillkor. BentoPDF är kompatibel med alla Ghostscript WASM- och PyMuPDF WASM-implementationer som följer det förväntade gränssnittet."
+    "licenseDescription": "De externa modulerna (PyMuPDF, Ghostscript, CoherentPDF) är licensierade under AGPL-3.0 eller liknande copyleft-licenser. Genom att konfigurera och använda dessa moduler godkänner du deras respektive licensvillkor. Chawso PDF är kompatibel med alla Ghostscript WASM- och PyMuPDF WASM-implementationer som följer det förväntade gränssnittet."
   },
   "pdfOverlay": {
     "name": "PDF-överlägg",
@@ -1314,7 +1314,7 @@
     "faqSinglePageQuestion": "Kan jag använda en ensidig PDF som överlägg för alla sidor?",
     "faqSinglePageAnswer": "Ja! Aktivera alternativet \"Upprepa\" och dina överläggsidor upprepas på alla bassidor. En ensidig vattenstämpel tillämpas på varje sida.",
     "faqPrivacyQuestion": "Är mina filer privata och säkra?",
-    "faqPrivacyAnswer": "Absolut! All bearbetning sker i din webbläsare. Dina filer lämnar aldrig din enhet, vilket garanterar fullständig integritet."
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "unlockPdf": {
     "name": "Lås upp PDF",

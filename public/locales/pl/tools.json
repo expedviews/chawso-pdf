@@ -244,7 +244,7 @@
     "subtitle": "Wypełniaj formularze bezpośrednio w przeglądarce. Obsługuje również formularze XFA.",
     "uploadHint": "Prześlij plik PDF z polami formularza. Wypełnij je bezpośrednio w przeglądarce poniżej, a następnie kliknij przycisk, aby zapisać i pobrać wypełniony formularz. Obsługuje również formularze XFA.",
     "xfaNoteTitle": "Uwaga dotycząca formularzy XFA:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) to starszy format obsługiwany tylko przez niektóre przeglądarki PDF, takie jak BentoPDF i Firefox. Jeśli otworzysz plik PDF z XFA w innym oprogramowaniu i zobaczysz puste strony lub brak pól formularza, oznacza to, że dana przeglądarka nie obsługuje XFA. Aby poprawnie wyświetlać i wypełniać formularze XFA, użyj Firefoksa lub narzędzia Form Filler w BentoPDF."
+    "xfaNoteDescription": "XFA (XML Forms Architecture) to starszy format obsługiwany tylko przez niektóre przeglądarki PDF, takie jak Chawso PDF i Firefox. Jeśli otworzysz plik PDF z XFA w innym oprogramowaniu i zobaczysz puste strony lub brak pól formularza, oznacza to, że dana przeglądarka nie obsługuje XFA. Aby poprawnie wyświetlać i wypełniać formularze XFA, użyj Firefoksa lub narzędzia Form Filler w Chawso PDF."
   },
   "createPdfForm": {
     "name": "Utwórz formularz PDF",
@@ -847,8 +847,8 @@
   },
   "digitalSignPdf": {
     "name": "Podpis cyfrowy PDF",
-    "pageTitle": "Podpis cyfrowy PDF - Dodaj podpis kryptograficzny | BentoPDF",
-    "subtitle": "Dodaj kryptograficzny podpis cyfrowy do pliku PDF, używając certyfikatów X.509. Obsługuje formaty PKCS#12 (.pfx, .p12) i PEM. Twój klucz prywatny nigdy nie opuszcza przeglądarki.",
+    "pageTitle": "Podpis cyfrowy PDF - Dodaj podpis kryptograficzny | Chawso PDF",
+    "subtitle": "Add a cryptographic digital signature to your PDF using X.509 certificates. Supports PKCS#12 (.pfx, .p12) and PEM formats. Designed to run locally in your browser.",
     "certificateSection": "Certyfikat",
     "uploadCert": "Prześlij certyfikat (.pfx, .p12, .pem)",
     "certPassword": "Hasło certyfikatu",
@@ -923,7 +923,7 @@
     "faqFormatsQuestion": "Jakie formaty certyfikatów są obsługiwane?",
     "faqFormatsAnswer": "Obsługujemy certyfikaty w formacie PKCS#12 (.pfx, .p12), które zawierają zarówno Twój certyfikat, jak i klucz prywatny w jednym zaszyfrowanym pliku. Są one powszechnie wydawane przez urzędy certyfikacji.",
     "faqPrivateKeyQuestion": "Czy mój klucz prywatny jest bezpieczny?",
-    "faqPrivateKeyAnswer": "Tak! Całe przetwarzanie odbywa się całkowicie w Twojej przeglądarce. Twój certyfikat, klucz prywatny i pliki PDF nigdy nie opuszczają Twojego urządzenia i nie są przesyłane na żaden serwer.",
+    "faqPrivateKeyAnswer": "The tool is designed to process everything locally in your browser; it is not built to upload your certificate, private key, or PDF files to any server.",
     "faqValidReadersQuestion": "Czy podpis będzie ważny w czytnikach PDF?",
     "faqValidReadersAnswer": "Tak, narzędzie tworzy standardowe oddzielone podpisy PKCS#7, które są rozpoznawane przez wszystkie główne przeglądarki PDF. Aby uzyskać pełną weryfikację, użyj certyfikatu od zaufanego Urzędu Certyfikacji.",
     "applySignature": "Zastosuj podpis cyfrowy",
@@ -933,12 +933,12 @@
   },
   "validateSignaturePdf": {
     "name": "Zweryfikuj podpis PDF",
-    "pageTitle": "Zweryfikuj podpis PDF - Sprawdź podpisy cyfrowe | BentoPDF",
+    "pageTitle": "Zweryfikuj podpis PDF - Sprawdź podpisy cyfrowe | Chawso PDF",
     "subtitle": "Zweryfikuj podpisy cyfrowe w plikach PDF. Sprawdź ważność certyfikatu, zobacz dane osoby podpisującej i potwierdź integralność dokumentu. Całe przetwarzanie odbywa się w Twojej przeglądarce."
   },
   "timestampPdf": {
     "name": "Znakowanie czasem PDF",
-    "pageTitle": "Znakowanie czasem PDF Online Za Darmo - Znacznik Czasu Dokumentu RFC 3161 | BentoPDF",
+    "pageTitle": "Znakowanie czasem PDF Online Za Darmo - Znacznik Czasu Dokumentu RFC 3161 | Chawso PDF",
     "subtitle": "Dodaj znacznik czasu RFC 3161 do pliku PDF, korzystając z serwera zaufanego urzędu znakowania czasem (TSA). Udowadnia, że Twój dokument istniał w określonym momencie w czasie. Certyfikat nie jest wymagany.",
     "tsaSectionTitle": "Serwer znacznika czasu (TSA)",
     "selectTsa": "Wybierz serwer TSA",
@@ -1124,7 +1124,7 @@
     "resetWithDefaults": "Niestandardowe ustawienia zostały wyczyszczone. Aktywne są wstępnie skonfigurowane ustawienia domyślne.",
     "resetNoDefaults": "Wszystkie konfiguracje i moduły z pamięci podręcznej zostały wyczyszczone.",
     "licenseTitle": "Informacja licencyjna:",
-    "licenseDescription": "Zewnętrzne moduły (PyMuPDF, Ghostscript, CoherentPDF) są licencjonowane na podstawie AGPL-3.0 lub podobnych licencji copyleft. Konfigurując i używając tych modułów, zgadzasz się na ich odpowiednie warunki licencyjne. BentoPDF jest kompatybilne z dowolną implementacją Ghostscript WASM i PyMuPDF WASM, która podąża za oczekiwanym interfejsem."
+    "licenseDescription": "Zewnętrzne moduły (PyMuPDF, Ghostscript, CoherentPDF) są licencjonowane na podstawie AGPL-3.0 lub podobnych licencji copyleft. Konfigurując i używając tych modułów, zgadzasz się na ich odpowiednie warunki licencyjne. Chawso PDF jest kompatybilne z dowolną implementacją Ghostscript WASM i PyMuPDF WASM, która podąża za oczekiwanym interfejsem."
   },
   "pdfOverlay": {
     "name": "Nakładka PDF",
@@ -1151,7 +1151,7 @@
     "faqSinglePageQuestion": "Czy mogę użyć jednostronicowego PDF jako nakładki na wszystkie strony?",
     "faqSinglePageAnswer": "Tak! Włącz opcję \"Zapętl\", a strony Twojego PDF-a z nakładką będą powtarzane na wszystkich stronach bazowych. Jednostronicowy znak wodny zostanie nałożony na każdą stronę.",
     "faqPrivacyQuestion": "Czy moje pliki są prywatne i bezpieczne?",
-    "faqPrivacyAnswer": "Zdecydowanie tak! Całe przetwarzanie odbywa się w Twojej przeglądarce. Twoje pliki nigdy nie opuszczają Twojego urządzenia, co zapewnia całkowitą prywatność."
+    "faqPrivacyAnswer": "All processing is designed to happen in your browser. The tool is not built to upload your files to a server for processing."
   },
   "editPdfText": {
     "name": "Edytuj tekst PDF",
