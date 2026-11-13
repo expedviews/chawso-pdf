@@ -15,8 +15,41 @@ function listHtml(dir) {
   });
 }
 
+// Routes that must stay noindex even on an indexable release build:
+// error page, private/advanced settings, and tools disabled in this
+// deployment (their pages only show the disabled-tool screen).
+const ALWAYS_NOINDEX = new Set([
+  '404',
+  'wasm-settings',
+  ...(process.env.DISABLE_TOOLS || '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean),
+]);
+
+function forceNoindexOnExcluded() {
+  let updated = 0;
+  for (const file of listHtml(DIST_DIR)) {
+    const name = path.basename(file, '.html');
+    if (!ALWAYS_NOINDEX.has(name)) continue;
+    const html = fs.readFileSync(file, 'utf-8');
+    const robots = /<meta\s+name=["']robots["'][^>]*>/i;
+    const next = robots.test(html)
+      ? html.replace(robots, NOINDEX_META)
+      : html.replace(/<\/head>/i, `  ${NOINDEX_META}\n  </head>`);
+    if (next !== html) {
+      fs.writeFileSync(file, next);
+      updated++;
+    }
+  }
+  console.log(
+    `Indexing policy: ${updated} excluded routes (disabled tools / error / private) were kept noindex.`
+  );
+}
+
 if (!isIndexingBlocked()) {
   console.log('Indexing policy: search engines may index this build.');
+  forceNoindexOnExcluded();
 } else {
   let updated = 0;
   for (const file of listHtml(DIST_DIR)) {

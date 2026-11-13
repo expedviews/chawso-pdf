@@ -14,7 +14,16 @@ const SITE_URL = (process.env.SITE_URL || 'https://www.bentopdf.com').replace(
   /\/+$/,
   ''
 );
-const EXCLUDED_PAGES = new Set(['404', 'wasm-settings']);
+const EXCLUDED_PAGES = new Set([
+  '404',
+  'wasm-settings',
+  // Tools disabled in this deployment (DISABLE_TOOLS env) must not appear in
+  // the sitemap: their pages only show the disabled-tool screen.
+  ...(process.env.DISABLE_TOOLS || '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean),
+]);
 
 const languages = fs.readdirSync(LOCALES_DIR).filter((file) => {
   return fs.statSync(path.join(LOCALES_DIR, file)).isDirectory();
