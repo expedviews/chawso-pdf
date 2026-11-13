@@ -31,11 +31,20 @@ Chawso PDF (all inherited unchanged from upstream BentoPDF v2.8.11).
 ## hyper-compress-wasm (AGPL-3.0-only) - `vendor/hyper-compress-wasm/hyper-compress-wasm-1.0.3.tgz`
 
 - Source repo: https://github.com/alam00000/bentopdf-hyper-compress
-  tag `v1.0.3` = commit `148f20f3f4cd...`
+  tag `v1.0.3` = commit `148f20f3f4cd11035fdd53dd1c20fb5a5d21cf3b`
+  (includes C++/wasm build sources, BUILDING instructions, pack script, and
+  the SDK wrapper preferred source).
 - Build instructions: repo + https://hyper.bentopdf.com/docs/building
   (pinned PDFium, source patches, `make wasm`).
-- REMAINING GAP: package is not on the public npm registry; byte-level match
-  between the vendored tgz and a build of tag v1.0.3 not yet verified.
+- Byte-verified (independent reviewer check, 2026-11-13): upstream release
+  archive
+  https://github.com/alam00000/bentopdf-hyper-compress/releases/download/v1.0.3/hyper-compress-v1.0.3-wasm.tar.gz
+  (archive sha256 `d8bd4f9ebdc28453b17694bd8797d9973d7bea8bf28b4bf9fc830752b7ccf189`);
+  both vendored engine files are byte-identical to it:
+  js `a9f38b79612890d0682c581691960ee68bd551bd78cd66d5f92b65b5434516d7`,
+  wasm `186e2b485142e04f24703ad98644c52204a3b50223ca4d5a519d174208048b97`.
+- Caveat: whole-tgz reproduction from a fresh build of the tag is untested;
+  verification is at the engine-file level.
 
 ## gs-wasm (AGPL-3.0-only) - `public/wasm/gs/`
 
