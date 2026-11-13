@@ -1,4 +1,4 @@
-# PROVENANCE (DRAFT - pending reviewer confirmation)
+# PROVENANCE
 
 Exact source provenance for the compiled/vendored engines distributed with
 Chawso PDF (all inherited unchanged from upstream BentoPDF v2.8.11).
