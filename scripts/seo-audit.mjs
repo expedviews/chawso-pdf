@@ -21,7 +21,17 @@ const BASE_PATH = (process.env.BASE_URL || '/').replace(/\/$/, '');
 const HOST = new URL(SITE_URL).hostname;
 const OFFICIAL_HOST = new URL(OFFICIAL_SITE_URL).hostname;
 
-const NOINDEX_ALLOWLIST = new Set(['404.html', 'wasm-settings.html']);
+const NOINDEX_ALLOWLIST = new Set([
+  '404.html',
+  'wasm-settings.html',
+  // Tools disabled in this deployment (DISABLE_TOOLS env): their pages only
+  // show the disabled-tool screen and are intentionally kept noindex.
+  ...(process.env.DISABLE_TOOLS || '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .map((s) => `${s}.html`),
+]);
 const SKIP_DIRS = new Set([
   'assets',
   'docs',
