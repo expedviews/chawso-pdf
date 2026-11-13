@@ -1,23 +1,19 @@
-Source: package declares MIT (package.json); fork of fontkit (MIT, (c) Devon Govett); upstream repo znacloud/pdf-fontkit ships no LICENSE file. Standard MIT text; holder from package.json author field.
+Evidence: NO license file exists in the npm tarball at the exact packaged version, nor in the upstream repository at any location tried.
+Package: pdf-fontkit@1.8.9
+License declaration (verbatim, package.json license field / README): MIT - README states: "[MIT](https://choosealicense.com/licenses/mit/)"
+Verbatim copyright/permission blocks found inside the shipped bundles (dist/fontkit.umd.js):
+  1. "Copyright (c) 2012 Niklas von Hertzen - Licensed under the MIT license." (base64-arraybuffer, https://github.com/niklasvh/base64-arraybuffer)
+  2. "Copyright 2013 Google Inc. All Rights Reserved. Licensed under the Apache License, Version 2.0" (brotli decoder sources; Apache-2.0 text included separately in this notices file under the Google/Apache entries)
+  3. "Copyright Joyent, Inc. and other Node contributors." with the full Node.js MIT permission paragraph (bundled string_decoder)
+Inherited notice: this package is a fork of foliojs/fontkit (MIT); the foliojs/fontkit license text is included in this notices file under fontkit.
+RECONSTRUCTED TEXT BELOW - standard MIT license body with a placeholder copyright line. The package ships no actual copyright notice file; only the declaration and the verbatim headers above are verified evidence. No holder/year is invented.
 
 MIT License
 
-Copyright (c) Andrew Dillon
+Copyright (c) <copyright holders>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

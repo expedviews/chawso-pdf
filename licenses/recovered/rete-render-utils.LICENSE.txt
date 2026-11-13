@@ -1,5 +1,6 @@
-Source: https://github.com/retejs/render-utils (LICENSE, default branch, fetched 2026-11-13)
-SPDX: MIT
+Evidence: license file fetched from the upstream repository at the tag matching the packaged version.
+Source: https://raw.githubusercontent.com/retejs/render-utils/v2.0.3/LICENSE (fetched 2026-11-13)
+Package: rete-render-utils@2.0.3 (verified: no license file inside the npm tarball at this exact version)
 
 MIT License
 

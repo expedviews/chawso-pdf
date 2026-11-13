@@ -1,4 +1,7 @@
-Source: package declares MPL-2.0 (package.json); upstream repo ships no LICENSE file. Standard MPL-2.0 text from mozilla.org.
+Evidence: NO license file exists in the npm tarball at the exact packaged version, nor in the upstream repository at any location tried.
+Package: @matbee/libreoffice-converter@2.6.0
+License declaration (verbatim, package.json license field / README): MPL-2.0 - README states: "MPL-2.0 (same as LibreOffice) / Ensure you have [git LFS](https://git-lfs.com/) and [pnpm](https://pnpm.io/) installed."
+RECONSTRUCTED TEXT BELOW - standard MPL-2.0 license body with a placeholder copyright line. The package ships no actual copyright notice file; only the declaration and the verbatim headers above are verified evidence. No holder/year is invented.
 
 Mozilla Public License Version 2.0
 ==================================

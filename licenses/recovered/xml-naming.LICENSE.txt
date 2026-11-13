@@ -1,5 +1,6 @@
-Source: https://github.com/NaturalIntelligence/xml-naming (LICENSE, default branch, fetched 2026-11-13)
-SPDX: MIT
+Evidence: license file fetched from the upstream repository default branch; no tag matching the packaged version was found, so this default-branch text may differ from the packaged revision.
+Source: https://raw.githubusercontent.com/NaturalIntelligence/xml-naming/main/LICENSE (fetched 2026-11-13)
+Package: xml-naming@0.1.0 (verified: no license file inside the npm tarball at this exact version)
 
 MIT License
 

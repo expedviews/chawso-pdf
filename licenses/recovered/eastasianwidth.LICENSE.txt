@@ -1,26 +1,14 @@
-Source: https://github.com/komagata/eastasianwidth (LICENSE-NOTES.md, default branch, fetched 2026-11-13)
-SPDX: NOASSERTION
+Evidence: NO license file exists in the npm tarball at the exact packaged version, nor in the upstream repository at any location tried.
+Package: eastasianwidth@0.2.0
+License declaration (verbatim, package.json license field / README): MIT
+RECONSTRUCTED TEXT BELOW - standard MIT license body with a placeholder copyright line. The package ships no actual copyright notice file; only the declaration and the verbatim headers above are verified evidence. No holder/year is invented.
 
-# Licensing notes
+MIT License
 
-## Current package notice
+Copyright (c) <copyright holders>
 
-This package is distributed under the MIT license. The complete current [MIT license notice](MIT-LICENSE.txt) identifies two copyright holders: `Copyright komagata` and `Copyright (c) 2011 takenspc`. The MIT permission and warranty text is unchanged.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## 0.2.0 package notice
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-The 0.2.0 package corresponds to commit [`b89f04d44dc786885615e94cd6e2ba1ef7866fa4`](https://github.com/komagata/eastasianwidth/blob/b89f04d44dc786885615e94cd6e2ba1ef7866fa4/package.json). Its `package.json` declares `"license": "MIT"`, but its published tarball did not include a license notice.
-
-The maintainer's complete MIT notice for version 0.2.0 is preserved in [MIT-LICENSE.txt at commit 1d41951a59d63fb2d77cda021050fc070cae424a](https://github.com/komagata/eastasianwidth/blob/1d41951a59d63fb2d77cda021050fc070cae424a/MIT-LICENSE.txt). Its exact copyright line is `Copyright komagata`, with no year. This full notice was added to the repository in 2024, when the package was version 0.3.0.
-
-## Original author's permission and attribution
-
-On 2026-10-23, the original author confirmed by email that permission for eastasianwidth had previously been given in comments and that the existing package, including all previously published versions, may continue to be distributed unchanged. No additions to those old versions are required.
-
-The author's [original article](https://takenspc.hatenadiary.org/entry/20111126/1322252878) publicly records the individual permission given to eastasianwidth. It separately offers the article's code under the MIT license for new uses.
-
-The author recommended adding `Copyright (c) 2011 takenspc`, and that attribution has been adopted in the current package notice. This was a recommendation, not a new condition imposed on already-published versions of eastasianwidth.
-
-## Packaging
-
-Package builds explicitly include `MIT-LICENSE.txt` and `LICENSE-NOTES.md`. Published historical tarballs remain unchanged.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

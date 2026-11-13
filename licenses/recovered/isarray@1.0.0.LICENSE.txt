@@ -1,9 +1,10 @@
-Source: https://github.com/iconify/iconify (license.txt, default branch, fetched 2026-11-13)
-SPDX: MIT
+Evidence: license file fetched from the upstream repository default branch; no tag matching the packaged version was found, so this default-branch text may differ from the packaged revision.
+Source: https://raw.githubusercontent.com/juliangruber/isarray/master/LICENSE (fetched 2026-11-13)
+Package: isarray@1.0.0 (verified: no license file inside the npm tarball at this exact version; package.json declares MIT)
 
 MIT License
 
-Copyright (c) 2021-PRESENT Vjacheslav Trushkin
+Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

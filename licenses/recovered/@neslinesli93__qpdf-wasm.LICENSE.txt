@@ -1,5 +1,6 @@
-Source: https://github.com/neslinesli93/qpdf-wasm (LICENSE, default branch, fetched 2026-11-13)
-SPDX: ISC
+Evidence: license file fetched from the upstream repository default branch; no tag matching the packaged version was found, so this default-branch text may differ from the packaged revision.
+Source: https://raw.githubusercontent.com/neslinesli93/qpdf-wasm/master/LICENSE (fetched 2026-11-13)
+Package: @neslinesli93/qpdf-wasm@0.3.0 (verified: no license file inside the npm tarball at this exact version)
 
 ISC License
 
