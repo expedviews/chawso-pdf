@@ -17,6 +17,15 @@ const SITE_URL = (process.env.SITE_URL || 'https://www.bentopdf.com').replace(
 const EXCLUDED_PAGES = new Set([
   '404',
   'wasm-settings',
+  // Upstream identity/marketing pages not deployed on Chawso PDF (removed
+  // from dist post-build): upstream personal about page, upstream blog,
+  // advertising offer, Kura product page, upstream contact and terms.
+  'about',
+  'advertise',
+  'blog',
+  'contact',
+  'kura',
+  'terms',
   // Tools disabled in this deployment (DISABLE_TOOLS env) must not appear in
   // the sitemap: their pages only show the disabled-tool screen.
   ...(process.env.DISABLE_TOOLS || '')
