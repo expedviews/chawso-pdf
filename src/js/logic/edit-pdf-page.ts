@@ -505,18 +505,15 @@ async function handleFiles(files: FileList) {
             documentId && redactionTracker
               ? redactionTracker.appliedCount(documentId)
               : 0;
-          const marksWithText = appliedTexts.filter(
-            (txt) => txt && txt.trim()
-          ).length;
-          if (appliedCount > marksWithText) {
-            // Area redactions carry no extracted text, so the
-            // metadata/bookmark/attachment cleanup cannot identify what
-            // to remove for them. Warn instead of silently implying a
-            // fully sanitized file.
+          if (appliedCount > 0) {
+            // Redaction cleanup of metadata/bookmarks/attachments is
+            // term-based and cannot be guaranteed complete (area marks
+            // carry no extractable text at all). Warn instead of silently
+            // implying a fully sanitized file.
             const shouldDownload = await confirmChoice(
               trText('Redaction scope'),
               trText(
-                'Area redactions remove the marked regions from the pages, but they cannot remove matching text from the file\u2019s properties (title, author), bookmarks, or embedded files, which may still contain sensitive information. Check the file with Sanitize PDF before sharing it.'
+                'Redactions remove the marked content from the pages, but they may not remove matching text from the file\u2019s properties (title, author), bookmarks, or embedded files. Review document properties, bookmarks and embedded files separately before sharing. This is not a guarantee that all sensitive data has been removed.'
               ),
               trText('Download anyway')
             );
