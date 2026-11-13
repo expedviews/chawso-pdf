@@ -50,7 +50,7 @@
     "pageCount": 1
   },
   "004a4ce9624a": {
-    "text": "Remove Metadata - BentoPDF",
+    "text": "Remove Metadata - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -100,7 +100,7 @@
     "pageCount": 1
   },
   "008ddbf007ae": {
-    "text": "No. Encrypting, unlocking, sanitizing, and signing all run as WebAssembly in your browser, so the document, the password you type, and your certificate's private key stay on your device. The one network exception is Digital Signature, which may contact your certificate authority's servers to fetch the certificate chain; the document itself is still never sent.",
+    "text": "No. Encrypting, unlocking, sanitizing, and signing all run as WebAssembly in your browser, so the document, the password you type, and your certificate's private key stay on your device. The one network exception is Digital Signature, which may contact your certificate authority's servers to fetch the certificate chain; the document itself is still designed to stay on your device.",
     "tags": [
       "p"
     ],
@@ -292,7 +292,7 @@
     "pageCount": 1
   },
   "01f010557e01": {
-    "text": "PDF Security - Free Online PDF Security Tools | BentoPDF",
+    "text": "PDF Security - Free Online PDF Security Tools | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -363,7 +363,7 @@
     "pageCount": 1
   },
   "02482f5739fe": {
-    "text": "CSV to PDF Online Free - CSV to PDF Tool | BentoPDF",
+    "text": "CSV to PDF Online Free - CSV to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -425,7 +425,7 @@
     "pageCount": 1
   },
   "027cb3aa5afa": {
-    "text": "Extract Pages - BentoPDF",
+    "text": "Extract Pages - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -477,7 +477,7 @@
     "pageCount": 1
   },
   "029f765da1de": {
-    "text": "BentoPDF - Free Online PDF Tools",
+    "text": "Chawso PDF - Free Online PDF Tools",
     "tags": [
       "meta"
     ],
@@ -598,7 +598,7 @@
     "pageCount": 1
   },
   "03488fc8a85c": {
-    "text": "No. The file is opened and rewritten by a PDF library in your browser, which is the point when the goal is anonymity: the document never touches a server, and no server log records what you cleaned.",
+    "text": "No. The file is opened and rewritten by a PDF library in your browser, which is the point when the goal is anonymity: the document is processed on your own device by design.",
     "tags": [
       "p"
     ],
@@ -730,7 +730,7 @@
     "pageCount": 1
   },
   "04349f17bc2c": {
-    "text": "No. The PSD is decoded and the PDF written by PyMuPDF compiled to WebAssembly in your browser, so unreleased designs and client work never leave your machine.",
+    "text": "No. The PSD is decoded and the PDF written by PyMuPDF compiled to WebAssembly in your browser, so unreleased designs and client work stay on your machine by design.",
     "tags": [
       "p"
     ],
@@ -760,7 +760,7 @@
     "pageCount": 1
   },
   "043d23ca07d2": {
-    "text": "<1>Does the BentoPDF commercial license cover Hyper Compress?</1> <2/>",
+    "text": "<1>Does the Chawso PDF commercial license cover Hyper Compress?</1> <2/>",
     "tags": [
       "button"
     ],
@@ -862,7 +862,7 @@
     "pageCount": 1
   },
   "04d17f0bb428": {
-    "text": "Learn how to divide pages using BentoPDF",
+    "text": "Learn how to divide pages using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -882,7 +882,7 @@
     "pageCount": 1
   },
   "04e21c6708c6": {
-    "text": "Learn how to odg to pdf using BentoPDF",
+    "text": "Learn how to odg to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -1035,7 +1035,7 @@
     "pageCount": 1
   },
   "05af4ca050e8": {
-    "text": "Linearize PDF - Optimize for Web Viewing - BentoPDF",
+    "text": "Linearize PDF - Optimize for Web Viewing - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -1045,7 +1045,7 @@
     "pageCount": 1
   },
   "05b283daa1a5": {
-    "text": "Learn how to bookmark using BentoPDF",
+    "text": "Learn how to bookmark using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -1055,7 +1055,7 @@
     "pageCount": 1
   },
   "05b8a21866e8": {
-    "text": "CSV to PDF - Convert Spreadsheets to PDF - BentoPDF",
+    "text": "CSV to PDF - Convert Spreadsheets to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -1065,7 +1065,7 @@
     "pageCount": 1
   },
   "05b9edf92bc0": {
-    "text": "Kura - PDF/A, PDF/UA &amp;amp; PDF/X Conversion Engine | BentoPDF",
+    "text": "Kura - PDF/A, PDF/UA &amp;amp; PDF/X Conversion Engine | Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -1115,7 +1115,7 @@
     "pageCount": 1
   },
   "0652b87e22d3": {
-    "text": "BentoPDF provides tools that I have ended up using on a daily basis, and I can do it secure in the knowledge that my documents are remaining private. It just works.",
+    "text": "Chawso PDF provides tools that I have ended up using on a daily basis, and I can do it secure in the knowledge that my documents are remaining private. It just works.",
     "tags": [
       "blockquote"
     ],
@@ -1145,7 +1145,7 @@
     "pageCount": 1
   },
   "065da4541a01": {
-    "text": "Kura - PDF/A, PDF/UA &amp; PDF/X Conversion Engine | BentoPDF",
+    "text": "Kura - PDF/A, PDF/UA &amp; PDF/X Conversion Engine | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -1176,7 +1176,7 @@
     "pageCount": 1
   },
   "067fb41fe274": {
-    "text": "No. The new sheets are built in your browser with pdf-lib and downloaded under the original file name, so the document never leaves your device.",
+    "text": "No. The new sheets are built in your browser with pdf-lib and downloaded under the original file name, so the document stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -1186,7 +1186,7 @@
     "pageCount": 1
   },
   "068e03629da6": {
-    "text": "Convert EPUB e-books to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert EPUB e-books to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -1216,7 +1216,7 @@
     "pageCount": 1
   },
   "069fc039ee41": {
-    "text": "No. Table detection runs in a PDF engine loaded into your browser as WebAssembly, and the spreadsheet is built locally by a JavaScript library. Bank statements and invoices never leave your machine.",
+    "text": "No. Table detection runs in a PDF engine loaded into your browser as WebAssembly, and the spreadsheet is built locally by a JavaScript library. Bank statements and invoices stay on your machine by design.",
     "tags": [
       "p"
     ],
@@ -1226,7 +1226,7 @@
     "pageCount": 1
   },
   "06aa41cea356": {
-    "text": "Add Attachments to PDF - BentoPDF",
+    "text": "Add Attachments to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -1276,7 +1276,7 @@
     "pageCount": 1
   },
   "06f9c2caafd8": {
-    "text": "No. Decoding, compression, and PDF assembly all run in your browser, so the images never leave your device. Large batches of full-resolution photos take longer and use more memory on your machine because of that.",
+    "text": "No. Decoding, compression, and PDF assembly all run in your browser, so the images stay on your device by design. Large batches of full-resolution photos take longer and use more memory on your machine because of that.",
     "tags": [
       "p"
     ],
@@ -1286,7 +1286,7 @@
     "pageCount": 1
   },
   "06fe51295b03": {
-    "text": "Generate Table of Contents - BentoPDF",
+    "text": "Generate Table of Contents - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -1306,7 +1306,7 @@
     "pageCount": 1
   },
   "0732ae22fed2": {
-    "text": "Learn how to edit metadata using BentoPDF",
+    "text": "Learn how to edit metadata using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -1316,7 +1316,7 @@
     "pageCount": 1
   },
   "073b8c4b4854": {
-    "text": "Learn how to convert Excel to PDF using BentoPDF",
+    "text": "Learn how to convert Excel to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -1386,7 +1386,7 @@
     "pageCount": 1
   },
   "079b486ce6da": {
-    "text": "Make form fields and annotations non-editable. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Make form fields and annotations non-editable. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -1486,7 +1486,7 @@
     "pageCount": 1
   },
   "0810c8d91431": {
-    "text": "Inspect the hidden properties of your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Inspect the hidden properties of your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -1680,7 +1680,7 @@
     "pageCount": 1
   },
   "089abb3ab146": {
-    "text": "Convert PowerPoint presentations (PPTX, PPT, ODP) to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert PowerPoint presentations (PPTX, PPT, ODP) to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -1771,7 +1771,7 @@
     "pageCount": 1
   },
   "0931a3623dc7": {
-    "text": "WPS to PDF - BentoPDF",
+    "text": "WPS to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -1824,7 +1824,7 @@
     "pageCount": 1
   },
   "096a81101b8d": {
-    "text": "Convert PDF to PDF/A for long-term archiving. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert PDF to PDF/A for long-term archiving. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -1834,7 +1834,7 @@
     "pageCount": 1
   },
   "0977721a9d0e": {
-    "text": "The conversion depends on the CPDF WebAssembly build. On bentopdf.com it's included, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
+    "text": "The conversion depends on the CPDF WebAssembly build. The hosted Chawso PDF deployment includes it, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
     "tags": [
       "p"
     ],
@@ -1844,7 +1844,7 @@
     "pageCount": 1
   },
   "09b0771af256": {
-    "text": "Compress PDF to 1MB Free Online | BentoPDF",
+    "text": "Compress PDF to 1MB Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -1996,7 +1996,7 @@
     "pageCount": 1
   },
   "0a5262ed7eb1": {
-    "text": "FAQ - Frequently Asked Questions | BentoPDF",
+    "text": "FAQ - Frequently Asked Questions | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -2057,7 +2057,7 @@
     "pageCount": 1
   },
   "0ac934a29d42": {
-    "text": "No. The PyMuPDF engine runs locally in your browser, so the XPS file is parsed and the PDF written on your own device. Old corporate or government documents never leave your machine.",
+    "text": "No. The PyMuPDF engine runs locally in your browser, so the XPS file is parsed and the PDF written on your own device. Old corporate or government documents stay on your machine by design.",
     "tags": [
       "p"
     ],
@@ -2127,7 +2127,7 @@
     "pageCount": 1
   },
   "0b0239a44c18": {
-    "text": "Why Use BentoPDF PDF Security Tools?",
+    "text": "Why Use Chawso PDF PDF Security Tools?",
     "tags": [
       "h2"
     ],
@@ -2147,7 +2147,7 @@
     "pageCount": 1
   },
   "0b28b0f82aaf": {
-    "text": "Write or paste Markdown and export it as a beautifully formatted PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Write or paste Markdown and export it as a beautifully formatted PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -2187,7 +2187,7 @@
     "pageCount": 1
   },
   "0b3de1d7f16d": {
-    "text": "Split PDF Online Free - Extract Pages from a PDF | BentoPDF",
+    "text": "Split PDF Online Free - Extract Pages from a PDF | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -2308,7 +2308,7 @@
     "pageCount": 1
   },
   "0bbfc1aaf240": {
-    "text": "Extract PDF content as LlamaIndex JSON for RAG/LLM pipelines. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract PDF content as LlamaIndex JSON for RAG/LLM pipelines. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -2318,7 +2318,7 @@
     "pageCount": 1
   },
   "0bd3d1dacbd3": {
-    "text": "PDF to BMP - BentoPDF",
+    "text": "PDF to BMP - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -2359,7 +2359,7 @@
     "pageCount": 1
   },
   "0c3eacb72f57": {
-    "text": "Insert page numbers into your document. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Insert page numbers into your document. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -2581,7 +2581,7 @@
     "pageCount": 1
   },
   "0dfd51bf5d6c": {
-    "text": "PDF to Word - BentoPDF",
+    "text": "PDF to Word - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -2652,7 +2652,7 @@
     "pageCount": 1
   },
   "0e6d211057a0": {
-    "text": "Split PDF - BentoPDF",
+    "text": "Split PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -2916,7 +2916,7 @@
     "pageCount": 1
   },
   "10ba51a2829a": {
-    "text": "What technology does BentoPDF use?",
+    "text": "What technology does Chawso PDF use?",
     "tags": [
       "h3"
     ],
@@ -2946,7 +2946,7 @@
     "pageCount": 1
   },
   "10e158ce945d": {
-    "text": "Convert MOBI e-books to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert MOBI e-books to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -3046,7 +3046,7 @@
     "pageCount": 1
   },
   "116ab1b08428": {
-    "text": "Remove Restrictions - BentoPDF",
+    "text": "Remove Restrictions - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -3126,7 +3126,7 @@
     "pageCount": 1
   },
   "11dfc3fa51a5": {
-    "text": "Learn how to split using BentoPDF",
+    "text": "Learn how to split using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -3146,7 +3146,7 @@
     "pageCount": 1
   },
   "1205d1a1bf5a": {
-    "text": "PDF to ZIP - BentoPDF",
+    "text": "PDF to ZIP - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -3166,7 +3166,7 @@
     "pageCount": 1
   },
   "12118cd51a5d": {
-    "text": "BentoPDF is built on the power of modern web technologies. We primarily use JavaScript libraries like <1>PDF-lib.js</1> and <2>PDFKit.js</2> that are compiled to run efficiently in your browser via WebAssembly. This allows for powerful, server-like processing without your data ever leaving your machine.",
+    "text": "Chawso PDF is built on the power of modern web technologies. We primarily use JavaScript libraries like <1>PDF-lib.js</1> and <2>PDFKit.js</2> that are compiled to run efficiently in your browser via WebAssembly. This allows for powerful, server-like processing without your data ever leaving your machine.",
     "tags": [
       "p"
     ],
@@ -3279,7 +3279,7 @@
     "pageCount": 1
   },
   "12cf30da23b6": {
-    "text": "All operations happen in your browser. Your files never leave your device, never uploaded to servers. Complete privacy guaranteed.",
+    "text": "All operations are designed to happen in your browser. The tools are not built to upload your files to a server for processing.",
     "tags": [
       "p"
     ],
@@ -3345,7 +3345,7 @@
     "pageCount": 1
   },
   "133674ffe5b7": {
-    "text": "WPD to PDF Online Free - WPD to PDF Tool | BentoPDF",
+    "text": "WPD to PDF Online Free - WPD to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -3427,7 +3427,7 @@
     "pageCount": 1
   },
   "13d314b71fd3": {
-    "text": "JPG to PDF Converter Free - Turn Images into a PDF | BentoPDF",
+    "text": "JPG to PDF Converter Free - Turn Images into a PDF | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -3578,7 +3578,7 @@
     "pageCount": 1
   },
   "14f3b8ea6d3e": {
-    "text": "Compress PDF Free Online - Reduce PDF File Size | BentoPDF",
+    "text": "Compress PDF Free Online - Reduce PDF File Size | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -3588,7 +3588,7 @@
     "pageCount": 1
   },
   "15263639f411": {
-    "text": "Convert PDF files to JSON format. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert PDF files to JSON format. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -3629,7 +3629,7 @@
     "pageCount": 1
   },
   "155987ca1543": {
-    "text": "100% free PDF toolkit. Privacy-first, browser-based, no signups. Learn about our mission and values.",
+    "text": "free PDF toolkit. Privacy-first, browser-based, no signups. Learn about our mission and values.",
     "tags": [
       "meta"
     ],
@@ -3669,7 +3669,7 @@
     "pageCount": 1
   },
   "157703c77195": {
-    "text": "Learn how to pub to pdf using BentoPDF",
+    "text": "Learn how to pub to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -3739,7 +3739,7 @@
     "pageCount": 1
   },
   "15e105155f29": {
-    "text": "Strip hidden data from your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Strip hidden data from your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -3840,7 +3840,7 @@
     "pageCount": 1
   },
   "163a83c446ec": {
-    "text": "Free online PDF toolkit with 100+ tools. Merge, split, compress, convert PDFs - 100% browser-based, no signup, unlimited files, privacy-first.",
+    "text": "Free online PDF toolkit with 100+ tools. Merge, split, compress, convert PDFs - browser-based, no signup, unlimited files, privacy-first.",
     "tags": [
       "meta"
     ],
@@ -3850,7 +3850,7 @@
     "pageCount": 1
   },
   "1642e0500660": {
-    "text": "<1>Does the BentoPDF commercial license cover Kura?</1> <2/>",
+    "text": "<1>Does the Chawso PDF commercial license cover Kura?</1> <2/>",
     "tags": [
       "button"
     ],
@@ -3942,7 +3942,7 @@
     "pageCount": 1
   },
   "1708eb212494": {
-    "text": "PDF to Text Online Free - PDF to Text Tool | BentoPDF",
+    "text": "PDF to Text Online Free - PDF to Text Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -4103,7 +4103,7 @@
     "pageCount": 1
   },
   "180755878303": {
-    "text": "No. The viewer, the signature tools, and the save step all run in your browser, so the PDF and your signature image never leave your device.",
+    "text": "No. The viewer, the signature tools, and the save step all run in your browser, so the PDF and your signature image stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -4143,7 +4143,7 @@
     "pageCount": 1
   },
   "182ea00f6ff7": {
-    "text": "Deskew PDF Online Free - Straighten Scanned PDFs | BentoPDF",
+    "text": "Deskew PDF Online Free - Straighten Scanned PDFs | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -4254,7 +4254,7 @@
     "pageCount": 1
   },
   "192138e743e5": {
-    "text": "Learn how to fb2 to pdf using BentoPDF",
+    "text": "Learn how to fb2 to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -4335,7 +4335,7 @@
     "pageCount": 1
   },
   "19b055093fb9": {
-    "text": "Learn how to flatten pdf using BentoPDF",
+    "text": "Learn how to flatten pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -4456,7 +4456,7 @@
     "pageCount": 1
   },
   "1a15291ed6ff": {
-    "text": "Add image stamps to your PDF using the annotation toolbar. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Add image stamps to your PDF using the annotation toolbar. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -4506,7 +4506,7 @@
     "pageCount": 1
   },
   "1a4701cc239e": {
-    "text": "Prepare PDF for AI Online Free - Prepare PDF for AI Tool | BentoPDF",
+    "text": "Prepare PDF for AI Online Free - Prepare PDF for AI Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -4516,7 +4516,7 @@
     "pageCount": 1
   },
   "1a587594e797": {
-    "text": "Excel to PDF - BentoPDF",
+    "text": "Excel to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -4722,7 +4722,7 @@
     "pageCount": 7
   },
   "1b548ba82723": {
-    "text": "No. Each page is rendered and recolored on a canvas in your browser, and the new PDF is assembled there too, so the file never leaves your device. A progress indicator shows which page is being processed.",
+    "text": "No. Each page is rendered and recolored on a canvas in your browser, and the new PDF is assembled there too, so the file stays on your device by design. A progress indicator shows which page is being processed.",
     "tags": [
       "p"
     ],
@@ -4904,7 +4904,7 @@
     "pageCount": 1
   },
   "1c7a756ca817": {
-    "text": "Digital Signature PDF Online Free - Add Cryptographic Signature | BentoPDF",
+    "text": "Digital Signature PDF Online Free - Add Cryptographic Signature | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -4925,7 +4925,7 @@
     "pageCount": 1
   },
   "1cb0005770cc": {
-    "text": "SVG to PDF - BentoPDF",
+    "text": "SVG to PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -4986,7 +4986,7 @@
     "pageCount": 1
   },
   "1d07ea40d34e": {
-    "text": "Click any paragraph and edit it in place with live reflow, fonts, and styling. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Click any paragraph and edit it in place with live reflow, fonts, and styling. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -5018,7 +5018,7 @@
     "pageCount": 1
   },
   "1d20f166bf0e": {
-    "text": "TXT to PDF - BentoPDF",
+    "text": "TXT to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -5161,7 +5161,7 @@
     "pageCount": 2
   },
   "1dac5485f612": {
-    "text": "Learn how to add blank page using BentoPDF",
+    "text": "Learn how to add blank page using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -5181,7 +5181,7 @@
     "pageCount": 1
   },
   "1dd527103673": {
-    "text": "PowerPoint to PDF Converter Free Online - Convert Files | BentoPDF",
+    "text": "PowerPoint to PDF Converter Free Online - Convert Files | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -5241,7 +5241,7 @@
     "pageCount": 1
   },
   "1e32dd57f320": {
-    "text": "Reduce the file size of your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Reduce the file size of your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -5311,7 +5311,7 @@
     "pageCount": 1
   },
   "1eb7efc6f507": {
-    "text": "Compress PDF to 100KB - BentoPDF",
+    "text": "Compress PDF to 100KB - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -5341,7 +5341,7 @@
     "pageCount": 1
   },
   "1f013f9244f5": {
-    "text": "Bookmark - BentoPDF",
+    "text": "Bookmark - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -5361,7 +5361,7 @@
     "pageCount": 1
   },
   "1f1c13816f71": {
-    "text": "Organize PDF Pages Free - Reorder, Delete, Rotate | BentoPDF",
+    "text": "Organize PDF Pages Free - Reorder, Delete, Rotate | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -5482,7 +5482,7 @@
     "pageCount": 1
   },
   "20245ddbd30a": {
-    "text": "Learn how to repair pdf using BentoPDF",
+    "text": "Learn how to repair pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -5572,7 +5572,7 @@
     "pageCount": 1
   },
   "20d5222538e0": {
-    "text": "Repair PDF - BentoPDF",
+    "text": "Repair PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -5593,7 +5593,7 @@
     "pageCount": 1
   },
   "20e92780a9b6": {
-    "text": "Learn how to overlay or underlay pages from one PDF onto another using BentoPDF",
+    "text": "Learn how to overlay or underlay pages from one PDF onto another using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -5706,7 +5706,7 @@
     "pageCount": 2
   },
   "21b7d7744298": {
-    "text": "Extract Attachments Online Free - Extract Attachments Tool | BentoPDF",
+    "text": "Extract Attachments Online Free - Extract Attachments Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -5737,7 +5737,7 @@
     "pageCount": 1
   },
   "21d2b59a7292": {
-    "text": "Word to PDF - BentoPDF",
+    "text": "Word to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -5777,7 +5777,7 @@
     "pageCount": 1
   },
   "21ecbf41a401": {
-    "text": "PDF to JSON Online Free - PDF to JSON Tool | BentoPDF",
+    "text": "PDF to JSON Online Free - PDF to JSON Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -5807,7 +5807,7 @@
     "pageCount": 1
   },
   "21f70ebdd026": {
-    "text": "PDF to Text - Extract Text from PDF Files - BentoPDF",
+    "text": "PDF to Text - Extract Text from PDF Files - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -6072,7 +6072,7 @@
     "pageCount": 1
   },
   "23613a70cfeb": {
-    "text": "View Metadata Online Free - View Metadata Tool | BentoPDF",
+    "text": "View Metadata Online Free - View Metadata Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -6082,7 +6082,7 @@
     "pageCount": 1
   },
   "2366e36aef8f": {
-    "text": "Learn how to add an RFC 3161 document timestamp to PDF using BentoPDF",
+    "text": "Learn how to add an RFC 3161 document timestamp to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -6162,7 +6162,7 @@
     "pageCount": 1
   },
   "23f0ba7e923d": {
-    "text": "No. Each PNG is read, optionally recompressed, and embedded with pdf-lib inside your browser, so screenshots of internal tools or private conversations never leave your device.",
+    "text": "No. Each PNG is read, optionally recompressed, and embedded with pdf-lib inside your browser, so screenshots of internal tools or private conversations stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -6263,7 +6263,7 @@
     "pageCount": 2
   },
   "24d450e815b3": {
-    "text": "About BentoPDF - Privacy-First Free PDF Tools",
+    "text": "About Chawso PDF - Privacy-First Free PDF Tools",
     "tags": [
       "meta"
     ],
@@ -6273,7 +6273,7 @@
     "pageCount": 1
   },
   "24d483ebf984": {
-    "text": "Edit Metadata - BentoPDF",
+    "text": "Edit Metadata - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -6303,7 +6303,7 @@
     "pageCount": 1
   },
   "25297732fd8b": {
-    "text": "Convert OpenDocument Spreadsheet (ODS) files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert OpenDocument Spreadsheet (ODS) files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -6418,7 +6418,7 @@
     "pageCount": 1
   },
   "259290819f34": {
-    "text": "No. Decoding and PDF creation happen in your browser, so private photos never leave your phone or computer.",
+    "text": "No. Decoding and PDF creation happen in your browser, so private photos stay on your phone or computer by design.",
     "tags": [
       "p"
     ],
@@ -6548,7 +6548,7 @@
     "pageCount": 1
   },
   "26480d6fdd4d": {
-    "text": "Learn how to n up pdf using BentoPDF",
+    "text": "Learn how to n up pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -6719,7 +6719,7 @@
     "pageCount": 1
   },
   "2717a1e7b029": {
-    "text": "Add Page Labels Online Free - PDF Page Labels Tool | BentoPDF",
+    "text": "Add Page Labels Online Free - PDF Page Labels Tool | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -6792,7 +6792,7 @@
     "pageCount": 1
   },
   "2776f85a7005": {
-    "text": "Extract all embedded images from your PDF files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract all embedded images from your PDF files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -6902,7 +6902,7 @@
     "pageCount": 1
   },
   "286bb610178c": {
-    "text": "Learn how to wpd to pdf using BentoPDF",
+    "text": "Learn how to wpd to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -6912,7 +6912,7 @@
     "pageCount": 1
   },
   "287c5eda1bac": {
-    "text": "No. The editor runs a PDF engine (PDFium compiled to WebAssembly) inside your browser. The only network requests are for the editor's code and optional font files; the document itself never leaves your device.",
+    "text": "No. The editor runs a PDF engine (PDFium compiled to WebAssembly) inside your browser. The only network requests are for the editor's code and optional font files; the document itself stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -6962,7 +6962,7 @@
     "pageCount": 1
   },
   "28a8fa38ece6": {
-    "text": "WPD to PDF - BentoPDF",
+    "text": "WPD to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -7002,7 +7002,7 @@
     "pageCount": 1
   },
   "28bfa7c559d9": {
-    "text": "Learn how to OCR using BentoPDF",
+    "text": "Learn how to OCR using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -7062,7 +7062,7 @@
     "pageCount": 1
   },
   "2901246c5209": {
-    "text": "404 - Page Not Found | BentoPDF",
+    "text": "404 - Page Not Found | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -7083,7 +7083,7 @@
     "pageCount": 1
   },
   "2913fddea540": {
-    "text": "Add Attachments - BentoPDF",
+    "text": "Add Attachments - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -7103,7 +7103,7 @@
     "pageCount": 1
   },
   "2938928ca482": {
-    "text": "Excel to PDF Converter Free - XLSX to PDF Online | BentoPDF",
+    "text": "Excel to PDF Converter Free - XLSX to PDF Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -7196,7 +7196,7 @@
     "pageCount": 1
   },
   "29d6729e6645": {
-    "text": "Crop PDF Online Free - Trim Margins and Resize Pages | BentoPDF",
+    "text": "Crop PDF Online Free - Trim Margins and Resize Pages | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -7327,7 +7327,7 @@
     "pageCount": 1
   },
   "2b6558e3f79a": {
-    "text": "Page Dimensions Online Free - Page Dimensions Tool | BentoPDF",
+    "text": "Page Dimensions Online Free - Page Dimensions Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -7377,7 +7377,7 @@
     "pageCount": 1
   },
   "2bd9da050752": {
-    "text": "PDF to PDF/A Online Free - PDF to PDF/A Tool | BentoPDF",
+    "text": "PDF to PDF/A Online Free - PDF to PDF/A Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -7467,7 +7467,7 @@
     "pageCount": 1
   },
   "2cc426cd2b33": {
-    "text": "Posterize PDF - Split Pages for Poster Printing - BentoPDF",
+    "text": "Posterize PDF - Split Pages for Poster Printing - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -7537,7 +7537,7 @@
     "pageCount": 1
   },
   "2d3ddb04b330": {
-    "text": "No. The LibreOffice engine reads and renders the document in your browser; the only network transfer is downloading the engine itself. Your file never leaves your device.",
+    "text": "No. The LibreOffice engine reads and renders the document in your browser; the only network transfer is downloading the engine itself. Your file stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -7547,7 +7547,7 @@
     "pageCount": 1
   },
   "2d50e4c42f90": {
-    "text": "ODS to PDF - BentoPDF",
+    "text": "ODS to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -7618,7 +7618,7 @@
     "pageCount": 2
   },
   "2dd52ebabfa9": {
-    "text": "Bookmark online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Bookmark online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -7749,7 +7749,7 @@
     "pageCount": 1
   },
   "2ead52e8b0f8": {
-    "text": "No. The engine runs inside your browser and the .wps file is read and converted on your own computer. Decades-old letters, school papers, and financial records never leave your device.",
+    "text": "No. The engine runs inside your browser and the .wps file is read and converted on your own computer. Decades-old letters, school papers, and financial records stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -7831,7 +7831,7 @@
     "pageCount": 1
   },
   "2f198fa24a53": {
-    "text": "Create a 'dark mode' version of your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a 'dark mode' version of your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -7841,7 +7841,7 @@
     "pageCount": 1
   },
   "2f1ab6b6736e": {
-    "text": "Edit Text in a PDF Free - Rewrite with Live Reflow | BentoPDF",
+    "text": "Edit Text in a PDF Free - Rewrite with Live Reflow | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -7992,7 +7992,7 @@
     "pageCount": 1
   },
   "2feeaa292c89": {
-    "text": "Protect and secure your PDF documents with BentoPDF's comprehensive security tools. Encrypt with passwords, add digital signatures, manage permissions, remove sensitive data, and more. All security operations happen locally in your browser for maximum privacy. No cloud uploads, no data retention - your documents stay completely confidential.",
+    "text": "Protect and secure your PDF documents with Chawso PDF's comprehensive security tools. Encrypt with passwords, add digital signatures, manage permissions, remove sensitive data, and more. All security operations happen locally in your browser for maximum privacy. No cloud uploads, no data retention - your documents stay completely confidential.",
     "tags": [
       "p"
     ],
@@ -8042,7 +8042,7 @@
     "pageCount": 1
   },
   "30352de92d70": {
-    "text": "Convert OpenDocument Presentation (ODP) files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert OpenDocument Presentation (ODP) files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -8072,7 +8072,7 @@
     "pageCount": 1
   },
   "30ac0fe4ed41": {
-    "text": "PSD to PDF Online Free - PSD to PDF Tool | BentoPDF",
+    "text": "PSD to PDF Online Free - PSD to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -8152,7 +8152,7 @@
     "pageCount": 1
   },
   "31052565fd96": {
-    "text": "Combine Single Page - BentoPDF",
+    "text": "Combine Single Page - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -8355,7 +8355,7 @@
     "pageCount": 1
   },
   "322a1c68f84a": {
-    "text": "Txt To Pdf online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Txt To Pdf online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -8375,7 +8375,7 @@
     "pageCount": 1
   },
   "325209b969e5": {
-    "text": "PDF Merge &amp; Split - Free Online PDF Merge &amp; Split Tools | BentoPDF",
+    "text": "PDF Merge &amp; Split - Free Online PDF Merge &amp; Split Tools | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -8537,7 +8537,7 @@
     "pageCount": 1
   },
   "336dbc0ce40e": {
-    "text": "Learn how to csv to pdf using BentoPDF",
+    "text": "Learn how to csv to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -8577,7 +8577,7 @@
     "pageCount": 1
   },
   "33a4f2679d89": {
-    "text": "Remove Annotations - BentoPDF",
+    "text": "Remove Annotations - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -8598,7 +8598,7 @@
     "pageCount": 1
   },
   "33b8d94aed27": {
-    "text": "Convert PDF text and tables to Markdown format. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert PDF text and tables to Markdown format. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -8608,7 +8608,7 @@
     "pageCount": 1
   },
   "33bbdbd302c2": {
-    "text": "Convert JSON files to PDF format. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert JSON files to PDF format. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -8670,7 +8670,7 @@
     "pageCount": 1
   },
   "3421e47311b1": {
-    "text": "Add text to the top and bottom of pages. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Add text to the top and bottom of pages. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -8702,7 +8702,7 @@
     "pageCount": 107
   },
   "3442fbc9c2f6": {
-    "text": "No. Rendering, noise, blur, and rotation are all applied on a canvas in your browser, and the output PDF is assembled locally, so the file never leaves your computer.",
+    "text": "No. Rendering, noise, blur, and rotation are all applied on a canvas in your browser, and the output PDF is assembled locally, so the file stays on your computer by design.",
     "tags": [
       "p"
     ],
@@ -8742,7 +8742,7 @@
     "pageCount": 1
   },
   "34967357cb79": {
-    "text": "XML to PDF - BentoPDF",
+    "text": "XML to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -8805,7 +8805,7 @@
     "pageCount": 1
   },
   "351b4a241662": {
-    "text": "XPS to PDF - Convert XPS/OXPS to PDF - BentoPDF",
+    "text": "XPS to PDF - Convert XPS/OXPS to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -8885,7 +8885,7 @@
     "pageCount": 1
   },
   "358407e51e0c": {
-    "text": "Compare two PDFs side by side. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Compare two PDFs side by side. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -9015,7 +9015,7 @@
     "pageCount": 1
   },
   "363cdefbf284": {
-    "text": "Image to PDF Online Free - Image to PDF Tool | BentoPDF",
+    "text": "Image to PDF Online Free - Image to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -9099,7 +9099,7 @@
     "pageCount": 1
   },
   "369f491cc11d": {
-    "text": "Contact BentoPDF - Get in Touch | Support",
+    "text": "Contact Chawso PDF - Get in Touch | Support",
     "tags": [
       "ld",
       "meta",
@@ -9111,7 +9111,7 @@
     "pageCount": 1
   },
   "36b42e5284f2": {
-    "text": "No. The LibreOffice engine runs inside your browser through WebAssembly, so the workbook is opened, rendered, and saved as a PDF on your own device. Financial data and personal records never leave your computer.",
+    "text": "No. The LibreOffice engine runs inside your browser through WebAssembly, so the workbook is opened, rendered, and saved as a PDF on your own device. Financial data and personal records stay on your computer by design.",
     "tags": [
       "p"
     ],
@@ -9151,7 +9151,7 @@
     "pageCount": 1
   },
   "36d8da6a8b4c": {
-    "text": "Validate PDF Signature - BentoPDF",
+    "text": "Validate PDF Signature - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -9211,7 +9211,7 @@
     "pageCount": 1
   },
   "371125ae6da6": {
-    "text": "Learn how to background color using BentoPDF",
+    "text": "Learn how to background color using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -9281,7 +9281,7 @@
     "pageCount": 1
   },
   "379ef5ef8207": {
-    "text": "Learn how to pdf to pdfa using BentoPDF",
+    "text": "Learn how to pdf to pdfa using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -9301,7 +9301,7 @@
     "pageCount": 1
   },
   "37bab10975d9": {
-    "text": "Learn how to convert PowerPoint to PDF using BentoPDF",
+    "text": "Learn how to convert PowerPoint to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -9371,7 +9371,7 @@
     "pageCount": 1
   },
   "3800cfd71e1f": {
-    "text": "Most often the TSA didn't respond or your connection dropped, so try another server from the list. On self-hosted copies of BentoPDF served over HTTPS, the servers that only offer HTTP endpoints need a CORS proxy configured at build time; FreeTSA uses HTTPS and works without one.",
+    "text": "Most often the TSA didn't respond or your connection dropped, so try another server from the list. On self-hosted copies of Chawso PDF served over HTTPS, the servers that only offer HTTP endpoints need a CORS proxy configured at build time; FreeTSA uses HTTPS and works without one.",
     "tags": [
       "p"
     ],
@@ -9444,7 +9444,7 @@
     "pageCount": 1
   },
   "38632ad4f3a6": {
-    "text": "Rotate Custom Online Free - Rotate Custom Tool | BentoPDF",
+    "text": "Rotate Custom Online Free - Rotate Custom Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -9584,7 +9584,7 @@
     "pageCount": 1
   },
   "393965fd9cb0": {
-    "text": "EPUB to PDF Online Free - EPUB to PDF Tool | BentoPDF",
+    "text": "EPUB to PDF Online Free - EPUB to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -9644,7 +9644,7 @@
     "pageCount": 1
   },
   "39d3366f95d2": {
-    "text": "PDF to CSV - BentoPDF",
+    "text": "PDF to CSV - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -9665,7 +9665,7 @@
     "pageCount": 1
   },
   "39e0c0526e6c": {
-    "text": "Learn how to invert colors using BentoPDF",
+    "text": "Learn how to invert colors using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -9685,7 +9685,7 @@
     "pageCount": 1
   },
   "3a480c7f2f79": {
-    "text": "PDF to Excel Converter Free - PDF to XLSX Online | BentoPDF",
+    "text": "PDF to Excel Converter Free - PDF to XLSX Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -9727,7 +9727,7 @@
     "pageCount": 1
   },
   "3a5a417c77d4": {
-    "text": "No. The annotations are removed with pdf-lib in your browser and the cleaned copy downloads under the original filename, so a heavily annotated contract never leaves your machine.",
+    "text": "No. The annotations are removed with pdf-lib in your browser and the cleaned copy downloads under the original filename, so a heavily annotated contract stays on your machine by design.",
     "tags": [
       "p"
     ],
@@ -9787,7 +9787,7 @@
     "pageCount": 1
   },
   "3a9ac7766ec0": {
-    "text": "Sanitize PDF - BentoPDF",
+    "text": "Sanitize PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -9857,7 +9857,7 @@
     "pageCount": 1
   },
   "3ad4df5bc58d": {
-    "text": "OCR PDF Free Online - Make Scanned PDFs Searchable | BentoPDF",
+    "text": "OCR PDF Free Online - Make Scanned PDFs Searchable | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -9908,7 +9908,7 @@
     "pageCount": 1
   },
   "3b08aeefb384": {
-    "text": "Remove Annotations Online Free - Remove Annotations Tool | BentoPDF",
+    "text": "Remove Annotations Online Free - Remove Annotations Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -10010,7 +10010,7 @@
     "pageCount": 1
   },
   "3b8a33a98c0b": {
-    "text": "Compress PDF to 500KB - BentoPDF",
+    "text": "Compress PDF to 500KB - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -10092,7 +10092,7 @@
     "pageCount": 1
   },
   "3c3fe65324e8": {
-    "text": "Convert OpenDocument Text files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert OpenDocument Text files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -10112,7 +10112,7 @@
     "pageCount": 1
   },
   "3c7717c889a4": {
-    "text": "Compress PDF to 100KB Free - BentoPDF",
+    "text": "Compress PDF to 100KB Free - Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -10173,7 +10173,7 @@
     "pageCount": 1
   },
   "3ceb5b2a6daf": {
-    "text": "Enough about me. Here's more about BentoPDF.",
+    "text": "Enough about me. Here's more about Chawso PDF.",
     "tags": [
       "p"
     ],
@@ -10223,7 +10223,7 @@
     "pageCount": 1
   },
   "3d3f406a8060": {
-    "text": "Convert a PDF into a CBZ (Comic Book Archive) file for comic readers. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert a PDF into a CBZ (Comic Book Archive) file for comic readers. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -10306,7 +10306,7 @@
     "pageCount": 1
   },
   "3e22c48541df": {
-    "text": "Reverse Pages - BentoPDF",
+    "text": "Reverse Pages - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -10316,7 +10316,7 @@
     "pageCount": 1
   },
   "3e30e9176d0b": {
-    "text": "Crop PDF - BentoPDF",
+    "text": "Crop PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -10357,7 +10357,7 @@
     "pageCount": 1
   },
   "3e5e7642ec70": {
-    "text": "Learn how to extract attachments using BentoPDF",
+    "text": "Learn how to extract attachments using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -10367,7 +10367,7 @@
     "pageCount": 1
   },
   "3ea67ef2fe48": {
-    "text": "Invert Colors Online Free - Invert Colors Tool | BentoPDF",
+    "text": "Invert Colors Online Free - Invert Colors Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -10377,7 +10377,7 @@
     "pageCount": 1
   },
   "3ebb1a460fda": {
-    "text": "PDF Form Filler - BentoPDF",
+    "text": "PDF Form Filler - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -10397,7 +10397,7 @@
     "pageCount": 1
   },
   "3ecc7d6e0f65": {
-    "text": "Learn how to add stamps using BentoPDF",
+    "text": "Learn how to add stamps using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -10610,7 +10610,7 @@
     "pageCount": 1
   },
   "3faf73da1f74": {
-    "text": "Compress PDF to 200KB Free Online | BentoPDF",
+    "text": "Compress PDF to 200KB Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -10763,7 +10763,7 @@
     "pageCount": 1
   },
   "40c3ba578ae4": {
-    "text": "Convert email files (EML, MSG) to PDF format. Supports Outlook exports and standard email formats. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert email files (EML, MSG) to PDF format. Supports Outlook exports and standard email formats. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -10783,7 +10783,7 @@
     "pageCount": 1
   },
   "40d68ec8f5a7": {
-    "text": "Edit Attachments - BentoPDF",
+    "text": "Edit Attachments - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -10794,7 +10794,7 @@
     "pageCount": 1
   },
   "40e8714443b8": {
-    "text": "BMP to PDF Online Free - BMP to PDF Tool | BentoPDF",
+    "text": "BMP to PDF Online Free - BMP to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -10834,7 +10834,7 @@
     "pageCount": 1
   },
   "414064256599": {
-    "text": "TIFF to PDF Online Free - TIFF to PDF Tool | BentoPDF",
+    "text": "TIFF to PDF Online Free - TIFF to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -10884,7 +10884,7 @@
     "pageCount": 1
   },
   "418622a27421": {
-    "text": "Learn how to convert PDF to Word using BentoPDF",
+    "text": "Learn how to convert PDF to Word using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -10996,7 +10996,7 @@
     "pageCount": 2
   },
   "420c70b22061": {
-    "text": "Flip the order of all pages in your document. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Flip the order of all pages in your document. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -11048,7 +11048,7 @@
     "pageCount": 1
   },
   "42233e9acd63": {
-    "text": "Table Of Contents - BentoPDF",
+    "text": "Table Of Contents - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -11068,7 +11068,7 @@
     "pageCount": 1
   },
   "423946468ee9": {
-    "text": "Compress PDF to 1MB - BentoPDF",
+    "text": "Compress PDF to 1MB - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -11109,7 +11109,7 @@
     "pageCount": 1
   },
   "42828d3d73be": {
-    "text": "Merge PDFs by alternating pages from each PDF. Preserves Bookmarks. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Merge PDFs by alternating pages from each PDF. Preserves Bookmarks. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -11190,7 +11190,7 @@
     "pageCount": 1
   },
   "4346b20a648a": {
-    "text": "Convert Word documents (DOCX, DOC, ODT, RTF) to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert Word documents (DOCX, DOC, ODT, RTF) to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -11272,7 +11272,7 @@
     "pageCount": 1
   },
   "43cac7fbefa7": {
-    "text": "Add Stamps Online Free - Add Stamps Tool | BentoPDF",
+    "text": "Add Stamps Online Free - Add Stamps Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -11303,7 +11303,7 @@
     "pageCount": 2
   },
   "43d2c5cb1601": {
-    "text": "<1>Absolutely.</1> This is the most important feature of BentoPDF. All processing happens 100% locally in your web browser. Your files are never uploaded to any server, which means we, or anyone else, can never see them. Your privacy is guaranteed.",
+    "text": "<1>Absolutely.</1> All processing is designed to happen locally in your web browser. The tools are not built to upload your files to a server for processing, so the service is not intended to see them.",
     "tags": [
       "p"
     ],
@@ -11345,7 +11345,7 @@
     "pageCount": 7
   },
   "43fcfdb2968a": {
-    "text": "Learn how to change permissions using BentoPDF",
+    "text": "Learn how to change permissions using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -11375,7 +11375,7 @@
     "pageCount": 1
   },
   "442a3aeef9a9": {
-    "text": "Split a large page into multiple smaller pages. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Split a large page into multiple smaller pages. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -11577,7 +11577,7 @@
     "pageCount": 1
   },
   "45a2e64ed004": {
-    "text": "Convert your PDFs to and from 40+ different file formats with BentoPDF's comprehensive conversion tools. Transform PDFs to Word, Excel, images, text, and many other formats - or convert files into PDFs. All conversions happen locally in your browser, ensuring complete privacy. No file uploads, no cloud processing, completely free.",
+    "text": "Convert your PDFs to and from 40+ different file formats with Chawso PDF's comprehensive conversion tools. Transform PDFs to Word, Excel, images, text, and many other formats - or convert files into PDFs. All conversions happen locally in your browser, ensuring complete privacy. No file uploads, no cloud processing, completely free.",
     "tags": [
       "p"
     ],
@@ -11619,7 +11619,7 @@
     "pageCount": 1
   },
   "45e87702488c": {
-    "text": "PDF to ZIP Online Free - PDF to ZIP Tool | BentoPDF",
+    "text": "PDF to ZIP Online Free - PDF to ZIP Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -11639,7 +11639,7 @@
     "pageCount": 1
   },
   "4616f2c2cfc6": {
-    "text": "Learn how to prepare pdf for ai using BentoPDF",
+    "text": "Learn how to prepare pdf for ai using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -11689,7 +11689,7 @@
     "pageCount": 1
   },
   "466998519dc4": {
-    "text": "Bates Numbering Online Free | BentoPDF",
+    "text": "Bates Numbering Online Free | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -11904,7 +11904,7 @@
     "pageCount": 1
   },
   "47e097db5042": {
-    "text": "Convert PDF to image-based PDF. Flatten layers and remove selectable text. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert PDF to image-based PDF. Flatten layers and remove selectable text. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -11965,7 +11965,7 @@
     "pageCount": 1
   },
   "48749b5a56a5": {
-    "text": "Learn how to page numbers using BentoPDF",
+    "text": "Learn how to page numbers using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -12015,7 +12015,7 @@
     "pageCount": 1
   },
   "489af1b41da9": {
-    "text": "Convert Apple Pages documents to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert Apple Pages documents to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -12235,7 +12235,7 @@
     "pageCount": 1
   },
   "4a2511d28bcb": {
-    "text": "Combine multiple PDFs into one file. Preserves Bookmarks. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Combine multiple PDFs into one file. Preserves Bookmarks. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -12245,7 +12245,7 @@
     "pageCount": 1
   },
   "4a2e4085755b": {
-    "text": "PDF to PDF/A - Convert PDF for Long-term Archiving - BentoPDF",
+    "text": "PDF to PDF/A - Convert PDF for Long-term Archiving - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -12325,7 +12325,7 @@
     "pageCount": 1
   },
   "4aa30669032a": {
-    "text": "Sign PDF - BentoPDF",
+    "text": "Sign PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -12425,7 +12425,7 @@
     "pageCount": 1
   },
   "4b16f7c1adea": {
-    "text": "Scanner Effect - BentoPDF",
+    "text": "Scanner Effect - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -12678,7 +12678,7 @@
     "pageCount": 1
   },
   "4c311d6e92fb": {
-    "text": "Add Header &amp; Footer - BentoPDF",
+    "text": "Add Header &amp; Footer - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -12730,7 +12730,7 @@
     "pageCount": 7
   },
   "4c6d43d7fa5c": {
-    "text": "Combine multiple PDF files into one document or split large PDFs into smaller files with BentoPDF's merge and split tools. Reorder pages, extract specific sections, alternate merge documents, and organize your PDFs exactly how you need them. Browser-based processing ensures your files stay private. No limits on file count or size.",
+    "text": "Combine multiple PDF files into one document or split large PDFs into smaller files with Chawso PDF's merge and split tools. Reorder pages, extract specific sections, alternate merge documents, and organize your PDFs exactly how you need them. Browser-based processing ensures your files stay private. No limits on file count or size.",
     "tags": [
       "p"
     ],
@@ -12770,7 +12770,7 @@
     "pageCount": 1
   },
   "4c9bf5dd4922": {
-    "text": "Hyper Compress is written and owned by BentoPDF, and every third-party component it bundles, including PDFium, qpdf, jpegli and Leptonica, is permissively licensed. No copyleft surprises in your supply chain.",
+    "text": "Hyper Compress is written and owned by Chawso PDF, and every third-party component it bundles, including PDFium, qpdf, jpegli and Leptonica, is permissively licensed. No copyleft surprises in your supply chain.",
     "tags": [
       "p"
     ],
@@ -12811,7 +12811,7 @@
     "pageCount": 1
   },
   "4cccd07b8172": {
-    "text": "Add Stamps - BentoPDF",
+    "text": "Add Stamps - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -12872,7 +12872,7 @@
     "pageCount": 1
   },
   "4d00418b63b1": {
-    "text": "PDF Workflow Builder - BentoPDF",
+    "text": "PDF Workflow Builder - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -12902,7 +12902,7 @@
     "pageCount": 1
   },
   "4d4150df30e6": {
-    "text": "Combine to Single Page - BentoPDF",
+    "text": "Combine to Single Page - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -12912,7 +12912,7 @@
     "pageCount": 1
   },
   "4d54d1f2997d": {
-    "text": "WPS to PDF - Convert WPS Office to PDF - BentoPDF",
+    "text": "WPS to PDF - Convert WPS Office to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -12922,7 +12922,7 @@
     "pageCount": 1
   },
   "4d5fe9dcecec": {
-    "text": "Compress PDF to 500KB Free Online | BentoPDF",
+    "text": "Compress PDF to 500KB Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -12943,7 +12943,7 @@
     "pageCount": 1
   },
   "4d7aa9cba255": {
-    "text": "Learn how to combine single page using BentoPDF",
+    "text": "Learn how to combine single page using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -12953,7 +12953,7 @@
     "pageCount": 1
   },
   "4d7c9cc2599b": {
-    "text": "Optimize PDF for fast web viewing. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Optimize PDF for fast web viewing. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -13083,7 +13083,7 @@
     "pageCount": 1
   },
   "4e086140f05e": {
-    "text": "Pages to PDF Online Free - Pages to PDF Tool | BentoPDF",
+    "text": "Pages to PDF Online Free - Pages to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -13195,7 +13195,7 @@
     "pageCount": 2
   },
   "4e7d8648ed19": {
-    "text": "Extract tables from PDF files and export as CSV, JSON, or Markdown. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract tables from PDF files and export as CSV, JSON, or Markdown. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -13276,7 +13276,7 @@
     "pageCount": 1
   },
   "4efb00e4caf7": {
-    "text": "Learn how to form filler using BentoPDF",
+    "text": "Learn how to form filler using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -13356,7 +13356,7 @@
     "pageCount": 1
   },
   "4f5bff293127": {
-    "text": "Watermark PDF Free - Add Text or Image Watermarks | BentoPDF",
+    "text": "Watermark PDF Free - Add Text or Image Watermarks | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -13367,7 +13367,7 @@
     "pageCount": 1
   },
   "4f5e21465c7c": {
-    "text": "Learn how to linearize pdf using BentoPDF",
+    "text": "Learn how to linearize pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -13447,7 +13447,7 @@
     "pageCount": 1
   },
   "4fd7c85a9e3b": {
-    "text": "Add Blank Page Online Free - Add Blank Page Tool | BentoPDF",
+    "text": "Add Blank Page Online Free - Add Blank Page Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -13517,7 +13517,7 @@
     "pageCount": 1
   },
   "5018ba0f7a61": {
-    "text": "I honestly never thought BentoPDF would grow into what it is today. It started as a little tool I made for myself, and somehow it turned into a much bigger project used by people all over the world.",
+    "text": "I honestly never thought Chawso PDF would grow into what it is today. It started as a little tool I made for myself, and somehow it turned into a much bigger project used by people all over the world.",
     "tags": [
       "p"
     ],
@@ -13558,7 +13558,7 @@
     "pageCount": 1
   },
   "506f2c461fee": {
-    "text": "Learn how to encrypt using BentoPDF",
+    "text": "Learn how to encrypt using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -13589,7 +13589,7 @@
     "pageCount": 1
   },
   "5081774f76fe": {
-    "text": "PNG to PDF Converter Free Online | BentoPDF",
+    "text": "PNG to PDF Converter Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -13680,7 +13680,7 @@
     "pageCount": 1
   },
   "5158fdc7866b": {
-    "text": "Markdown to PDF - BentoPDF",
+    "text": "Markdown to PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -13691,7 +13691,7 @@
     "pageCount": 1
   },
   "515a08bf096b": {
-    "text": "Learn about BentoPDF - 100% free, privacy-first PDF toolkit. All tools run in your browser, no uploads, no signup. Fast, secure, and forever free.",
+    "text": "Learn about Chawso PDF - free, privacy-first PDF toolkit. All tools are designed to run in your browser - no signup. Fast, secure, and forever free.",
     "tags": [
       "meta"
     ],
@@ -13843,7 +13843,7 @@
     "pageCount": 1
   },
   "523115de73ac": {
-    "text": "ODT to PDF Online Free - ODT to PDF Tool | BentoPDF",
+    "text": "ODT to PDF Online Free - ODT to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -14015,7 +14015,7 @@
     "pageCount": 1
   },
   "534047568947": {
-    "text": "PDF Converter - Free Online PDF Converter Tools | BentoPDF",
+    "text": "PDF Converter - Free Online PDF Converter Tools | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -14046,7 +14046,7 @@
     "pageCount": 1
   },
   "5360383e47ae": {
-    "text": "Timestamp PDF - BentoPDF",
+    "text": "Timestamp PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14066,7 +14066,7 @@
     "pageCount": 1
   },
   "5382562f7442": {
-    "text": "No. The LibreOffice engine is downloaded to your browser and runs there; the presentation is opened and converted on your own machine. Confidential pitch decks and internal reviews never leave your device.",
+    "text": "No. The LibreOffice engine is downloaded to your browser and runs there; the presentation is opened and converted on your own machine. Confidential pitch decks and internal reviews stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -14137,7 +14137,7 @@
     "pageCount": 1
   },
   "53bbdbbb48b7": {
-    "text": "WebP to PDF - BentoPDF",
+    "text": "WebP to PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -14178,7 +14178,7 @@
     "pageCount": 1
   },
   "53f530ab57a2": {
-    "text": "PDF to Text - BentoPDF",
+    "text": "PDF to Text - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14198,7 +14198,7 @@
     "pageCount": 1
   },
   "5400ab57a856": {
-    "text": "Alternate &amp; Mix PDF Pages - BentoPDF",
+    "text": "Alternate &amp; Mix PDF Pages - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -14208,7 +14208,7 @@
     "pageCount": 1
   },
   "540888a9d7f3": {
-    "text": "Learn how to extract images using BentoPDF",
+    "text": "Learn how to extract images using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14218,7 +14218,7 @@
     "pageCount": 1
   },
   "54154e700018": {
-    "text": "Compress PDF to 500KB Free - BentoPDF",
+    "text": "Compress PDF to 500KB Free - Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -14268,7 +14268,7 @@
     "pageCount": 1
   },
   "54638cf3e760": {
-    "text": "Advanced Features Settings - Configure WASM Modules | BentoPDF",
+    "text": "Advanced Features Settings - Configure WASM Modules | Chawso PDF",
     "tags": [
       "title"
     ],
@@ -14349,7 +14349,7 @@
     "pageCount": 1
   },
   "54ec871278db": {
-    "text": "No. The PDF rendering and the OpenCV analysis both run in your browser through WebAssembly. The engine is downloaded the first time you use it, but your documents never leave your computer.",
+    "text": "No. The PDF rendering and the OpenCV analysis both run in your browser through WebAssembly. The engine is downloaded the first time you use it, but your documents stay on your computer by design.",
     "tags": [
       "p"
     ],
@@ -14369,7 +14369,7 @@
     "pageCount": 1
   },
   "54fa58bc87b6": {
-    "text": "Learn how to remove blank pages using BentoPDF",
+    "text": "Learn how to remove blank pages using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14419,7 +14419,7 @@
     "pageCount": 1
   },
   "5513cf1e867d": {
-    "text": "Set or change user permissions on a PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Set or change user permissions on a PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -14442,7 +14442,7 @@
     "pageCount": 8
   },
   "552487bb8d80": {
-    "text": "Create a PDF from one or more WebP images. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a PDF from one or more WebP images. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -14452,7 +14452,7 @@
     "pageCount": 1
   },
   "55278ce2e095": {
-    "text": "Convert each PDF page into a BMP image. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert each PDF page into a BMP image. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -14512,7 +14512,7 @@
     "pageCount": 1
   },
   "5571cd0acdea": {
-    "text": "Delete Pages - BentoPDF",
+    "text": "Delete Pages - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14552,7 +14552,7 @@
     "pageCount": 1
   },
   "55adbf31c510": {
-    "text": "Learn how to make a PDF look scanned using BentoPDF",
+    "text": "Learn how to make a PDF look scanned using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14572,7 +14572,7 @@
     "pageCount": 1
   },
   "560f38d6b52d": {
-    "text": "Extract Tables - BentoPDF",
+    "text": "Extract Tables - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14592,7 +14592,7 @@
     "pageCount": 1
   },
   "5646ed42da23": {
-    "text": "CBZ to PDF Online Free - CBZ to PDF Tool | BentoPDF",
+    "text": "CBZ to PDF Online Free - CBZ to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -14644,7 +14644,7 @@
     "pageCount": 1
   },
   "5674c9d2d6eb": {
-    "text": "No. The files are combined inside your browser by the CoherentPDF WebAssembly module and the merged PDF is written to your downloads folder, so contracts and statements never leave your machine.",
+    "text": "No. The files are combined inside your browser by the CoherentPDF WebAssembly module and the merged PDF is written to your downloads folder, so contracts and statements stay on your machine by design.",
     "tags": [
       "p"
     ],
@@ -14676,7 +14676,7 @@
     "pageCount": 1
   },
   "5694974a1ee0": {
-    "text": "Encrypt PDF - BentoPDF",
+    "text": "Encrypt PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14699,7 +14699,7 @@
     "pageCount": 7
   },
   "569ead8f5f88": {
-    "text": "Convert CSV spreadsheet files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert CSV spreadsheet files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -14762,7 +14762,7 @@
     "pageCount": 1
   },
   "56f8ea79a40b": {
-    "text": "Divide pages horizontally or vertically. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Divide pages horizontally or vertically. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -14865,7 +14865,7 @@
     "pageCount": 1
   },
   "5783f72d7883": {
-    "text": "Compress PDF - BentoPDF",
+    "text": "Compress PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -14906,7 +14906,7 @@
     "pageCount": 2
   },
   "5812283ce762": {
-    "text": "Learn how to mobi to pdf using BentoPDF",
+    "text": "Learn how to mobi to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -15001,7 +15001,7 @@
     "pageCount": 2
   },
   "589b5ef53614": {
-    "text": "Convert Rich Text Format documents to PDF. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert Rich Text Format documents to PDF. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -15011,7 +15011,7 @@
     "pageCount": 1
   },
   "58afc8e048c9": {
-    "text": "Merge PDF Files Free Online - Combine Multiple PDFs | BentoPDF",
+    "text": "Merge PDF Files Free Online - Combine Multiple PDFs | Chawso PDF",
     "tags": [
       "title"
     ],
@@ -15052,7 +15052,7 @@
     "pageCount": 2
   },
   "58bf1d2d9f66": {
-    "text": "Pdf To Docx online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Pdf To Docx online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -15105,7 +15105,7 @@
     "pageCount": 1
   },
   "58f2ab3e67b8": {
-    "text": "Form Creator - BentoPDF",
+    "text": "Form Creator - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -15185,7 +15185,7 @@
     "pageCount": 1
   },
   "59c538ae7500": {
-    "text": "Learn how to sign using BentoPDF",
+    "text": "Learn how to sign using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -15296,7 +15296,7 @@
     "pageCount": 1
   },
   "5aa9791ab395": {
-    "text": "Convert WPS Office documents to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert WPS Office documents to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -15316,7 +15316,7 @@
     "pageCount": 1
   },
   "5ab0ac22638e": {
-    "text": "PDF to JPG Converter Free - Convert PDF Pages to Images | BentoPDF",
+    "text": "PDF to JPG Converter Free - Convert PDF Pages to Images | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -15387,7 +15387,7 @@
     "pageCount": 1
   },
   "5ae1f25cf094": {
-    "text": "Add Watermark - BentoPDF",
+    "text": "Add Watermark - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -15397,7 +15397,7 @@
     "pageCount": 1
   },
   "5aeca93135f1": {
-    "text": "No. The message is parsed and rendered entirely in your browser, and no remote images, scripts, or stylesheets referenced by the email are fetched. Open-tracking pixels never fire, and the email's contents never leave your device.",
+    "text": "No. The message is parsed and rendered entirely in your browser, and no remote images, scripts, or stylesheets referenced by the email are fetched. Open-tracking pixels never fire, and the email's contents stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -15478,7 +15478,7 @@
     "pageCount": 1
   },
   "5b8823da333f": {
-    "text": "Sanitize PDF - Remove Sensitive Content - BentoPDF",
+    "text": "Sanitize PDF - Remove Sensitive Content - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -15611,7 +15611,7 @@
     "pageCount": 1
   },
   "5c566b4dc92d": {
-    "text": "FB2 to PDF - BentoPDF",
+    "text": "FB2 to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -15682,7 +15682,7 @@
     "pageCount": 1
   },
   "5c96e575e3b9": {
-    "text": "Embed one or more files into your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Embed one or more files into your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -15702,7 +15702,7 @@
     "pageCount": 1
   },
   "5cb21bdee82c": {
-    "text": "PDF to BMP Online Free - PDF to BMP Tool | BentoPDF",
+    "text": "PDF to BMP Online Free - PDF to BMP Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -15793,7 +15793,7 @@
     "pageCount": 1
   },
   "5d6f048c87d2": {
-    "text": "PDF to Word Converter Free - PDF to DOCX Online | BentoPDF",
+    "text": "PDF to Word Converter Free - PDF to DOCX Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -15854,7 +15854,7 @@
     "pageCount": 1
   },
   "5de8961d8c35": {
-    "text": "Markdown to PDF Online Free - Markdown to PDF Tool | BentoPDF",
+    "text": "Markdown to PDF Online Free - Markdown to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -15985,7 +15985,7 @@
     "pageCount": 1
   },
   "5eaedb85e17a": {
-    "text": "Text Color online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Text Color online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -16055,7 +16055,7 @@
     "pageCount": 1
   },
   "5f338dffd799": {
-    "text": "PDF to CBZ - BentoPDF",
+    "text": "PDF to CBZ - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16085,7 +16085,7 @@
     "pageCount": 1
   },
   "5f53f064df74": {
-    "text": "Learn how to odt to pdf using BentoPDF",
+    "text": "Learn how to odt to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16106,7 +16106,7 @@
     "pageCount": 2
   },
   "5f6343b4c0d3": {
-    "text": "No. The bookmark outline is read and the TOC page is typeset by a cpdf engine running as WebAssembly in a background thread of your browser, and the updated file is downloaded from there. The document never leaves your device.",
+    "text": "No. The bookmark outline is read and the TOC page is typeset by a cpdf engine running as WebAssembly in a background thread of your browser, and the updated file is downloaded from there. The document stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -16116,7 +16116,7 @@
     "pageCount": 1
   },
   "5f67c2671e17": {
-    "text": "Is BentoPDF really free? What's the catch?",
+    "text": "Is Chawso PDF really free? What's the catch?",
     "tags": [
       "h3"
     ],
@@ -16178,7 +16178,7 @@
     "pageCount": 1
   },
   "5fb2c28fedb1": {
-    "text": "Learn how to crop pdf using BentoPDF",
+    "text": "Learn how to crop pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16228,7 +16228,7 @@
     "pageCount": 1
   },
   "5ff232fdc8ca": {
-    "text": "ODS to PDF - Convert OpenDocument Spreadsheet to PDF - BentoPDF",
+    "text": "ODS to PDF - Convert OpenDocument Spreadsheet to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -16359,7 +16359,7 @@
     "pageCount": 1
   },
   "607d533f3ca9": {
-    "text": "Do you track my activity on BentoPDF?",
+    "text": "Do you track my activity on Chawso PDF?",
     "tags": [
       "h3"
     ],
@@ -16369,7 +16369,7 @@
     "pageCount": 1
   },
   "6088c9363142": {
-    "text": "Merge PDF Free - Combine Multiple PDF Files | BentoPDF",
+    "text": "Merge PDF Free - Combine Multiple PDF Files | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -16409,7 +16409,7 @@
     "pageCount": 1
   },
   "60c1d1d8fefd": {
-    "text": "WPD to PDF - Convert WordPerfect to PDF - BentoPDF",
+    "text": "WPD to PDF - Convert WordPerfect to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -16429,7 +16429,7 @@
     "pageCount": 1
   },
   "60dca8102b90": {
-    "text": "No. The PDF is generated by a PDF engine running in your browser, so notes, logs, or credentials pasted into the editor never leave your device. The engine itself is downloaded on first use, which is why the first conversion pauses briefly.",
+    "text": "No. The PDF is generated by a PDF engine running in your browser, so notes, logs, or credentials pasted into the editor stay on your device by design. The engine itself is downloaded on first use, which is why the first conversion pauses briefly.",
     "tags": [
       "p"
     ],
@@ -16459,7 +16459,7 @@
     "pageCount": 1
   },
   "612123764154": {
-    "text": "Learn how to txt to pdf using BentoPDF",
+    "text": "Learn how to txt to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16541,7 +16541,7 @@
     "pageCount": 1
   },
   "61a576c1d604": {
-    "text": "No. BentoPDF does not track you at all. We do not use cookies, analytics, or any tracking scripts, not even on the live website at bentopdf.com. We never know who you are or what you do with the tools.",
+    "text": "Chawso PDF does not require an account, and the site is designed to operate without analytics, advertising, or tracking scripts. Like any website, the hosting and content-delivery providers that serve the pages receive standard connection metadata such as your IP address and request URLs; see the privacy policy for details.",
     "tags": [
       "p"
     ],
@@ -16671,7 +16671,7 @@
     "pageCount": 1
   },
   "625e35ab068f": {
-    "text": "Learn how to view metadata using BentoPDF",
+    "text": "Learn how to view metadata using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16732,7 +16732,7 @@
     "pageCount": 1
   },
   "62b56308e31a": {
-    "text": "100% Privacy-First",
+    "text": "Privacy-First",
     "tags": [
       "h3"
     ],
@@ -16850,7 +16850,7 @@
     "pageCount": 2
   },
   "63c2685ab339": {
-    "text": "Fix Page Size - BentoPDF",
+    "text": "Fix Page Size - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16902,7 +16902,7 @@
     "pageCount": 1
   },
   "64336f3f4512": {
-    "text": "Learn how to remove annotations using BentoPDF",
+    "text": "Learn how to remove annotations using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16963,7 +16963,7 @@
     "pageCount": 1
   },
   "64d54b17c2d7": {
-    "text": "Learn how to pdf to markdown using BentoPDF",
+    "text": "Learn how to pdf to markdown using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -16983,7 +16983,7 @@
     "pageCount": 1
   },
   "64df511cb342": {
-    "text": "Automatically straighten tilted scanned pages using OpenCV. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Automatically straighten tilted scanned pages using OpenCV. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -17003,7 +17003,7 @@
     "pageCount": 1
   },
   "650e89a14dbb": {
-    "text": "Image to PDF - BentoPDF",
+    "text": "Image to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -17013,7 +17013,7 @@
     "pageCount": 1
   },
   "650fac217606": {
-    "text": "Learn how to extract tables using BentoPDF",
+    "text": "Learn how to extract tables using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -17044,7 +17044,7 @@
     "pageCount": 1
   },
   "652125ffb709": {
-    "text": "Analyze page size, orientation, and units. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Analyze page size, orientation, and units. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -17124,7 +17124,7 @@
     "pageCount": 1
   },
   "65b2261a26c5": {
-    "text": "<1>Building on BentoPDF?</1> Hyper Compress is included with the <2>BentoPDF commercial license</2> when you use it through BentoPDF's own tools in an eligible product, for companies under US$1 million in revenue and funding. These tiers are for using the engine directly, inside your own software, or above that size.",
+    "text": "<1>Building on Chawso PDF?</1> Hyper Compress is included with the <2>Chawso PDF commercial license</2> when you use it through Chawso PDF's own tools in an eligible product, for companies under US$1 million in revenue and funding. These tiers are for using the engine directly, inside your own software, or above that size.",
     "tags": [
       "p"
     ],
@@ -17134,7 +17134,7 @@
     "pageCount": 1
   },
   "65e0f54619a3": {
-    "text": "FB2 to PDF Online Free - FB2 to PDF Tool | BentoPDF",
+    "text": "FB2 to PDF Online Free - FB2 to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -17144,7 +17144,7 @@
     "pageCount": 1
   },
   "6606f2326fbb": {
-    "text": "Remove Blank Pages Online Free - Remove Blank Pages Tool | BentoPDF",
+    "text": "Remove Blank Pages Online Free - Remove Blank Pages Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -17298,7 +17298,7 @@
     "pageCount": 1
   },
   "66f4fd6fb085": {
-    "text": "TIFF to PDF - BentoPDF",
+    "text": "TIFF to PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -17309,7 +17309,7 @@
     "pageCount": 1
   },
   "66f89a27661f": {
-    "text": "PDF to JSON Converter - BentoPDF",
+    "text": "PDF to JSON Converter - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -17339,7 +17339,7 @@
     "pageCount": 1
   },
   "67342300e57a": {
-    "text": "Sanitize PDF Online Free - Sanitize PDF Tool | BentoPDF",
+    "text": "Sanitize PDF Online Free - Sanitize PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -17359,7 +17359,7 @@
     "pageCount": 1
   },
   "6758c69b1e5f": {
-    "text": "PowerPoint to PDF - Convert PPTX, PPT to PDF - BentoPDF",
+    "text": "PowerPoint to PDF - Convert PPTX, PPT to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -17379,7 +17379,7 @@
     "pageCount": 1
   },
   "676f1747cbb2": {
-    "text": "Compress PDF to 2MB Free - BentoPDF",
+    "text": "Compress PDF to 2MB Free - Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -17461,7 +17461,7 @@
     "pageCount": 1
   },
   "67a87523ef68": {
-    "text": "Why Use BentoPDF PDF Merge &amp; Split Tools?",
+    "text": "Why Use Chawso PDF PDF Merge &amp; Split Tools?",
     "tags": [
       "h2"
     ],
@@ -17481,7 +17481,7 @@
     "pageCount": 1
   },
   "67df771dcf3d": {
-    "text": "Remove metadata, annotations, scripts, and more. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Remove metadata, annotations, scripts, and more. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -17531,7 +17531,7 @@
     "pageCount": 1
   },
   "680ccc7148c9": {
-    "text": "To email a large PDF, compress it below your provider's attachment limit first: add the file below and click Compress PDF. The target size is set to 10 MB, which fits even strict corporate mail servers; change it to match your provider. The work happens in your browser, so a confidential contract never touches a third-party server on its way to your outbox.",
+    "text": "To email a large PDF, compress it below your provider's attachment limit first: add the file below and click Compress PDF. The target size is set to 10 MB, which fits even strict corporate mail servers; change it to match your provider. The work happens in your browser, so a confidential contract stays on your device until you send it yourself.",
     "tags": [
       "p"
     ],
@@ -17614,7 +17614,7 @@
     "pageCount": 1
   },
   "68a0fdfd756b": {
-    "text": "FB2 to PDF - Convert FictionBook to PDF - BentoPDF",
+    "text": "FB2 to PDF - Convert FictionBook to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -17644,7 +17644,7 @@
     "pageCount": 1
   },
   "68acc43c54cc": {
-    "text": "Prepare PDF for AI - BentoPDF",
+    "text": "Prepare PDF for AI - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -17827,7 +17827,7 @@
     "pageCount": 1
   },
   "69b0f11acd56": {
-    "text": "Extract all embedded files from PDF(s) as a ZIP. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract all embedded files from PDF(s) as a ZIP. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -17887,7 +17887,7 @@
     "pageCount": 1
   },
   "6a2bd8444a80": {
-    "text": "CSV to PDF - BentoPDF",
+    "text": "CSV to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -18047,7 +18047,7 @@
     "pageCount": 1
   },
   "6b2b38ebb923": {
-    "text": "Remove Metadata Online Free - Remove Metadata Tool | BentoPDF",
+    "text": "Remove Metadata Online Free - Remove Metadata Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -18108,7 +18108,7 @@
     "pageCount": 2
   },
   "6b907c75df35": {
-    "text": "WebP to PDF Online Free - WebP to PDF Tool | BentoPDF",
+    "text": "WebP to PDF Online Free - WebP to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -18149,7 +18149,7 @@
     "pageCount": 2
   },
   "6bdca592b179": {
-    "text": "PDF Layers - Manage OCG Layers - BentoPDF",
+    "text": "PDF Layers - Manage OCG Layers - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -18190,7 +18190,7 @@
     "pageCount": 1
   },
   "6bf3764409e3": {
-    "text": "Learn how to pdf to zip using BentoPDF",
+    "text": "Learn how to pdf to zip using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -18270,7 +18270,7 @@
     "pageCount": 1
   },
   "6c7c51412390": {
-    "text": "Remove PDF Restrictions - Unlock Editing and Printing - BentoPDF",
+    "text": "Remove PDF Restrictions - Unlock Editing and Printing - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -18420,7 +18420,7 @@
     "pageCount": 1
   },
   "6d9fda1d22be": {
-    "text": "No. The whole conversion happens inside your browser, so the .pub file and the resulting PDF never leave your computer. Client artwork, unreleased newsletters, and event programs stay private.",
+    "text": "No. The whole conversion happens inside your browser, so the .pub file and the resulting PDF stay on your computer by design. Client artwork, unreleased newsletters, and event programs stay private.",
     "tags": [
       "p"
     ],
@@ -18480,7 +18480,7 @@
     "pageCount": 1
   },
   "6ddaacd20417": {
-    "text": "No. Pages are drawn with PDF.js in your browser and zipped locally, so the comic never leaves your device.",
+    "text": "No. Pages are drawn with PDF.js in your browser and zipped locally, so the comic stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -18490,7 +18490,7 @@
     "pageCount": 1
   },
   "6de3fa5efac4": {
-    "text": "ODT to PDF - BentoPDF",
+    "text": "ODT to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -18520,7 +18520,7 @@
     "pageCount": 1
   },
   "6e1234966ad0": {
-    "text": "Convert Microsoft Publisher (PUB) files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert Microsoft Publisher (PUB) files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -18705,7 +18705,7 @@
     "pageCount": 1
   },
   "6f030e0c45f0": {
-    "text": "PDF to JPG - BentoPDF",
+    "text": "PDF to JPG - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -18735,7 +18735,7 @@
     "pageCount": 1
   },
   "6f332687dd6b": {
-    "text": "Learn how to rtf to pdf using BentoPDF",
+    "text": "Learn how to rtf to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -18825,7 +18825,7 @@
     "pageCount": 1
   },
   "70066752bbb2": {
-    "text": "JSON to PDF Online Free - JSON to PDF Tool | BentoPDF",
+    "text": "JSON to PDF Online Free - JSON to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -18947,7 +18947,7 @@
     "pageCount": 1
   },
   "709cdf6dde9b": {
-    "text": "Learn how to reorder a two-block duplex scan using BentoPDF",
+    "text": "Learn how to reorder a two-block duplex scan using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -18977,7 +18977,7 @@
     "pageCount": 1
   },
   "70b4d23a0884": {
-    "text": "Remove specific pages from your document. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Remove specific pages from your document. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -19091,7 +19091,7 @@
     "pageCount": 7
   },
   "716ad38b3966": {
-    "text": "Flatten PDF Online Free - Flatten PDF Tool | BentoPDF",
+    "text": "Flatten PDF Online Free - Flatten PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -19153,7 +19153,7 @@
     "pageCount": 1
   },
   "720834d871e1": {
-    "text": "Advanced PDF Bookmark Tool - BentoPDF",
+    "text": "Advanced PDF Bookmark Tool - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -19233,7 +19233,7 @@
     "pageCount": 1
   },
   "72c3c438e254": {
-    "text": "PDF Booklet - BentoPDF",
+    "text": "PDF Booklet - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -19254,7 +19254,7 @@
     "pageCount": 1
   },
   "72d13381cf4e": {
-    "text": "Fix Page Size Online Free - Fix Page Size Tool | BentoPDF",
+    "text": "Fix Page Size Online Free - Fix Page Size Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -19264,7 +19264,7 @@
     "pageCount": 1
   },
   "72d62f3ea8b0": {
-    "text": "BentoPDF has covered 100% of my PDF needs and represents impressive software engineering indeed!",
+    "text": "Chawso PDF has covered 100% of my PDF needs and represents impressive software engineering indeed!",
     "tags": [
       "blockquote"
     ],
@@ -19514,7 +19514,7 @@
     "pageCount": 1
   },
   "73fcc60212ad": {
-    "text": "Oops! The page you're looking for doesn't exist. Return to BentoPDF's homepage to access our free PDF tools.",
+    "text": "Oops! The page you're looking for doesn't exist. Return to Chawso PDF's homepage to access our free PDF tools.",
     "tags": [
       "meta"
     ],
@@ -19534,7 +19534,7 @@
     "pageCount": 1
   },
   "742a6786bd28": {
-    "text": "Digital Signature PDF - BentoPDF",
+    "text": "Digital Signature PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -19564,7 +19564,7 @@
     "pageCount": 1
   },
   "7432624baa61": {
-    "text": "Compress PDF to 2MB Free Online | BentoPDF",
+    "text": "Compress PDF to 2MB Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -19575,7 +19575,7 @@
     "pageCount": 1
   },
   "7450b24dac24": {
-    "text": "Flatten PDF - BentoPDF",
+    "text": "Flatten PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -19595,7 +19595,7 @@
     "pageCount": 1
   },
   "748517ea4c79": {
-    "text": "HEIC to PDF - BentoPDF",
+    "text": "HEIC to PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -19636,7 +19636,7 @@
     "pageCount": 1
   },
   "74b981b5fc86": {
-    "text": "Convert each PDF page into a WebP image. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert each PDF page into a WebP image. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -19668,7 +19668,7 @@
     "pageCount": 1
   },
   "74ef97856c25": {
-    "text": "Learn how to pages to pdf using BentoPDF",
+    "text": "Learn how to pages to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -19751,7 +19751,7 @@
     "pageCount": 7
   },
   "758d9d0c842d": {
-    "text": "MOBI to PDF - BentoPDF",
+    "text": "MOBI to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -19824,7 +19824,7 @@
     "pageCount": 1
   },
   "761d5ac0055c": {
-    "text": "SVG to PDF Online Free - SVG to PDF Tool | BentoPDF",
+    "text": "SVG to PDF Online Free - SVG to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -19864,7 +19864,7 @@
     "pageCount": 1
   },
   "76431da1841b": {
-    "text": "Find answers to common questions about BentoPDF. Learn about privacy, features, file limits, and how our browser-based PDF tools work.",
+    "text": "Find answers to common questions about Chawso PDF. Learn about privacy, features, file limits, and how our browser-based PDF tools work.",
     "tags": [
       "meta"
     ],
@@ -19934,7 +19934,7 @@
     "pageCount": 1
   },
   "76928a90638a": {
-    "text": "Learn how to add a cryptographic digital signature to PDF using BentoPDF",
+    "text": "Learn how to add a cryptographic digital signature to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -19974,7 +19974,7 @@
     "pageCount": 1
   },
   "76d9f0b8cd62": {
-    "text": "ODG to PDF Online Free - ODG to PDF Tool | BentoPDF",
+    "text": "ODG to PDF Online Free - ODG to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -19984,7 +19984,7 @@
     "pageCount": 1
   },
   "76dd8ad8e2c0": {
-    "text": "Convert each PDF page into a PNG image. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert each PDF page into a PNG image. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -20024,7 +20024,7 @@
     "pageCount": 1
   },
   "76fd46ec9330": {
-    "text": "Extract PDF Tables - BentoPDF",
+    "text": "Extract PDF Tables - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -20064,7 +20064,7 @@
     "pageCount": 1
   },
   "772bae740e80": {
-    "text": "Compress PDF to 200KB - BentoPDF",
+    "text": "Compress PDF to 200KB - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -20136,7 +20136,7 @@
     "pageCount": 1
   },
   "777bc57e18c9": {
-    "text": "Learn how to pdf to tiff using BentoPDF",
+    "text": "Learn how to pdf to tiff using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -20156,7 +20156,7 @@
     "pageCount": 1
   },
   "77851aa1e8e9": {
-    "text": "Rotate pages by any custom angle. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Rotate pages by any custom angle. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -20196,7 +20196,7 @@
     "pageCount": 1
   },
   "77a9dd268944": {
-    "text": "Form Filler - BentoPDF",
+    "text": "Form Filler - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -20227,7 +20227,7 @@
     "pageCount": 2
   },
   "77d85aed34b7": {
-    "text": "Convert Adobe Photoshop (PSD) files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert Adobe Photoshop (PSD) files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -20372,7 +20372,7 @@
     "pageCount": 1
   },
   "790894f4414f": {
-    "text": "There is no recovery. AES-256 can't be brute-forced in any practical time, and BentoPDF keeps no copy of the file or the password. Store the password somewhere safe and keep an unprotected original for yourself.",
+    "text": "There is no recovery. AES-256 can't be brute-forced in any practical time, and Chawso PDF keeps no copy of the file or the password. Store the password somewhere safe and keep an unprotected original for yourself.",
     "tags": [
       "p"
     ],
@@ -20382,7 +20382,7 @@
     "pageCount": 1
   },
   "792567bb663d": {
-    "text": "Learn how to pdf to greyscale using BentoPDF",
+    "text": "Learn how to pdf to greyscale using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -20412,7 +20412,7 @@
     "pageCount": 1
   },
   "7947df86bb03": {
-    "text": "How BentoPDF started, told by its creator Alam",
+    "text": "How Chawso PDF started, told by its creator Alam",
     "tags": [
       "ld"
     ],
@@ -20484,7 +20484,7 @@
     "pageCount": 2
   },
   "79af68773ca7": {
-    "text": "No. Every node runs in your browser with the same engines as the individual tools, and the only network activity is fetching a processing module such as Ghostscript the first time a node needs one. Your PDFs never leave the machine, even in a long multi-step run.",
+    "text": "No. Every node runs in your browser with the same engines as the individual tools, and the only network activity is fetching a processing module such as Ghostscript the first time a node needs one. Your PDFs stay on the machine by design, even in a long multi-step run.",
     "tags": [
       "p"
     ],
@@ -20494,7 +20494,7 @@
     "pageCount": 1
   },
   "79dd1a46be6c": {
-    "text": "No. The conversion engine (PyMuPDF compiled to WebAssembly) is downloaded from a CDN the first time you use it and then runs inside your browser, so the book itself never leaves your device.",
+    "text": "No. The conversion engine (PyMuPDF compiled to WebAssembly) is downloaded from a CDN the first time you use it and then runs inside your browser, so the book itself stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -20514,7 +20514,7 @@
     "pageCount": 1
   },
   "79f010f787bd": {
-    "text": "Page Dimensions - BentoPDF",
+    "text": "Page Dimensions - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -20575,7 +20575,7 @@
     "pageCount": 1
   },
   "7ab6b0b936d8": {
-    "text": "BMP to PDF - BentoPDF",
+    "text": "BMP to PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -20586,7 +20586,7 @@
     "pageCount": 1
   },
   "7ac2f97021c1": {
-    "text": "To compress a PDF to 100KB, add your file below and click Compress PDF. The target size is already set to 100 KB, so Hyper Compress picks the best image quality that still fits. Everything runs inside your browser and the PDF is never uploaded to a server, so even sensitive documents like ID scans and application forms stay on your device.",
+    "text": "To compress a PDF to 100KB, add your file below and click Compress PDF. The target size is already set to 100 KB, so Hyper Compress picks the best image quality that still fits. Everything is designed to run inside your browser, so even sensitive documents like ID scans and application forms are intended to stay on your device.",
     "tags": [
       "p"
     ],
@@ -20668,7 +20668,7 @@
     "pageCount": 1
   },
   "7b1bb35793b8": {
-    "text": "Learn how to convert PNG to PDF using BentoPDF",
+    "text": "Learn how to convert PNG to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -20688,7 +20688,7 @@
     "pageCount": 1
   },
   "7b2b73db1f2a": {
-    "text": "PDF Layers - BentoPDF",
+    "text": "PDF Layers - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -21021,7 +21021,7 @@
     "pageCount": 1
   },
   "7cf773b9c7d0": {
-    "text": "Edit PDF Metadata - BentoPDF",
+    "text": "Edit PDF Metadata - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -21081,7 +21081,7 @@
     "pageCount": 1
   },
   "7d2d0592e8cc": {
-    "text": "To compress a PDF to 500KB, add your file below and click Compress PDF. The target size is already set to 500 KB. It is a comfortable target: most documents reach it with no visible difference, and your file never leaves your browser.",
+    "text": "To compress a PDF to 500KB, add your file below and click Compress PDF. The target size is already set to 500 KB. It is a comfortable target: most documents reach it with no visible difference, and your file stays in your browser by design.",
     "tags": [
       "p"
     ],
@@ -21193,7 +21193,7 @@
     "pageCount": 3
   },
   "7dcab7c95430": {
-    "text": "No. Only the info dictionary is rewritten; pages, fonts, links, and bookmarks are untouched, and the whole edit happens in your browser, so the document never leaves your device.",
+    "text": "No. Only the info dictionary is rewritten; pages, fonts, links, and bookmarks are untouched, and the whole edit happens in your browser, so the document stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -21254,7 +21254,7 @@
     "pageCount": 1
   },
   "7e2e7e210a4f": {
-    "text": "XML to PDF - Convert XML Files to PDF - BentoPDF",
+    "text": "XML to PDF - Convert XML Files to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -21284,7 +21284,7 @@
     "pageCount": 1
   },
   "7e3a407cf3a3": {
-    "text": "Learn how to heic to pdf using BentoPDF",
+    "text": "Learn how to heic to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -21294,7 +21294,7 @@
     "pageCount": 1
   },
   "7e5beef99e48": {
-    "text": "Extract a range of pages into a new PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract a range of pages into a new PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -21314,7 +21314,7 @@
     "pageCount": 1
   },
   "7e6ed8166011": {
-    "text": "PUB to PDF - Convert Microsoft Publisher to PDF - BentoPDF",
+    "text": "PUB to PDF - Convert Microsoft Publisher to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -21365,7 +21365,7 @@
     "pageCount": 1
   },
   "7ef71d44c827": {
-    "text": "Insert an empty page anywhere in your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Insert an empty page anywhere in your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -21426,7 +21426,7 @@
     "pageCount": 1
   },
   "7f36f3ef0e53": {
-    "text": "No. The page rendering and the color math run in your browser, and the adjusted PDF is assembled on your device, so the file never leaves your computer.",
+    "text": "No. The page rendering and the color math run in your browser, and the adjusted PDF is assembled on your device, so the file stays on your computer by design.",
     "tags": [
       "p"
     ],
@@ -21436,7 +21436,7 @@
     "pageCount": 1
   },
   "7f5dfb5376eb": {
-    "text": "No. Each WebP is decoded by your browser's own image engine and written into the PDF locally, so the pictures never leave your device.",
+    "text": "No. Each WebP is decoded by your browser's own image engine and written into the PDF locally, so the pictures stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -21466,7 +21466,7 @@
     "pageCount": 1
   },
   "7f8b05e5f5f3": {
-    "text": "Recover data from corrupted or damaged PDF files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Recover data from corrupted or damaged PDF files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -21476,7 +21476,7 @@
     "pageCount": 1
   },
   "7fafdffd4086": {
-    "text": "Duplex Collate - BentoPDF",
+    "text": "Duplex Collate - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -21486,7 +21486,7 @@
     "pageCount": 1
   },
   "7fb82937ca83": {
-    "text": "Learn how to rasterize pdf using BentoPDF",
+    "text": "Learn how to rasterize pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -21640,7 +21640,7 @@
     "pageCount": 1
   },
   "8041229d0477": {
-    "text": "Delete Pages from a PDF Free Online | BentoPDF",
+    "text": "Delete Pages from a PDF Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -21682,7 +21682,7 @@
     "pageCount": 2
   },
   "8073c5f94892": {
-    "text": "Flatten PDF - Make Forms Non-Editable - BentoPDF",
+    "text": "Flatten PDF - Make Forms Non-Editable - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -21743,7 +21743,7 @@
     "pageCount": 1
   },
   "80edd0575ed0": {
-    "text": "Edit and enhance your PDF files with BentoPDF's comprehensive suite of 25+ editing tools. Compress file sizes, rotate pages, crop documents, add watermarks, insert page numbers, change colors, and much more. All editing happens in your browser - your files stay completely private. No signup, no limits, completely free.",
+    "text": "Edit and enhance your PDF files with Chawso PDF's comprehensive suite of 25+ editing tools. Compress file sizes, rotate pages, crop documents, add watermarks, insert page numbers, change colors, and much more. All editing happens in your browser - your files stay completely private. No signup, no limits, completely free.",
     "tags": [
       "p"
     ],
@@ -21904,7 +21904,7 @@
     "pageCount": 1
   },
   "819c75fa1fc8": {
-    "text": "Edit Attachments Online Free - Edit Attachments Tool | BentoPDF",
+    "text": "Edit Attachments Online Free - Edit Attachments Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -21964,7 +21964,7 @@
     "pageCount": 1
   },
   "81e5c2a03a73": {
-    "text": "Compress PDF for Email Free - BentoPDF",
+    "text": "Compress PDF for Email Free - Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -22065,7 +22065,7 @@
     "pageCount": 1
   },
   "8295f7f2da8a": {
-    "text": "Learn how to pdf to svg using BentoPDF",
+    "text": "Learn how to pdf to svg using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -22115,7 +22115,7 @@
     "pageCount": 1
   },
   "82bf4d5b8fa2": {
-    "text": "Reverse PDF Pages - BentoPDF",
+    "text": "Reverse PDF Pages - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -22196,7 +22196,7 @@
     "pageCount": 1
   },
   "831271fde44f": {
-    "text": "Learn how to bmp to pdf using BentoPDF",
+    "text": "Learn how to bmp to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -22216,7 +22216,7 @@
     "pageCount": 1
   },
   "8322ea1e2ce8": {
-    "text": "VSD to PDF Online Free - VSD to PDF Tool | BentoPDF",
+    "text": "VSD to PDF Online Free - VSD to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -22326,7 +22326,7 @@
     "pageCount": 1
   },
   "83c0cb55fd12": {
-    "text": "Convert Excel spreadsheets (XLSX, XLS, ODS, CSV) to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert Excel spreadsheets (XLSX, XLS, ODS, CSV) to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -22356,7 +22356,7 @@
     "pageCount": 1
   },
   "8424ab8a83dd": {
-    "text": "Learn how to adjust PDF colors using BentoPDF",
+    "text": "Learn how to adjust PDF colors using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -22366,7 +22366,7 @@
     "pageCount": 1
   },
   "843e57e61325": {
-    "text": "PDF Layers Online Free - PDF Layers Tool | BentoPDF",
+    "text": "PDF Layers Online Free - PDF Layers Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -22498,7 +22498,7 @@
     "pageCount": 1
   },
   "850f7f59ceb8": {
-    "text": "Create a PDF from JPG, JPEG, and JPEG2000 (JP2/JPX) images. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a PDF from JPG, JPEG, and JPEG2000 (JP2/JPX) images. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -22518,7 +22518,7 @@
     "pageCount": 1
   },
   "8519babc0316": {
-    "text": "Learn how to extract pages using BentoPDF",
+    "text": "Learn how to extract pages using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -22598,7 +22598,7 @@
     "pageCount": 1
   },
   "85b0a2cf6d56": {
-    "text": "No. It only rebuilds PDFs from JSON files created by BentoPDF's <1>PDF to JSON</1> tool, which stores the document's full internal structure. A JSON export from an API, a database, or a config file will fail with an error.",
+    "text": "No. It only rebuilds PDFs from JSON files created by Chawso PDF's <1>PDF to JSON</1> tool, which stores the document's full internal structure. A JSON export from an API, a database, or a config file will fail with an error.",
     "tags": [
       "p"
     ],
@@ -22834,7 +22834,7 @@
     "pageCount": 1
   },
   "870021744207": {
-    "text": "Learn how to pdf to png using BentoPDF",
+    "text": "Learn how to pdf to png using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -22864,7 +22864,7 @@
     "pageCount": 1
   },
   "8714d9de8e38": {
-    "text": "Invert PDF Colors - BentoPDF",
+    "text": "Invert PDF Colors - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -23041,7 +23041,7 @@
     "pageCount": 1
   },
   "882703efc282": {
-    "text": "No. PyMuPDF runs inside your browser as WebAssembly and writes the SVG files locally, so the PDF never leaves your machine. The engine is fetched on first use, which is why the first conversion takes a moment longer.",
+    "text": "No. PyMuPDF runs inside your browser as WebAssembly and writes the SVG files locally, so the PDF stays on your machine by design. The engine is fetched on first use, which is why the first conversion takes a moment longer.",
     "tags": [
       "p"
     ],
@@ -23132,7 +23132,7 @@
     "pageCount": 2
   },
   "886ce0d3beaa": {
-    "text": "Email to PDF Converter Free Online - EML MSG to PDF | BentoPDF",
+    "text": "Email to PDF Converter Free Online - EML MSG to PDF | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -23224,7 +23224,7 @@
     "pageCount": 1
   },
   "88e2dcc04cd9": {
-    "text": "About BentoPDF",
+    "text": "About Chawso PDF",
     "tags": [
       "ld",
       "meta"
@@ -23295,7 +23295,7 @@
     "pageCount": 1
   },
   "89304c700878": {
-    "text": "Stamp text or an image over your PDF pages. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Stamp text or an image over your PDF pages. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -23358,7 +23358,7 @@
     "pageCount": 1
   },
   "89a08949cff6": {
-    "text": "PNG to PDF - BentoPDF",
+    "text": "PNG to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -23398,7 +23398,7 @@
     "pageCount": 1
   },
   "89fc7a86ee70": {
-    "text": "Learn how to header footer using BentoPDF",
+    "text": "Learn how to header footer using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -23408,7 +23408,7 @@
     "pageCount": 1
   },
   "89fee0de871c": {
-    "text": "Deskew PDF - BentoPDF",
+    "text": "Deskew PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -23468,7 +23468,7 @@
     "pageCount": 1
   },
   "8a16c0d6db7a": {
-    "text": "Page Numbers - BentoPDF",
+    "text": "Page Numbers - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -23508,7 +23508,7 @@
     "pageCount": 1
   },
   "8a3c2969031e": {
-    "text": "Header Footer Online Free - Header Footer Tool | BentoPDF",
+    "text": "Header Footer Online Free - Header Footer Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -23689,7 +23689,7 @@
     "pageCount": 1
   },
   "8b5e706b3c16": {
-    "text": "© 2026 BentoPDF. All rights reserved.",
+    "text": "© 2026 Chawso PDF. All rights reserved.",
     "tags": [
       "p"
     ],
@@ -23754,7 +23754,7 @@
     "pageCount": 1
   },
   "8bdb9c2af943": {
-    "text": "Convert OpenDocument Graphics (ODG) files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert OpenDocument Graphics (ODG) files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -23774,7 +23774,7 @@
     "pageCount": 1
   },
   "8be308af0c59": {
-    "text": "PDF to PNG - BentoPDF",
+    "text": "PDF to PNG - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -23784,7 +23784,7 @@
     "pageCount": 1
   },
   "8bf48fbdfa72": {
-    "text": "Table Of Contents Online Free - Table Of Contents Tool | BentoPDF",
+    "text": "Table Of Contents Online Free - Table Of Contents Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -23834,7 +23834,7 @@
     "pageCount": 1
   },
   "8c5b10048df7": {
-    "text": "No. Every BentoPDF tool is free with no account, and because the work happens in your browser there are no server costs to pass on to you.",
+    "text": "No. Every Chawso PDF tool is free with no account, and because the work happens in your browser there are no server costs to pass on to you.",
     "tags": [
       "p"
     ],
@@ -23966,7 +23966,7 @@
     "pageCount": 1
   },
   "8d412aa9ee21": {
-    "text": "No. The table detection engine is loaded into your browser as WebAssembly and the CSV is generated locally, so the document never leaves your device. The first run takes a little longer while the engine loads.",
+    "text": "No. The table detection engine is loaded into your browser as WebAssembly and the CSV is generated locally, so the document stays on your device by design. The first run takes a little longer while the engine loads.",
     "tags": [
       "p"
     ],
@@ -24038,7 +24038,7 @@
     "pageCount": 1
   },
   "8d82a3ae51ef": {
-    "text": "Learn how to pdf to bmp using BentoPDF",
+    "text": "Learn how to pdf to bmp using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -24048,7 +24048,7 @@
     "pageCount": 1
   },
   "8d9fb462b41d": {
-    "text": "N-Up PDF - BentoPDF",
+    "text": "N-Up PDF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -24109,7 +24109,7 @@
     "pageCount": 1
   },
   "8e0ccb287b60": {
-    "text": "No. The page previews are rendered in your browser and the crop is applied locally, so the file never leaves your computer; the cropped copy is saved under the original file name.",
+    "text": "No. The page previews are rendered in your browser and the crop is applied locally, so the file stays on your computer by design; the cropped copy is saved under the original file name.",
     "tags": [
       "p"
     ],
@@ -24131,7 +24131,7 @@
     "pageCount": 2
   },
   "8e206e410f01": {
-    "text": "PDF to Markdown Online Free - PDF to Markdown Tool | BentoPDF",
+    "text": "PDF to Markdown Online Free - PDF to Markdown Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -24141,7 +24141,7 @@
     "pageCount": 1
   },
   "8e2139d1fe3a": {
-    "text": "No. The thumbnails are rendered by your browser and the rotated file is written locally, so the document never leaves your computer. The rotated PDF downloads under the original file name.",
+    "text": "No. The thumbnails are rendered by your browser and the rotated file is written locally, so the document stays on your computer by design. The rotated PDF downloads under the original file name.",
     "tags": [
       "p"
     ],
@@ -24221,7 +24221,7 @@
     "pageCount": 1
   },
   "8e7041e110d8": {
-    "text": "Header Footer - BentoPDF",
+    "text": "Header Footer - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -24261,7 +24261,7 @@
     "pageCount": 1
   },
   "8e94c0a152d9": {
-    "text": "ODG to PDF - BentoPDF",
+    "text": "ODG to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -24301,7 +24301,7 @@
     "pageCount": 1
   },
   "8efc33f76601": {
-    "text": "PDF to SVG - BentoPDF",
+    "text": "PDF to SVG - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -24508,7 +24508,7 @@
     "pageCount": 1
   },
   "903928a27105": {
-    "text": "Divide Pages Online Free - Divide Pages Tool | BentoPDF",
+    "text": "Divide Pages Online Free - Divide Pages Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -24825,7 +24825,7 @@
     "pageCount": 2
   },
   "9230d9619f0b": {
-    "text": "Learn how to pdf booklet using BentoPDF",
+    "text": "Learn how to pdf booklet using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -24845,7 +24845,7 @@
     "pageCount": 1
   },
   "926da8154e43": {
-    "text": "Edit PDF - BentoPDF",
+    "text": "Edit PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -24885,7 +24885,7 @@
     "pageCount": 1
   },
   "929be2c875bd": {
-    "text": "Organize PDF - BentoPDF",
+    "text": "Organize PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -24947,7 +24947,7 @@
     "pageCount": 1
   },
   "92ffeb81021e": {
-    "text": "Fix Page Size - Standardize PDF Pages - BentoPDF",
+    "text": "Fix Page Size - Standardize PDF Pages - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -25290,7 +25290,7 @@
     "pageCount": 2
   },
   "951780f86a46": {
-    "text": "Convert JPG, PNG, BMP, GIF, TIFF, PNM, PGM, PBM, PPM, PAM, JXR, JPX, JP2, PSD, SVG, HEIC, WebP to PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert JPG, PNG, BMP, GIF, TIFF, PNM, PGM, PBM, PPM, PAM, JXR, JPX, JP2, PSD, SVG, HEIC, WebP to PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -25320,7 +25320,7 @@
     "pageCount": 1
   },
   "955b142dae4c": {
-    "text": "PDF to PNG Converter Free Online | BentoPDF",
+    "text": "PDF to PNG Converter Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -25351,7 +25351,7 @@
     "pageCount": 1
   },
   "956762615347": {
-    "text": "Merge, Split, Organize, Delete, Rotate, Add Blank Pages, Extract and Duplicate in a unified interface. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Merge, Split, Organize, Delete, Rotate, Add Blank Pages, Extract and Duplicate in a unified interface. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -25361,7 +25361,7 @@
     "pageCount": 1
   },
   "9567756d557d": {
-    "text": "RTF to PDF Online Free - RTF to PDF Tool | BentoPDF",
+    "text": "RTF to PDF Online Free - RTF to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -25381,7 +25381,7 @@
     "pageCount": 1
   },
   "956e4e994792": {
-    "text": "Make a PDF searchable and copyable. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Make a PDF searchable and copyable. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -25391,7 +25391,7 @@
     "pageCount": 1
   },
   "9573ed1b8997": {
-    "text": "Learn how to organize using BentoPDF",
+    "text": "Learn how to organize using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -25523,7 +25523,7 @@
     "pageCount": 1
   },
   "960280f2d017": {
-    "text": "Hyper Compress - PDF Compression Engine | BentoPDF",
+    "text": "Hyper Compress - PDF Compression Engine | Chawso PDF",
     "tags": [
       "ld",
       "meta",
@@ -25565,7 +25565,7 @@
     "pageCount": 1
   },
   "962d30daaa7d": {
-    "text": "Learn how to xml to pdf using BentoPDF",
+    "text": "Learn how to xml to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -25655,7 +25655,7 @@
     "pageCount": 1
   },
   "96c1a0ac2836": {
-    "text": "Page Numbers Online Free - Page Numbers Tool | BentoPDF",
+    "text": "Page Numbers Online Free - Page Numbers Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -25765,7 +25765,7 @@
     "pageCount": 1
   },
   "975386a1f90a": {
-    "text": "PDF Multi Tool - BentoPDF",
+    "text": "PDF Multi Tool - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -25807,7 +25807,7 @@
     "pageCount": 1
   },
   "97921463547f": {
-    "text": "Convert each PDF page into a TIFF image. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert each PDF page into a TIFF image. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -26169,7 +26169,7 @@
     "pageCount": 1
   },
   "997840b11ca9": {
-    "text": "Add Page Numbers - BentoPDF",
+    "text": "Add Page Numbers - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -26209,7 +26209,7 @@
     "pageCount": 1
   },
   "99b5733eafb7": {
-    "text": "No. Parsing uses a JavaScript XML parser and the PDF is generated with jsPDF, both inside your browser, so invoices, transaction logs, and other sensitive data in the file never leave your device.",
+    "text": "No. Parsing uses a JavaScript XML parser and the PDF is generated with jsPDF, both inside your browser, so invoices, transaction logs, and other sensitive data in the file stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -26229,7 +26229,7 @@
     "pageCount": 1
   },
   "99b9f7cf823c": {
-    "text": "Change Permissions Online Free - Change Permissions Tool | BentoPDF",
+    "text": "Change Permissions Online Free - Change Permissions Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -26269,7 +26269,7 @@
     "pageCount": 1
   },
   "9a247b854daa": {
-    "text": "BentoPDF is fantastic, I never knew something like this existed. … I fired Bento up and was done in under a minute.",
+    "text": "Chawso PDF is fantastic, I never knew something like this existed. … I fired Bento up and was done in under a minute.",
     "tags": [
       "blockquote"
     ],
@@ -26309,7 +26309,7 @@
     "pageCount": 1
   },
   "9a60ad2b36b5": {
-    "text": "Adjust Colors Online Free - PDF Color Adjustment Tool | BentoPDF",
+    "text": "Adjust Colors Online Free - PDF Color Adjustment Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -26451,7 +26451,7 @@
     "pageCount": 1
   },
   "9b45a262eb3e": {
-    "text": "contact@bentopdf.com",
+    "text": "github.com/expedviews/chawso-pdf",
     "tags": [
       "a"
     ],
@@ -26551,7 +26551,7 @@
     "pageCount": 1
   },
   "9b984f8583f8": {
-    "text": "Remove password protection and security restrictions associated with digitally signed PDF files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Remove password protection and security restrictions associated with digitally signed PDF files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -26683,7 +26683,7 @@
     "pageCount": 1
   },
   "9c1ede51c13c": {
-    "text": "Compress PDF to 2MB - BentoPDF",
+    "text": "Compress PDF to 2MB - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -26723,7 +26723,7 @@
     "pageCount": 1
   },
   "9c2e493107ee": {
-    "text": "Extract Pages from a PDF Free Online | BentoPDF",
+    "text": "Extract Pages from a PDF Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -26734,7 +26734,7 @@
     "pageCount": 1
   },
   "9c57a4d78c24": {
-    "text": "Unlock PDF by removing password protection. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Unlock PDF by removing password protection. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -26901,7 +26901,7 @@
     "pageCount": 1
   },
   "9cf0d4586f57": {
-    "text": "VSD to PDF - BentoPDF",
+    "text": "VSD to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -27021,7 +27021,7 @@
     "pageCount": 1
   },
   "9daf3ef5d18b": {
-    "text": "Text to PDF - BentoPDF",
+    "text": "Text to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -27121,7 +27121,7 @@
     "pageCount": 1
   },
   "9e4432558772": {
-    "text": "Add Attachments Online Free - Add Attachments Tool | BentoPDF",
+    "text": "Add Attachments Online Free - Add Attachments Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -27131,7 +27131,7 @@
     "pageCount": 1
   },
   "9e44644581de": {
-    "text": "Change the author, title, and other properties. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Change the author, title, and other properties. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -27151,7 +27151,7 @@
     "pageCount": 1
   },
   "9e519b8d8358": {
-    "text": "Convert XPS/OXPS documents to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert XPS/OXPS documents to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -27161,7 +27161,7 @@
     "pageCount": 1
   },
   "9e51f4bb987a": {
-    "text": "PDF to CBZ Converter Free Online - Comic Book Archive | BentoPDF",
+    "text": "PDF to CBZ Converter Free Online - Comic Book Archive | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -27223,7 +27223,7 @@
     "pageCount": 1
   },
   "9eb2119f93b0": {
-    "text": "Change Background Color - BentoPDF",
+    "text": "Change Background Color - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -27283,7 +27283,7 @@
     "pageCount": 1
   },
   "9ef474dad49c": {
-    "text": "Posterize PDF Online Free - Posterize PDF Tool | BentoPDF",
+    "text": "Posterize PDF Online Free - Posterize PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -27384,7 +27384,7 @@
     "pageCount": 1
   },
   "9f60cb08e226": {
-    "text": "Learn how to convert JPG to PDF using BentoPDF",
+    "text": "Learn how to convert JPG to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -27414,7 +27414,7 @@
     "pageCount": 1
   },
   "9f957b2677c5": {
-    "text": "Edit Pdf online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Edit Pdf online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -27476,7 +27476,7 @@
     "pageCount": 2
   },
   "9fd2c61600d1": {
-    "text": "Extract Attachments from PDF - BentoPDF",
+    "text": "Extract Attachments from PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -27566,7 +27566,7 @@
     "pageCount": 1
   },
   "a0096b3f65c5": {
-    "text": "Pages to PDF - BentoPDF",
+    "text": "Pages to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -27666,7 +27666,7 @@
     "pageCount": 1
   },
   "a095e785d26e": {
-    "text": "PDF to JSON - BentoPDF",
+    "text": "PDF to JSON - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -27676,7 +27676,7 @@
     "pageCount": 1
   },
   "a0a0958dcf52": {
-    "text": "Learn how to rotate using BentoPDF",
+    "text": "Learn how to rotate using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -27706,7 +27706,7 @@
     "pageCount": 1
   },
   "a0d9704f97b6": {
-    "text": "Have questions? We've got answers. Here are some of the most common things people ask about BentoPDF.",
+    "text": "Have questions? We've got answers. Here are some of the most common things people ask about Chawso PDF.",
     "tags": [
       "p"
     ],
@@ -27786,7 +27786,7 @@
     "pageCount": 1
   },
   "a11f930af43f": {
-    "text": "No. Recompression happens on a canvas in your browser and the PDF is assembled by the PyMuPDF engine running as WebAssembly, so the photos never leave your device.",
+    "text": "No. Recompression happens on a canvas in your browser and the PDF is assembled by the PyMuPDF engine running as WebAssembly, so the photos stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -27956,7 +27956,7 @@
     "pageCount": 1
   },
   "a21eb000c2b5": {
-    "text": "VSD to PDF - Convert Visio Drawings to PDF - BentoPDF",
+    "text": "VSD to PDF - Convert Visio Drawings to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -28118,7 +28118,7 @@
     "pageCount": 1
   },
   "a365e692075b": {
-    "text": "Free online PDF tools - Merge, split, compress, convert PDFs. 100% browser-based, no signup required, unlimited files.",
+    "text": "Free online PDF tools - Merge, split, compress, convert PDFs. browser-based, no signup required, unlimited files.",
     "tags": [
       "meta"
     ],
@@ -28128,7 +28128,7 @@
     "pageCount": 1
   },
   "a366ce28b44c": {
-    "text": "Linearize PDF Online Free - Linearize PDF Tool | BentoPDF",
+    "text": "Linearize PDF Online Free - Linearize PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -28138,7 +28138,7 @@
     "pageCount": 1
   },
   "a36f307d1198": {
-    "text": "Learn how to compare pdfs using BentoPDF",
+    "text": "Learn how to compare pdfs using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -28188,7 +28188,7 @@
     "pageCount": 1
   },
   "a39153a80445": {
-    "text": "No. Compression runs <1>Hyper Compress</1>, BentoPDF's own engine, compiled to WebAssembly and served with the app, so everything happens on your device. You can compress one file or a whole batch, which comes back as compressed-pdfs.zip, and none of them leave your computer.",
+    "text": "No. Compression runs <1>Hyper Compress</1>, Chawso PDF's own engine, compiled to WebAssembly and served with the app, so everything happens on your device. You can compress one file or a whole batch, which comes back as compressed-pdfs.zip, and none of them leave your computer.",
     "tags": [
       "p"
     ],
@@ -28372,7 +28372,7 @@
     "pageCount": 116
   },
   "a47c58f7a3f3": {
-    "text": "OCR PDF - BentoPDF",
+    "text": "OCR PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -28392,7 +28392,7 @@
     "pageCount": 1
   },
   "a4b85e392a86": {
-    "text": "Email to PDF - Convert EML/MSG to PDF - BentoPDF",
+    "text": "Email to PDF - Convert EML/MSG to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -28504,7 +28504,7 @@
     "pageCount": 1
   },
   "a541e78f893a": {
-    "text": "Extract Images Online Free - Extract Images Tool | BentoPDF",
+    "text": "Extract Images Online Free - Extract Images Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -28585,7 +28585,7 @@
     "pageCount": 1
   },
   "a5a5ecdcdf0c": {
-    "text": "Scanner Effect Online Free - Scanner Effect Tool | BentoPDF",
+    "text": "Scanner Effect Online Free - Scanner Effect Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -28595,7 +28595,7 @@
     "pageCount": 1
   },
   "a5ebdbf457f6": {
-    "text": "Images to PDF - BentoPDF",
+    "text": "Images to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -28655,7 +28655,7 @@
     "pageCount": 1
   },
   "a63303e765c6": {
-    "text": "Learn how to remove metadata using BentoPDF",
+    "text": "Learn how to remove metadata using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -28675,7 +28675,7 @@
     "pageCount": 1
   },
   "a6699020ea5c": {
-    "text": "Email to PDF - BentoPDF",
+    "text": "Email to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -28685,7 +28685,7 @@
     "pageCount": 1
   },
   "a677afcf8d7a": {
-    "text": "Generate a table of contents page from PDF bookmarks. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Generate a table of contents page from PDF bookmarks. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -28705,7 +28705,7 @@
     "pageCount": 1
   },
   "a689f6907bba": {
-    "text": "PDF Editing Tools - All Free Online PDF Editors | BentoPDF",
+    "text": "PDF Editing Tools - All Free Online PDF Editors | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -28799,7 +28799,7 @@
     "pageCount": 1
   },
   "a71a0fd0a8aa": {
-    "text": "Compress PDF to 1MB Free - BentoPDF",
+    "text": "Compress PDF to 1MB Free - Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -28839,7 +28839,7 @@
     "pageCount": 1
   },
   "a757ddbf7e86": {
-    "text": "Convert XML documents to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert XML documents to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -28942,7 +28942,7 @@
     "pageCount": 2
   },
   "a7b5ae9b82da": {
-    "text": "No. The TIFF is decoded with a JavaScript decoder in your browser and the PDF is assembled locally, so medical images or confidential faxes never leave your device.",
+    "text": "No. The TIFF is decoded with a JavaScript decoder in your browser and the PDF is assembled locally, so medical images or confidential faxes stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -29134,7 +29134,7 @@
     "pageCount": 1
   },
   "a901b60f8881": {
-    "text": "Rearrange pages for double-sided booklet printing. Fold and staple to create a booklet. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Rearrange pages for double-sided booklet printing. Fold and staple to create a booklet. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -29244,7 +29244,7 @@
     "pageCount": 1
   },
   "a99cfaf3652f": {
-    "text": "PDF to TIFF - BentoPDF",
+    "text": "PDF to TIFF - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -29285,7 +29285,7 @@
     "pageCount": 1
   },
   "a9c68dfc4146": {
-    "text": "Posterize PDF - BentoPDF",
+    "text": "Posterize PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -29345,7 +29345,7 @@
     "pageCount": 1
   },
   "aa5768069064": {
-    "text": "No. Rendering happens on a canvas in your browser and the images are packed into the ZIP locally, so the document never leaves your computer. Large PDFs just take longer because your own machine does the rendering.",
+    "text": "No. Rendering happens on a canvas in your browser and the images are packed into the ZIP locally, so the document stays on your computer by design. Large PDFs just take longer because your own machine does the rendering.",
     "tags": [
       "p"
     ],
@@ -29448,7 +29448,7 @@
     "pageCount": 1
   },
   "ab2471977b80": {
-    "text": "Contact BentoPDF for support, questions, or feedback. Reach us at contact@bentopdf.com - we're here to help with your PDF needs.",
+    "text": "Contact Chawso PDF for support, questions, or feedback. Reach us at github.com/expedviews/chawso-pdf - we're here to help with your PDF needs.",
     "tags": [
       "meta"
     ],
@@ -29558,7 +29558,7 @@
     "pageCount": 1
   },
   "ab89c03adc33": {
-    "text": "No. The text is written into the PDF by your browser and the finished file is saved under its original name; the document never leaves your device.",
+    "text": "No. The text is written into the PDF by your browser and the finished file is saved under its original name; the document stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -29619,7 +29619,7 @@
     "pageCount": 1
   },
   "ac288aba466c": {
-    "text": "Combine Single Page online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Combine Single Page online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -29689,7 +29689,7 @@
     "pageCount": 1
   },
   "aca0e6bdd792": {
-    "text": "JSON to PDF - BentoPDF",
+    "text": "JSON to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -29709,7 +29709,7 @@
     "pageCount": 1
   },
   "acabc354862a": {
-    "text": "Learn how to pdf to csv using BentoPDF",
+    "text": "Learn how to pdf to csv using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -29832,7 +29832,7 @@
     "pageCount": 2
   },
   "ada19110afa5": {
-    "text": "Background Color - BentoPDF",
+    "text": "Background Color - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -29872,7 +29872,7 @@
     "pageCount": 1
   },
   "add1b1abafdd": {
-    "text": "PDF to Excel - BentoPDF",
+    "text": "PDF to Excel - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -29922,7 +29922,7 @@
     "pageCount": 1
   },
   "ae0c1eacef7e": {
-    "text": "RTF to PDF - Convert Rich Text Format to PDF - BentoPDF",
+    "text": "RTF to PDF - Convert Rich Text Format to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -29962,7 +29962,7 @@
     "pageCount": 1
   },
   "ae415fbf3220": {
-    "text": "No. Decoding uses your browser's own image support and the PDF is assembled locally with pdf-lib, so scanner or medical imaging exports never leave your computer.",
+    "text": "No. Decoding uses your browser's own image support and the PDF is assembled locally with pdf-lib, so scanner or medical imaging exports stay on your computer by design.",
     "tags": [
       "p"
     ],
@@ -29972,7 +29972,7 @@
     "pageCount": 1
   },
   "ae4a2d1e1415": {
-    "text": "Yes. Compression runs entirely in your browser using WebAssembly. The file never leaves your device, which matters for the ID documents and applications that 100KB limits usually involve.",
+    "text": "Yes. Compression runs entirely in your browser using WebAssembly. The file stays on your device by design, which matters for the ID documents and applications that 100KB limits usually involve.",
     "tags": [
       "p"
     ],
@@ -29992,7 +29992,7 @@
     "pageCount": 1
   },
   "ae72a30d2fe0": {
-    "text": "PDF to TIFF Online Free - PDF to TIFF Tool | BentoPDF",
+    "text": "PDF to TIFF Online Free - PDF to TIFF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -30012,7 +30012,7 @@
     "pageCount": 1
   },
   "ae818e23fdaf": {
-    "text": "Save a selection of pages as new files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Save a selection of pages as new files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -30102,7 +30102,7 @@
     "pageCount": 1
   },
   "aec3b74d09de": {
-    "text": "PUB to PDF Online Free - PUB to PDF Tool | BentoPDF",
+    "text": "PUB to PDF Online Free - PUB to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -30112,7 +30112,7 @@
     "pageCount": 1
   },
   "aecd09f2b6a4": {
-    "text": "Invert Colors - BentoPDF",
+    "text": "Invert Colors - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -30182,7 +30182,7 @@
     "pageCount": 1
   },
   "af1440dea2a5": {
-    "text": "The page you're looking for doesn't exist on BentoPDF.",
+    "text": "The page you're looking for doesn't exist on Chawso PDF.",
     "tags": [
       "ld"
     ],
@@ -30232,7 +30232,7 @@
     "pageCount": 1
   },
   "af8a00c3eb6c": {
-    "text": "Why Use BentoPDF PDF Converter Tools?",
+    "text": "Why Use Chawso PDF PDF Converter Tools?",
     "tags": [
       "h2"
     ],
@@ -30242,7 +30242,7 @@
     "pageCount": 1
   },
   "af8a32b47f97": {
-    "text": "Convert FictionBook (FB2) e-books to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert FictionBook (FB2) e-books to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -30252,7 +30252,7 @@
     "pageCount": 1
   },
   "af95289a95db": {
-    "text": "N-Up PDF Online Free - N-Up PDF Tool | BentoPDF",
+    "text": "N-Up PDF Online Free - N-Up PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -30468,7 +30468,7 @@
     "pageCount": 1
   },
   "b0ef03b5693b": {
-    "text": "Learn how to convert Word to PDF using BentoPDF",
+    "text": "Learn how to convert Word to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -30488,7 +30488,7 @@
     "pageCount": 1
   },
   "b126d87e119f": {
-    "text": "Learn how to posterize pdf using BentoPDF",
+    "text": "Learn how to posterize pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -30578,7 +30578,7 @@
     "pageCount": 1
   },
   "b1c633bc0ca7": {
-    "text": "Alternate Merge - BentoPDF",
+    "text": "Alternate Merge - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -30620,7 +30620,7 @@
     "pageCount": 1
   },
   "b2295216641e": {
-    "text": "Learn how to wps to pdf using BentoPDF",
+    "text": "Learn how to wps to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -30690,7 +30690,7 @@
     "pageCount": 1
   },
   "b294ef55150b": {
-    "text": "Change Text Color - BentoPDF",
+    "text": "Change Text Color - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -30730,7 +30730,7 @@
     "pageCount": 1
   },
   "b2be991939e2": {
-    "text": "Learn how to table of contents using BentoPDF",
+    "text": "Learn how to table of contents using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -30780,7 +30780,7 @@
     "pageCount": 1
   },
   "b32fc55a9902": {
-    "text": "Extract tables from PDF and convert to Excel (XLSX) format. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract tables from PDF and convert to Excel (XLSX) format. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -30790,7 +30790,7 @@
     "pageCount": 1
   },
   "b33cbfa06b84": {
-    "text": "Remove Metadata - Strip Hidden Data from PDF - BentoPDF",
+    "text": "Remove Metadata - Strip Hidden Data from PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -30800,7 +30800,7 @@
     "pageCount": 1
   },
   "b347263584c7": {
-    "text": "Extract Tables Online Free - Extract Tables Tool | BentoPDF",
+    "text": "Extract Tables Online Free - Extract Tables Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -30850,7 +30850,7 @@
     "pageCount": 1
   },
   "b3e1fdbcbaaa": {
-    "text": "Bookmark Online Free - Bookmark Tool | BentoPDF",
+    "text": "Bookmark Online Free - Bookmark Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -30860,7 +30860,7 @@
     "pageCount": 1
   },
   "b3e52e6ca3a2": {
-    "text": "Learn how to fix page size using BentoPDF",
+    "text": "Learn how to fix page size using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -30910,7 +30910,7 @@
     "pageCount": 1
   },
   "b40853206edd": {
-    "text": "ODP to PDF - Convert OpenDocument Presentation to PDF - BentoPDF",
+    "text": "ODP to PDF - Convert OpenDocument Presentation to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -31034,7 +31034,7 @@
     "pageCount": 1
   },
   "b4c2ba570db5": {
-    "text": "Add Page Labels - BentoPDF",
+    "text": "Add Page Labels - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -31054,7 +31054,7 @@
     "pageCount": 1
   },
   "b4e17535ccf3": {
-    "text": "Kura is written and owned by BentoPDF, and every third-party component it links, including qpdf, PDFium and FreeType, is permissively licensed. No copyleft surprises in your supply chain.",
+    "text": "Kura is written and owned by Chawso PDF, and every third-party component it links, including qpdf, PDFium and FreeType, is permissively licensed. No copyleft surprises in your supply chain.",
     "tags": [
       "p"
     ],
@@ -31084,7 +31084,7 @@
     "pageCount": 1
   },
   "b4f049292f23": {
-    "text": "Create a PDF from one or more HEIC images. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a PDF from one or more HEIC images. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -31114,7 +31114,7 @@
     "pageCount": 1
   },
   "b53072f049f1": {
-    "text": "Convert comic book archives (CBZ/CBR) to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert comic book archives (CBZ/CBR) to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -31245,7 +31245,7 @@
     "pageCount": 1
   },
   "b5c0f4184a58": {
-    "text": "Rasterize PDF - BentoPDF",
+    "text": "Rasterize PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -31285,7 +31285,7 @@
     "pageCount": 1
   },
   "b5fa405841d1": {
-    "text": "Make your PDF look like a scanned document. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Make your PDF look like a scanned document. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -31305,7 +31305,7 @@
     "pageCount": 1
   },
   "b6138a113a45": {
-    "text": "No. The LibreOffice engine runs entirely inside your browser tab, so a resume, contract, or medical letter is converted on your own device and never sent anywhere.",
+    "text": "No. The LibreOffice engine runs entirely inside your browser tab, so a resume, contract, or medical letter is converted on your own device by design.",
     "tags": [
       "p"
     ],
@@ -31315,7 +31315,7 @@
     "pageCount": 1
   },
   "b6178867ba8b": {
-    "text": "View PDF Metadata - BentoPDF",
+    "text": "View PDF Metadata - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -31415,7 +31415,7 @@
     "pageCount": 1
   },
   "b6f12e2dee82": {
-    "text": "PDF Booklet Online Free - PDF Booklet Tool | BentoPDF",
+    "text": "PDF Booklet Online Free - PDF Booklet Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -31455,7 +31455,7 @@
     "pageCount": 1
   },
   "b74bd17534b7": {
-    "text": "Font to Outline PDF Online Free - Convert Fonts to Paths | BentoPDF",
+    "text": "Font to Outline PDF Online Free - Convert Fonts to Paths | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -31556,7 +31556,7 @@
     "pageCount": 1
   },
   "b810dbf72338": {
-    "text": "Learn how to psd to pdf using BentoPDF",
+    "text": "Learn how to psd to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -31678,7 +31678,7 @@
     "pageCount": 2
   },
   "b8bf7e406535": {
-    "text": "Learn how to convert email files to PDF using BentoPDF",
+    "text": "Learn how to convert email files to PDF using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -31850,7 +31850,7 @@
     "pageCount": 1
   },
   "b96ccee71b5f": {
-    "text": "Learn how to sanitize pdf using BentoPDF",
+    "text": "Learn how to sanitize pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -31920,7 +31920,7 @@
     "pageCount": 1
   },
   "ba19c32f25a0": {
-    "text": "Learn how to vsd to pdf using BentoPDF",
+    "text": "Learn how to vsd to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -31970,7 +31970,7 @@
     "pageCount": 1
   },
   "ba3c2149284e": {
-    "text": "Create PDF Form - BentoPDF",
+    "text": "Create PDF Form - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -32004,7 +32004,7 @@
     "pageCount": 139
   },
   "ba72a876552a": {
-    "text": "ODP to PDF Online Free - ODP to PDF Tool | BentoPDF",
+    "text": "ODP to PDF Online Free - ODP to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -32148,7 +32148,7 @@
     "pageCount": 1
   },
   "bb6b6ac66623": {
-    "text": "CBZ to PDF - BentoPDF",
+    "text": "CBZ to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -32178,7 +32178,7 @@
     "pageCount": 1
   },
   "bb90bc30538a": {
-    "text": "Rasterize PDF Online Free - Rasterize PDF Tool | BentoPDF",
+    "text": "Rasterize PDF Online Free - Rasterize PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -32282,7 +32282,7 @@
     "pageCount": 1
   },
   "bc622b7f3b36": {
-    "text": "Repair PDF Online Free - Repair PDF Tool | BentoPDF",
+    "text": "Repair PDF Online Free - Repair PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -32292,7 +32292,7 @@
     "pageCount": 1
   },
   "bc966b788138": {
-    "text": "Convert Microsoft Visio (VSD, VSDX) files to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert Microsoft Visio (VSD, VSDX) files to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -32372,7 +32372,7 @@
     "pageCount": 1
   },
   "bcd187f85bab": {
-    "text": "Text Color Online Free - Text Color Tool | BentoPDF",
+    "text": "Text Color Online Free - Text Color Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -32392,7 +32392,7 @@
     "pageCount": 1
   },
   "bcf28e8c1e66": {
-    "text": "PDF Workflow Builder - Visual Pipeline | BentoPDF",
+    "text": "PDF Workflow Builder - Visual Pipeline | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -32513,7 +32513,7 @@
     "pageCount": 1
   },
   "bda976f5efb5": {
-    "text": "JPG to PDF - BentoPDF",
+    "text": "JPG to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -32523,7 +32523,7 @@
     "pageCount": 1
   },
   "bda9f1939546": {
-    "text": "Convert all colors to black and white. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert all colors to black and white. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -32593,7 +32593,7 @@
     "pageCount": 1
   },
   "bdf67d6877d1": {
-    "text": "No. The conversion runs entirely in your browser tab; the only download is the engine itself, and the ODG file never leaves your device.",
+    "text": "No. The conversion runs entirely in your browser tab; the only download is the engine itself, and the ODG file stays on your device by design.",
     "tags": [
       "p"
     ],
@@ -32665,7 +32665,7 @@
     "pageCount": 1
   },
   "be46d15c53c7": {
-    "text": "Linearize PDF - BentoPDF",
+    "text": "Linearize PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -32675,7 +32675,7 @@
     "pageCount": 1
   },
   "be5ab97781bf": {
-    "text": "PDF to CSV Online Free - PDF to CSV Tool | BentoPDF",
+    "text": "PDF to CSV Online Free - PDF to CSV Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -32695,7 +32695,7 @@
     "pageCount": 1
   },
   "be7502b2417d": {
-    "text": "Edit PDF Online Free - Annotate, Highlight and Redact | BentoPDF",
+    "text": "Edit PDF Online Free - Annotate, Highlight and Redact | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -32726,7 +32726,7 @@
     "pageCount": 1
   },
   "be7cb34a8f61": {
-    "text": "Learn how to add watermark using BentoPDF",
+    "text": "Learn how to add watermark using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -32786,7 +32786,7 @@
     "pageCount": 1
   },
   "bea4cc47e6a4": {
-    "text": "Learn how to decrypt using BentoPDF",
+    "text": "Learn how to decrypt using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -32856,7 +32856,7 @@
     "pageCount": 1
   },
   "bf01f5637f7b": {
-    "text": "Learn how to alternate merge using BentoPDF",
+    "text": "Learn how to alternate merge using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -32897,7 +32897,7 @@
     "pageCount": 1
   },
   "bf50e20bc645": {
-    "text": "Learn how to cbz to pdf using BentoPDF",
+    "text": "Learn how to cbz to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -33030,7 +33030,7 @@
     "pageCount": 1
   },
   "bfcab3efe87a": {
-    "text": "No. The numbers are written by a PDF library running in your browser and the file never leaves your device, which makes it fine for contracts and confidential reports.",
+    "text": "No. The numbers are written by a PDF library running in your browser and the file stays on your device by design, which makes it fine for contracts and confidential reports.",
     "tags": [
       "p"
     ],
@@ -33152,7 +33152,7 @@
     "pageCount": 1
   },
   "c05001fa9d82": {
-    "text": "Learn how to edit attachments using BentoPDF",
+    "text": "Learn how to edit attachments using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -33213,7 +33213,7 @@
     "pageCount": 1
   },
   "c08460daffee": {
-    "text": "Bring a PDF under 500KB with almost no visible quality loss. Free, no uploads. Runs entirely in your browser.",
+    "text": "Bring a PDF under 500KB with almost no visible quality loss. Free. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -33315,7 +33315,7 @@
     "pageCount": 1
   },
   "c11d86f79b9d": {
-    "text": "PUB to PDF - BentoPDF",
+    "text": "PUB to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -33325,7 +33325,7 @@
     "pageCount": 1
   },
   "c1368dab08da": {
-    "text": "Turn pages in 90-degree increments. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Turn pages in 90-degree increments. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -33557,7 +33557,7 @@
     "pageCount": 1
   },
   "c27661a974f7": {
-    "text": "Create a PDF from one or more SVG images. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a PDF from one or more SVG images. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -33577,7 +33577,7 @@
     "pageCount": 1
   },
   "c27fb94150b9": {
-    "text": "PDF to WebP Online Free - PDF to WebP Tool | BentoPDF",
+    "text": "PDF to WebP Online Free - PDF to WebP Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -33773,7 +33773,7 @@
     "pageCount": 1
   },
   "c4380562780c": {
-    "text": "TXT to PDF Online Free - TXT to PDF Tool | BentoPDF",
+    "text": "TXT to PDF Online Free - TXT to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -33795,7 +33795,7 @@
     "pageCount": 2
   },
   "c43fc0c1efe3": {
-    "text": "Word to PDF Converter Free - DOCX to PDF Online | BentoPDF",
+    "text": "Word to PDF Converter Free - DOCX to PDF Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -33816,7 +33816,7 @@
     "pageCount": 1
   },
   "c46f2301207f": {
-    "text": "No. The PDF is opened in your browser, the pages are copied into a new document on your device, and the result is downloaded directly, so scans of forms and records never leave your computer.",
+    "text": "No. The PDF is opened in your browser, the pages are copied into a new document on your device, and the result is downloaded directly, so scans of forms and records stay on your computer by design.",
     "tags": [
       "p"
     ],
@@ -33896,7 +33896,7 @@
     "pageCount": 1
   },
   "c5139e770c21": {
-    "text": "Form Filler online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Form Filler online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -33936,7 +33936,7 @@
     "pageCount": 1
   },
   "c5522a9cb03d": {
-    "text": "Learn how to text color using BentoPDF",
+    "text": "Learn how to text color using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -33956,7 +33956,7 @@
     "pageCount": 1
   },
   "c56f57661e51": {
-    "text": "Overlay Pdf online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Overlay Pdf online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -34017,7 +34017,7 @@
     "pageCount": 1
   },
   "c5a297e48513": {
-    "text": "Validate PDF Signature Online Free - Verify Digital Signatures | BentoPDF",
+    "text": "Validate PDF Signature Online Free - Verify Digital Signatures | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -34038,7 +34038,7 @@
     "pageCount": 1
   },
   "c5c3243e08c8": {
-    "text": "About BentoPDF - Privacy-First Free PDF Tools | Our Story",
+    "text": "About Chawso PDF - Privacy-First Free PDF Tools | Our Story",
     "tags": [
       "title"
     ],
@@ -34139,7 +34139,7 @@
     "pageCount": 1
   },
   "c6a432a7d501": {
-    "text": "PDFs to ZIP - BentoPDF",
+    "text": "PDFs to ZIP - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -34149,7 +34149,7 @@
     "pageCount": 1
   },
   "c6ab85e651c8": {
-    "text": "Compress PDF Online Free - Reduce PDF Size Up to 90% | BentoPDF",
+    "text": "Compress PDF Online Free - Reduce PDF Size Up to 90% | Chawso PDF",
     "tags": [
       "title"
     ],
@@ -34402,7 +34402,7 @@
     "pageCount": 2
   },
   "c80f91ed5bf0": {
-    "text": "Sign PDF Online Free - Add Your Signature to a PDF | BentoPDF",
+    "text": "Sign PDF Online Free - Add Your Signature to a PDF | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -34507,7 +34507,7 @@
     "pageCount": 1
   },
   "c876ce0e72a3": {
-    "text": "Create a PDF from one or more PNG images. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a PDF from one or more PNG images. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -34559,7 +34559,7 @@
     "pageCount": 1
   },
   "c8bf9f46a7a2": {
-    "text": "Configure advanced PDF processing modules for BentoPDF. Enable features like PDF/A conversion, document extraction, and more.",
+    "text": "Configure advanced PDF processing modules for Chawso PDF. Enable features like PDF/A conversion, document extraction, and more.",
     "tags": [
       "meta"
     ],
@@ -34569,7 +34569,7 @@
     "pageCount": 1
   },
   "c8d0815742c1": {
-    "text": "ODS to PDF Online Free - ODS to PDF Tool | BentoPDF",
+    "text": "ODS to PDF Online Free - ODS to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -34602,7 +34602,7 @@
     "pageCount": 1
   },
   "c915cde89ce8": {
-    "text": "Yes. this is the point of BentoPDF. The file is processed by WebAssembly inside your browser and is never uploaded, so the only copies are on your device and in the email you choose to send.",
+    "text": "Yes. this is the point of Chawso PDF. The file is processed by WebAssembly inside your browser and is processed locally by design, so the only copies are on your device and in the email you choose to send.",
     "tags": [
       "p"
     ],
@@ -34622,7 +34622,7 @@
     "pageCount": 1
   },
   "c9301b4e76cd": {
-    "text": "No. Rendering uses PDF.js inside your browser and the ZIP is built locally, so the document never leaves your computer. If the PDF needs a password, you're asked for it first.",
+    "text": "No. Rendering uses PDF.js inside your browser and the ZIP is built locally, so the document stays on your computer by design. If the PDF needs a password, you're asked for it first.",
     "tags": [
       "p"
     ],
@@ -34663,7 +34663,7 @@
     "pageCount": 1
   },
   "c99d3fecd6e2": {
-    "text": "View or remove attachments in your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "View or remove attachments in your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -34743,7 +34743,7 @@
     "pageCount": 1
   },
   "ca07207ce5a0": {
-    "text": "Learn how to reverse pages using BentoPDF",
+    "text": "Learn how to reverse pages using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -34994,7 +34994,7 @@
     "pageCount": 1
   },
   "cb5935b26f9f": {
-    "text": "Extract Images from PDF - BentoPDF",
+    "text": "Extract Images from PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -35044,7 +35044,7 @@
     "pageCount": 1
   },
   "cba877dbe9d7": {
-    "text": "Learn how to pdf layers using BentoPDF",
+    "text": "Learn how to pdf layers using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -35074,7 +35074,7 @@
     "pageCount": 1
   },
   "cbf8775215c3": {
-    "text": "No. Ghostscript runs as a WebAssembly module inside your browser, so the conversion happens on your machine and the files never leave it. The module itself is fetched from a CDN the first time you use the tool, which is why the first run takes a little longer.",
+    "text": "No. Ghostscript runs as a WebAssembly module inside your browser, so the conversion happens on your machine and the files stay on it by design. The module itself is fetched from a CDN the first time you use the tool, which is why the first run takes a little longer.",
     "tags": [
       "p"
     ],
@@ -35094,7 +35094,7 @@
     "pageCount": 1
   },
   "cc419b3f5145": {
-    "text": "No. The page preview, the bookmark tree, and the final save are all handled in your browser with PDF.js and pdf-lib, so the file never leaves your computer.",
+    "text": "No. The page preview, the bookmark tree, and the final save are all handled in your browser with PDF.js and pdf-lib, so the file stays on your computer by design.",
     "tags": [
       "p"
     ],
@@ -35146,7 +35146,7 @@
     "pageCount": 1
   },
   "cc7134391801": {
-    "text": "XPS to PDF - BentoPDF",
+    "text": "XPS to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -35236,7 +35236,7 @@
     "pageCount": 1
   },
   "ccd1ec4c27be": {
-    "text": "Rotate PDF by Custom Degrees - BentoPDF",
+    "text": "Rotate PDF by Custom Degrees - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -35430,7 +35430,7 @@
     "pageCount": 1
   },
   "cddbe46ade9b": {
-    "text": "Learn how to add attachments using BentoPDF",
+    "text": "Learn how to add attachments using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -35510,7 +35510,7 @@
     "pageCount": 1
   },
   "ce1df82e29ee": {
-    "text": "Create a PDF from one or more BMP images. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a PDF from one or more BMP images. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -35550,7 +35550,7 @@
     "pageCount": 1
   },
   "ce6cca06dde2": {
-    "text": "Compress PDF for Email - BentoPDF",
+    "text": "Compress PDF for Email - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -35684,7 +35684,7 @@
     "pageCount": 1
   },
   "cf364464b031": {
-    "text": "Learn how to pdf to json using BentoPDF",
+    "text": "Learn how to pdf to json using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -35835,7 +35835,7 @@
     "pageCount": 1
   },
   "d00526c3aa75": {
-    "text": "HEIC to PDF Online Free - HEIC to PDF Tool | BentoPDF",
+    "text": "HEIC to PDF Online Free - HEIC to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -35925,7 +35925,7 @@
     "pageCount": 1
   },
   "d077bebaeb58": {
-    "text": "Learn how to edit using BentoPDF",
+    "text": "Learn how to edit using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -35935,7 +35935,7 @@
     "pageCount": 1
   },
   "d0800b7b5372": {
-    "text": "Compress PDF for Email Attachment Free | BentoPDF",
+    "text": "Compress PDF for Email Attachment Free | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -36016,7 +36016,7 @@
     "pageCount": 1
   },
   "d0efcf888d2b": {
-    "text": "WPS to PDF Online Free - WPS to PDF Tool | BentoPDF",
+    "text": "WPS to PDF Online Free - WPS to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -36148,7 +36148,7 @@
     "pageCount": 1
   },
   "d215cf5b9421": {
-    "text": "EPUB to PDF - Convert EPUB to PDF - BentoPDF",
+    "text": "EPUB to PDF - Convert EPUB to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -36351,7 +36351,7 @@
     "pageCount": 7
   },
   "d37ddc4554e6": {
-    "text": "Embedding uses the CoherentPDF (cpdf) module, which loads on demand from a CDN the first time you use it rather than shipping with the main site. If you self-host BentoPDF or work in an air-gapped setup, you can point the tool at your own copy of the module on the <1>Advanced Features settings</1> page.",
+    "text": "Embedding uses the CoherentPDF (cpdf) module, which loads on demand from a CDN the first time you use it rather than shipping with the main site. If you self-host Chawso PDF or work in an air-gapped setup, you can point the tool at your own copy of the module on the <1>Advanced Features settings</1> page.",
     "tags": [
       "p"
     ],
@@ -36432,7 +36432,7 @@
     "pageCount": 1
   },
   "d3f27124086f": {
-    "text": "Timestamp PDF Online Free - RFC 3161 Document Timestamp | BentoPDF",
+    "text": "Timestamp PDF Online Free - RFC 3161 Document Timestamp | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -36486,7 +36486,7 @@
     "pageCount": 1
   },
   "d41ecd12705f": {
-    "text": "Divide PDF Pages - BentoPDF",
+    "text": "Divide PDF Pages - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -36506,7 +36506,7 @@
     "pageCount": 1
   },
   "d43a72de7504": {
-    "text": "Form Creator online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Form Creator online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -36556,7 +36556,7 @@
     "pageCount": 1
   },
   "d45f34bc1619": {
-    "text": "Learn how to remove restrictions using BentoPDF",
+    "text": "Learn how to remove restrictions using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -36576,7 +36576,7 @@
     "pageCount": 1
   },
   "d46f3da9ba6f": {
-    "text": "ODT to PDF - Convert OpenDocument Text to PDF - BentoPDF",
+    "text": "ODT to PDF - Convert OpenDocument Text to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -36646,7 +36646,7 @@
     "pageCount": 1
   },
   "d4f3e7390178": {
-    "text": "Password Protect PDF Free - Encrypt a PDF Online | BentoPDF",
+    "text": "Password Protect PDF Free - Encrypt a PDF Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -36677,7 +36677,7 @@
     "pageCount": 1
   },
   "d5337e54ec40": {
-    "text": "Extract text from PDF files and save as plain text (.txt). Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract text from PDF files and save as plain text (.txt). Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -36789,7 +36789,7 @@
     "pageCount": 1
   },
   "d5ee2b6144bb": {
-    "text": "Change PDF Permissions - Manage PDF Security - BentoPDF",
+    "text": "Change PDF Permissions - Manage PDF Security - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -36849,7 +36849,7 @@
     "pageCount": 1
   },
   "d6199b1f66c7": {
-    "text": "<1>contact@bentopdf.com</1> <2/>",
+    "text": "<1>github.com/expedviews/chawso-pdf</1> <2/>",
     "tags": [
       "div"
     ],
@@ -36860,7 +36860,7 @@
     "pageCount": 2
   },
   "d61d98aa6321": {
-    "text": "Bates Numbering - BentoPDF",
+    "text": "Bates Numbering - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -36880,7 +36880,7 @@
     "pageCount": 1
   },
   "d651676daabf": {
-    "text": "Bring a PDF under 2MB while keeping high image quality. Free, no uploads. Runs entirely in your browser.",
+    "text": "Bring a PDF under 2MB while keeping high image quality. Free. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -36922,7 +36922,7 @@
     "pageCount": 1
   },
   "d6c7665a71a2": {
-    "text": "Draw, type, or upload your signature. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Draw, type, or upload your signature. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -36983,7 +36983,7 @@
     "pageCount": 1
   },
   "d750c196fd21": {
-    "text": "PDF Multi Tool Online Free - PDF Multi Tool | BentoPDF",
+    "text": "PDF Multi Tool Online Free - PDF Multi Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -37036,7 +37036,7 @@
     "pageCount": 1
   },
   "d7a29601f57f": {
-    "text": "Learn how to rotate custom using BentoPDF",
+    "text": "Learn how to rotate custom using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37046,7 +37046,7 @@
     "pageCount": 1
   },
   "d7b41ac4661e": {
-    "text": "PSD to PDF - BentoPDF",
+    "text": "PSD to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37066,7 +37066,7 @@
     "pageCount": 1
   },
   "d7ec20949d91": {
-    "text": "Learn how to webp to pdf using BentoPDF",
+    "text": "Learn how to webp to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37076,7 +37076,7 @@
     "pageCount": 1
   },
   "d7f8ddfd0ffd": {
-    "text": "Remove Blank Pages - BentoPDF",
+    "text": "Remove Blank Pages - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -37087,7 +37087,7 @@
     "pageCount": 1
   },
   "d7ff3293030c": {
-    "text": "Compare PDFs Online Free - Compare PDFs Tool | BentoPDF",
+    "text": "Compare PDFs Online Free - Compare PDFs Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -37107,7 +37107,7 @@
     "pageCount": 1
   },
   "d817deaf5681": {
-    "text": "Create a PDF from one or more TIFF images. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Create a PDF from one or more TIFF images. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -37228,7 +37228,7 @@
     "pageCount": 1
   },
   "d9360dde592b": {
-    "text": "Rasterize PDF - Convert to Image-Based PDF - BentoPDF",
+    "text": "Rasterize PDF - Convert to Image-Based PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -37318,7 +37318,7 @@
     "pageCount": 1
   },
   "d9a1be3a9dcd": {
-    "text": "PDF to PDF/A - BentoPDF",
+    "text": "PDF to PDF/A - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37349,7 +37349,7 @@
     "pageCount": 2
   },
   "d9e54e1d10a8": {
-    "text": "Standardize all pages to a uniform size. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Standardize all pages to a uniform size. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -37535,7 +37535,7 @@
     "pageCount": 1
   },
   "dac6c07b0e32": {
-    "text": "Merge PDF - BentoPDF",
+    "text": "Merge PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37545,7 +37545,7 @@
     "pageCount": 1
   },
   "dacfa64cccf1": {
-    "text": "Divide Pages - BentoPDF",
+    "text": "Divide Pages - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37597,7 +37597,7 @@
     "pageCount": 1
   },
   "dbbea9116547": {
-    "text": "Page Dimensions - Analyze PDF Page Sizes - BentoPDF",
+    "text": "Page Dimensions - Analyze PDF Page Sizes - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -37628,7 +37628,7 @@
     "pageCount": 1
   },
   "dc36093c9fcc": {
-    "text": "Learn how to pdf multi tool using BentoPDF",
+    "text": "Learn how to pdf multi tool using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37648,7 +37648,7 @@
     "pageCount": 1
   },
   "dc483f2d6cbe": {
-    "text": "Learn how to pdf to text using BentoPDF",
+    "text": "Learn how to pdf to text using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -37911,7 +37911,7 @@
     "pageCount": 1
   },
   "ddda5af41f89": {
-    "text": "PDF to SVG Online Free - PDF to SVG Tool | BentoPDF",
+    "text": "PDF to SVG Online Free - PDF to SVG Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -37931,7 +37931,7 @@
     "pageCount": 1
   },
   "ddee699c4676": {
-    "text": "Duplex Collate - Reorder Front/Back Scan Blocks | BentoPDF",
+    "text": "Duplex Collate - Reorder Front/Back Scan Blocks | Chawso PDF",
     "tags": [
       "title"
     ],
@@ -38061,7 +38061,7 @@
     "pageCount": 1
   },
   "de612e6c3ecb": {
-    "text": "Convert each page of a PDF file into a scalable vector graphic (SVG) for perfect quality at any size. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert each page of a PDF file into a scalable vector graphic (SVG) for perfect quality at any size. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -38071,7 +38071,7 @@
     "pageCount": 1
   },
   "de7eedb38b8c": {
-    "text": "Alternate Merge Online Free - Alternate Merge Tool | BentoPDF",
+    "text": "Alternate Merge Online Free - Alternate Merge Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -38255,7 +38255,7 @@
     "pageCount": 2
   },
   "dfb47acc98ba": {
-    "text": "Not with BentoPDF. The output follows cpdf's own JSON format, which the cpdf command line tool can read back into a PDF, but the browser tool only goes in one direction.",
+    "text": "Not with Chawso PDF. The output follows cpdf's own JSON format, which the cpdf command line tool can read back into a PDF, but the browser tool only goes in one direction.",
     "tags": [
       "p"
     ],
@@ -38325,7 +38325,7 @@
     "pageCount": 1
   },
   "e015c42f8431": {
-    "text": "CBZ to PDF - Convert Comic Book Archives to PDF - BentoPDF",
+    "text": "CBZ to PDF - Convert Comic Book Archives to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -38335,7 +38335,7 @@
     "pageCount": 1
   },
   "e029ea0d8312": {
-    "text": "Font to Outline PDF - BentoPDF",
+    "text": "Font to Outline PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -38375,7 +38375,7 @@
     "pageCount": 1
   },
   "e0744e4f4ffc": {
-    "text": "Fine-tune brightness, contrast, saturation and more in your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Fine-tune brightness, contrast, saturation and more in your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -38426,7 +38426,7 @@
     "pageCount": 1
   },
   "e0d64e25e449": {
-    "text": "MOBI to PDF Online Free - MOBI to PDF Tool | BentoPDF",
+    "text": "MOBI to PDF Online Free - MOBI to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -38456,7 +38456,7 @@
     "pageCount": 1
   },
   "e1035eb6c9e5": {
-    "text": "PDF to Greyscale Online Free - PDF to Greyscale Tool | BentoPDF",
+    "text": "PDF to Greyscale Online Free - PDF to Greyscale Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -38500,7 +38500,7 @@
     "pageCount": 2
   },
   "e1739e70b671": {
-    "text": "Learn how to tiff to pdf using BentoPDF",
+    "text": "Learn how to tiff to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -38530,7 +38530,7 @@
     "pageCount": 1
   },
   "e192bc999275": {
-    "text": "Trim the margins of every page in your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Trim the margins of every page in your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -38560,7 +38560,7 @@
     "pageCount": 1
   },
   "e1a6cf792914": {
-    "text": "Add Blank Page - BentoPDF",
+    "text": "Add Blank Page - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -38571,7 +38571,7 @@
     "pageCount": 1
   },
   "e1d5c252fcb0": {
-    "text": "Background Color Online Free - Background Color Tool | BentoPDF",
+    "text": "Background Color Online Free - Background Color Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -38581,7 +38581,7 @@
     "pageCount": 1
   },
   "e20740954fff": {
-    "text": "PDF to Greyscale - BentoPDF",
+    "text": "PDF to Greyscale - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -38633,7 +38633,7 @@
     "pageCount": 2
   },
   "e24817639401": {
-    "text": "Combine Single Page Online Free - Combine Single Page Tool | BentoPDF",
+    "text": "Combine Single Page Online Free - Combine Single Page Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -38664,7 +38664,7 @@
     "pageCount": 2
   },
   "e2665598494c": {
-    "text": "ODP to PDF - BentoPDF",
+    "text": "ODP to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -38684,7 +38684,7 @@
     "pageCount": 1
   },
   "e26c07535d78": {
-    "text": "Convert all fonts to vector outlines for consistent rendering across all devices. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert all fonts to vector outlines for consistent rendering across all devices. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -38694,7 +38694,7 @@
     "pageCount": 1
   },
   "e26e0ecdb6b7": {
-    "text": "PDF to WebP - BentoPDF",
+    "text": "PDF to WebP - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -38777,7 +38777,7 @@
     "pageCount": 1
   },
   "e2bb513f82ca": {
-    "text": "Prepare PDF for AI - Extract for LLM/RAG - BentoPDF",
+    "text": "Prepare PDF for AI - Extract for LLM/RAG - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -38797,7 +38797,7 @@
     "pageCount": 1
   },
   "e2c7caa299b5": {
-    "text": "Form Filler Online Free - Form Filler Tool | BentoPDF",
+    "text": "Form Filler Online Free - Form Filler Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -38869,7 +38869,7 @@
     "pageCount": 1
   },
   "e358dfe3f682": {
-    "text": "Learn how to pdf to webp using BentoPDF",
+    "text": "Learn how to pdf to webp using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -39293,7 +39293,7 @@
     "pageCount": 1
   },
   "e632656732d4": {
-    "text": "Convert WordPerfect documents (WPD) to PDF format. Supports multiple files. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert WordPerfect documents (WPD) to PDF format. Supports multiple files. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -39343,7 +39343,7 @@
     "pageCount": 1
   },
   "e648495b2b99": {
-    "text": "PDF to Markdown - BentoPDF",
+    "text": "PDF to Markdown - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -39376,7 +39376,7 @@
     "pageCount": 1
   },
   "e6750dce92ff": {
-    "text": "Learn how to page dimensions using BentoPDF",
+    "text": "Learn how to page dimensions using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -39446,7 +39446,7 @@
     "pageCount": 1
   },
   "e6e3a0b77f38": {
-    "text": "Arrange multiple pages onto a single sheet. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Arrange multiple pages onto a single sheet. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -39486,7 +39486,7 @@
     "pageCount": 1
   },
   "e76c0dd2144f": {
-    "text": "PowerPoint to PDF - BentoPDF",
+    "text": "PowerPoint to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -39588,7 +39588,7 @@
     "pageCount": 1
   },
   "e7f0789a82e6": {
-    "text": "Rotate Custom - BentoPDF",
+    "text": "Rotate Custom - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -39618,7 +39618,7 @@
     "pageCount": 1
   },
   "e834ffc8b26a": {
-    "text": "Learn how to convert PDF to Excel using BentoPDF",
+    "text": "Learn how to convert PDF to Excel using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -39638,7 +39638,7 @@
     "pageCount": 1
   },
   "e836e9cdc7c8": {
-    "text": "Pdf To Zip online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Pdf To Zip online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -39648,7 +39648,7 @@
     "pageCount": 1
   },
   "e850f3b32bf4": {
-    "text": "No. Kura is a separate project with its own license. The BentoPDF app license does not grant any rights to Kura, and a Kura license does not cover BentoPDF.",
+    "text": "No. Kura is a separate project with its own license. The Chawso PDF app license does not grant any rights to Kura, and a Kura license does not cover Chawso PDF.",
     "tags": [
       "p"
     ],
@@ -39678,7 +39678,7 @@
     "pageCount": 1
   },
   "e85fcb89e909": {
-    "text": "Learn how to image to pdf using BentoPDF",
+    "text": "Learn how to image to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -39728,7 +39728,7 @@
     "pageCount": 1
   },
   "e88a63315cb1": {
-    "text": "The file is parsed as data in your browser and never uploaded, and the tool doesn't execute any script inside it. Keep the original in case a stripped element turns out to be needed, since sanitizing can't be undone from the output.",
+    "text": "The file is parsed as data in your browser by design, and the tool doesn't execute any script inside it. Keep the original in case a stripped element turns out to be needed, since sanitizing can't be undone from the output.",
     "tags": [
       "p"
     ],
@@ -39748,7 +39748,7 @@
     "pageCount": 1
   },
   "e8ae13d197c4": {
-    "text": "PSD to PDF - Convert Photoshop Files to PDF - BentoPDF",
+    "text": "PSD to PDF - Convert Photoshop Files to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -39821,7 +39821,7 @@
     "pageCount": 1
   },
   "e8efa39bfe00": {
-    "text": "Lock your PDF by adding a password. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Lock your PDF by adding a password. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -39831,7 +39831,7 @@
     "pageCount": 1
   },
   "e8f31970212e": {
-    "text": "Automatically detect and delete blank pages. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Automatically detect and delete blank pages. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -39881,7 +39881,7 @@
     "pageCount": 1
   },
   "e9347e84b537": {
-    "text": "Extract Attachments - BentoPDF",
+    "text": "Extract Attachments - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -39943,7 +39943,7 @@
     "pageCount": 1
   },
   "e993d512f1ac": {
-    "text": "I don't build BentoPDF alone anymore. More than 60 people have contributed code, translations and fixes, and thousands more have starred it, shared it, reported bugs and asked for features. Thank you.",
+    "text": "I don't build Chawso PDF alone anymore. More than 60 people have contributed code, translations and fixes, and thousands more have starred it, shared it, reported bugs and asked for features. Thank you.",
     "tags": [
       "p"
     ],
@@ -40122,7 +40122,7 @@
     "pageCount": 2
   },
   "eae6956e7b89": {
-    "text": "BentoPDF - Free Online PDF Tools | Privacy-First PDF Toolkit",
+    "text": "Chawso PDF - Free Online PDF Tools | Privacy-First PDF Toolkit",
     "tags": [
       "meta",
       "title"
@@ -40153,7 +40153,7 @@
     "pageCount": 1
   },
   "eb22b99d6c4e": {
-    "text": "Bates Numbering Online Free - Add Bates Stamps | BentoPDF",
+    "text": "Bates Numbering Online Free - Add Bates Stamps | Chawso PDF",
     "tags": [
       "title"
     ],
@@ -40255,7 +40255,7 @@
     "pageCount": 1
   },
   "eb960935c252": {
-    "text": "Learn how to epub to pdf using BentoPDF",
+    "text": "Learn how to epub to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -40265,7 +40265,7 @@
     "pageCount": 1
   },
   "eb97bed26474": {
-    "text": "Reverse Pages Online Free - Reverse Pages Tool | BentoPDF",
+    "text": "Reverse Pages Online Free - Reverse Pages Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -40275,7 +40275,7 @@
     "pageCount": 1
   },
   "eba334a1f92e": {
-    "text": "Compress PDF to 200KB Free - BentoPDF",
+    "text": "Compress PDF to 200KB Free - Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -40405,7 +40405,7 @@
     "pageCount": 1
   },
   "ec4afa631956": {
-    "text": "Decrypt PDF - BentoPDF",
+    "text": "Decrypt PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -40495,7 +40495,7 @@
     "pageCount": 1
   },
   "eca1364df63c": {
-    "text": "Adjust Colors - BentoPDF",
+    "text": "Adjust Colors - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -40577,7 +40577,7 @@
     "pageCount": 1
   },
   "ed0a36bd0914": {
-    "text": "MOBI to PDF - Convert MOBI eBooks to PDF - BentoPDF",
+    "text": "MOBI to PDF - Convert MOBI eBooks to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -40647,7 +40647,7 @@
     "pageCount": 1
   },
   "ed80ae242ba8": {
-    "text": "Edit PDF Text - BentoPDF",
+    "text": "Edit PDF Text - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -40748,7 +40748,7 @@
     "pageCount": 1
   },
   "ee62d7b3b0ec": {
-    "text": "Free, privacy-first online PDF toolkit with 100+ tools. Merge, split, compress, convert PDFs - 100% browser-based, no signup required, unlimited files.",
+    "text": "Free, privacy-first online PDF toolkit with 100+ tools. Merge, split, compress, convert PDFs - browser-based, no signup required, unlimited files.",
     "tags": [
       "ld"
     ],
@@ -40798,7 +40798,7 @@
     "pageCount": 1
   },
   "ee97687aeedf": {
-    "text": "Compare PDFs - BentoPDF",
+    "text": "Compare PDFs - Chawso PDF",
     "tags": [
       "ld",
       "title"
@@ -40809,7 +40809,7 @@
     "pageCount": 1
   },
   "ee9d9e36eb02": {
-    "text": "Compress PDF to 100KB Free Online | BentoPDF",
+    "text": "Compress PDF to 100KB Free Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -40840,7 +40840,7 @@
     "pageCount": 1
   },
   "eec252b11077": {
-    "text": "Pages to PDF - Convert Apple Pages to PDF - BentoPDF",
+    "text": "Pages to PDF - Convert Apple Pages to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -40913,7 +40913,7 @@
     "pageCount": 4
   },
   "eefd7e6059b5": {
-    "text": "ODG to PDF - Convert OpenDocument Graphics to PDF - BentoPDF",
+    "text": "ODG to PDF - Convert OpenDocument Graphics to PDF - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -40984,7 +40984,7 @@
     "pageCount": 1
   },
   "ef54a6298490": {
-    "text": "Learn how to delete pages using BentoPDF",
+    "text": "Learn how to delete pages using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -41004,7 +41004,7 @@
     "pageCount": 1
   },
   "ef66d8ed0fcc": {
-    "text": "<1>Hi, I'm Alam.</1> <2>I build BentoPDF.</2>",
+    "text": "<1>Hi, I'm Alam.</1> <2>I build Chawso PDF.</2>",
     "tags": [
       "h1"
     ],
@@ -41164,7 +41164,7 @@
     "pageCount": 1
   },
   "f0ded7ae1a5d": {
-    "text": "Rotate PDF - BentoPDF",
+    "text": "Rotate PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -41288,7 +41288,7 @@
     "pageCount": 7
   },
   "f1a0090cc7ec": {
-    "text": "EPUB to PDF - BentoPDF",
+    "text": "EPUB to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -41308,7 +41308,7 @@
     "pageCount": 1
   },
   "f1afba357e9f": {
-    "text": "No. The PyMuPDF engine loads into your browser as WebAssembly and renders the book there, so the EPUB never leaves your device. Large books with many images just take a little longer on slower machines.",
+    "text": "No. The PyMuPDF engine loads into your browser as WebAssembly and renders the book there, so the EPUB stays on your device by design. Large books with many images just take a little longer on slower machines.",
     "tags": [
       "p"
     ],
@@ -41451,7 +41451,7 @@
     "pageCount": 1
   },
   "f27054b28350": {
-    "text": "Learn how to svg to pdf using BentoPDF",
+    "text": "Learn how to svg to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -41461,7 +41461,7 @@
     "pageCount": 1
   },
   "f270d33db6cd": {
-    "text": "Why Use BentoPDF PDF Editor Tools?",
+    "text": "Why Use Chawso PDF PDF Editor Tools?",
     "tags": [
       "h2"
     ],
@@ -41521,7 +41521,7 @@
     "pageCount": 1
   },
   "f2b458b904f5": {
-    "text": "Learn how to xps to pdf using BentoPDF",
+    "text": "Learn how to xps to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -41561,7 +41561,7 @@
     "pageCount": 1
   },
   "f2e0cafd2382": {
-    "text": "JSON to PDF Converter - BentoPDF",
+    "text": "JSON to PDF Converter - Chawso PDF",
     "tags": [
       "title"
     ],
@@ -41661,7 +41661,7 @@
     "pageCount": 1
   },
   "f36072d24280": {
-    "text": "Rotate PDF Online Free - Fix Page Orientation | BentoPDF",
+    "text": "Rotate PDF Online Free - Fix Page Orientation | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -41682,7 +41682,7 @@
     "pageCount": 1
   },
   "f37f4fd1b4ca": {
-    "text": "Learn how to convert PDF to JPG using BentoPDF",
+    "text": "Learn how to convert PDF to JPG using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -41702,7 +41702,7 @@
     "pageCount": 1
   },
   "f3ad05311cb5": {
-    "text": "XML to PDF Online Free - XML to PDF Tool | BentoPDF",
+    "text": "XML to PDF Online Free - XML to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -41712,7 +41712,7 @@
     "pageCount": 1
   },
   "f3b60420c276": {
-    "text": "Learn how to odp to pdf using BentoPDF",
+    "text": "Learn how to odp to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -41733,7 +41733,7 @@
     "pageCount": 2
   },
   "f3fa692eec53": {
-    "text": "Edit Metadata Online Free - Edit Metadata Tool | BentoPDF",
+    "text": "Edit Metadata Online Free - Edit Metadata Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -41817,7 +41817,7 @@
     "pageCount": 5
   },
   "f46f15495356": {
-    "text": "PDF Overlay &amp; Underlay Online Free | BentoPDF",
+    "text": "PDF Overlay &amp; Underlay Online Free | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -41878,7 +41878,7 @@
     "pageCount": 1
   },
   "f4ee16b7b34d": {
-    "text": "Change the background color of your PDF. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Change the background color of your PDF. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -41928,7 +41928,7 @@
     "pageCount": 1
   },
   "f51db26781af": {
-    "text": "Extract Images - BentoPDF",
+    "text": "Extract Images - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -42010,7 +42010,7 @@
     "pageCount": 1
   },
   "f5e4768883e2": {
-    "text": "XPS to PDF Online Free - XPS to PDF Tool | BentoPDF",
+    "text": "XPS to PDF Online Free - XPS to PDF Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -42261,7 +42261,7 @@
     "pageCount": 1
   },
   "f7d5bb16a4b6": {
-    "text": "Form Creator Online Free - Form Creator Tool | BentoPDF",
+    "text": "Form Creator Online Free - Form Creator Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
@@ -42392,7 +42392,7 @@
     "pageCount": 1
   },
   "f860e7ac2410": {
-    "text": "Pdf Layers online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Pdf Layers online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -42412,7 +42412,7 @@
     "pageCount": 1
   },
   "f87e01ba3f33": {
-    "text": "PDF Overlay - BentoPDF",
+    "text": "PDF Overlay - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -42432,7 +42432,7 @@
     "pageCount": 1
   },
   "f88e845d762f": {
-    "text": "Learn how to form creator using BentoPDF",
+    "text": "Learn how to form creator using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -42619,7 +42619,7 @@
     "pageCount": 1
   },
   "f96af56b7a88": {
-    "text": "BentoPDF started off as just a simple internal tool I used for quickly merging and splitting PDFs.",
+    "text": "Chawso PDF started off as just a simple internal tool I used for quickly merging and splitting PDFs.",
     "tags": [
       "p"
     ],
@@ -42679,7 +42679,7 @@
     "pageCount": 1
   },
   "f9c4f2ba8c42": {
-    "text": "Extract tables from PDF and convert to CSV format. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Extract tables from PDF and convert to CSV format. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -42709,7 +42709,7 @@
     "pageCount": 1
   },
   "f9cd530ebe3d": {
-    "text": "Learn how to ods to pdf using BentoPDF",
+    "text": "Learn how to ods to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -42729,7 +42729,7 @@
     "pageCount": 1
   },
   "f9dc76cb281c": {
-    "text": "View Metadata - BentoPDF",
+    "text": "View Metadata - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -42851,7 +42851,7 @@
     "pageCount": 7
   },
   "faa87452a906": {
-    "text": "Convert each PDF page into a JPG image. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Convert each PDF page into a JPG image. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -42992,7 +42992,7 @@
     "pageCount": 1
   },
   "fbbd39a68426": {
-    "text": "Strip comments, highlights, and links. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Strip comments, highlights, and links. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -43093,7 +43093,7 @@
     "pageCount": 1
   },
   "fc4dac2d0561": {
-    "text": "Text Color - BentoPDF",
+    "text": "Text Color - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -43143,7 +43143,7 @@
     "pageCount": 1
   },
   "fc9a44b3f56d": {
-    "text": "Learn how to json to pdf using BentoPDF",
+    "text": "Learn how to json to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -43153,7 +43153,7 @@
     "pageCount": 1
   },
   "fcabc1b90169": {
-    "text": "Unlock PDF Free - Remove a PDF Password Online | BentoPDF",
+    "text": "Unlock PDF Free - Remove a PDF Password Online | Chawso PDF",
     "tags": [
       "meta",
       "title"
@@ -43349,7 +43349,7 @@
     "pageCount": 1
   },
   "fe0fde4172e3": {
-    "text": "Reduce a PDF below 200KB for application portals and email forms. Free, no uploads. Runs entirely in your browser.",
+    "text": "Reduce a PDF below 200KB for application portals and email forms. Free. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -43392,7 +43392,7 @@
     "pageCount": 1
   },
   "fe29dd5f87d7": {
-    "text": "Yes, through BentoPDF's own tools in an eligible product. The <1>BentoPDF commercial license</1> includes Hyper Compress as a bundled component for companies under US$1 million in revenue and funding, in general PDF toolkits, running on the end user's device. Using the engine directly, through an API, SDK, command line or server process, inside other software, in a compression product, or above that size needs a Hyper Compress license. A Hyper Compress license does not cover BentoPDF.",
+    "text": "Yes, through Chawso PDF's own tools in an eligible product. The <1>Chawso PDF commercial license</1> includes Hyper Compress as a bundled component for companies under US$1 million in revenue and funding, in general PDF toolkits, running on the end user's device. Using the engine directly, through an API, SDK, command line or server process, inside other software, in a compression product, or above that size needs a Hyper Compress license. A Hyper Compress license does not cover Chawso PDF.",
     "tags": [
       "p"
     ],
@@ -43422,7 +43422,7 @@
     "pageCount": 1
   },
   "fe465bcb6e78": {
-    "text": "Change Permissions - BentoPDF",
+    "text": "Change Permissions - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -43482,7 +43482,7 @@
     "pageCount": 1
   },
   "feca337ad02c": {
-    "text": "Organize Pdf online. Free, no uploads, no signup. Runs entirely in your browser.",
+    "text": "Organize Pdf online. Free, no signup. Designed to run in your browser.",
     "tags": [
       "meta"
     ],
@@ -43562,7 +43562,7 @@
     "pageCount": 1
   },
   "ff53883e695e": {
-    "text": "Learn how to markdown to pdf using BentoPDF",
+    "text": "Learn how to markdown to pdf using Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -43592,7 +43592,7 @@
     "pageCount": 1
   },
   "ff9ef342be29": {
-    "text": "RTF to PDF - BentoPDF",
+    "text": "RTF to PDF - Chawso PDF",
     "tags": [
       "ld"
     ],
@@ -43602,7 +43602,7 @@
     "pageCount": 1
   },
   "ffb5228361ce": {
-    "text": "Remove Restrictions Online Free - Remove Restrictions Tool | BentoPDF",
+    "text": "Remove Restrictions Online Free - Remove Restrictions Tool | Chawso PDF",
     "tags": [
       "meta"
     ],
