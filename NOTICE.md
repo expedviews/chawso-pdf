@@ -34,10 +34,6 @@ The complete corresponding source code of the version running on this site
 is available from the source repository linked on the
 [licensing page](/licensing.html).
 
-<!-- LINK-PENDING: the public fork repository does not exist yet. Insert and
-verify the repository link on the licensing page before publishing; these
-words are approved contingent on that verified link. -->
-
 ## Bundled components
 
 See the `licenses/` directory for the licence texts of bundled third-party
