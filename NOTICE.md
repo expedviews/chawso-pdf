@@ -20,15 +20,17 @@ Upstream version this fork is based on: BentoPDF v2.8.11
 - Editor font fallback URLs are resolved to absolute same-origin URLs so
   that pages using non-embedded base-14 fonts (Helvetica, Times, Courier)
   render correctly in the editor.
-- The Edit PDF download flow warns when area redactions are used, because
-  they cannot remove matching text from document metadata, bookmarks, or
-  embedded files.
+- The Edit PDF download flow warns before downloading a document with
+  applied redactions, because redactions may not remove all sensitive
+  information from the file's properties, bookmarks, or embedded files.
 - The privacy policy and licensing pages describe Chawso PDF's own
   deployment and bundled components.
 
 The complete corresponding source code of the version running on this site
-is available from the source repository linked on the
-[licensing page](/licensing.html).
+will be published in a public source repository linked from the
+[licensing page](/licensing.html) before this site is made publicly
+available. (DRAFT-CONDITIONAL: the repository does not exist yet; do not
+publish this notice until the link is live and verified.)
 
 ## Bundled components
 
