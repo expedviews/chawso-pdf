@@ -36,7 +36,7 @@ Chawso PDF (all inherited unchanged from upstream BentoPDF v2.8.11).
   the SDK wrapper preferred source).
 - Build instructions: repo + https://hyper.bentopdf.com/docs/building
   (pinned PDFium, source patches, `make wasm`).
-- Byte-verified (independent reviewer check, 2026-11-13): upstream release
+- Byte-verified on 2026-11-13 against the upstream release
   archive
   https://github.com/alam00000/bentopdf-hyper-compress/releases/download/v1.0.3/hyper-compress-v1.0.3-wasm.tar.gz
   (archive sha256 `d8bd4f9ebdc28453b17694bd8797d9973d7bea8bf28b4bf9fc830752b7ccf189`);
@@ -50,7 +50,8 @@ Chawso PDF (all inherited unchanged from upstream BentoPDF v2.8.11).
 
 - npm `@bentopdf/gs-wasm@0.1.1`; repo
   https://github.com/alam00000/bentopdf-gs-wasm tag `v0.1.1` = commit
-  `9eb6ab47e19e...` (build scripts + source instructions in repo).
+  `9eb6ab47e19ee2ff01fd73c3ee5f8bbc9e50e36e`
+  (build scripts + source instructions in repo).
 - Our `gs.js` / `gs.wasm` verified byte-identical (sha256) to the files in
   the npm 0.1.1 tarball:
   `5e7e3b3dfc7afc5e60de8dd6dab66145c75afb74f7d671f711f390b3bb69c6d0` (gs.js),

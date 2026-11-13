@@ -23,14 +23,20 @@ Upstream version this fork is based on: BentoPDF v2.8.11
 - The Edit PDF download flow warns before downloading a document with
   applied redactions, because redactions may not remove all sensitive
   information from the file's properties, bookmarks, or embedded files.
+- The Markdown-to-PDF, office document-conversion, cryptographic
+  signing/signature-validation, and RFC 3161 timestamping tools are disabled
+  in this deployment (remote-resource loading and external-request scope
+  reasons).
 - The privacy policy and licensing pages describe Chawso PDF's own
   deployment and bundled components.
 
 The complete corresponding source code of the version running on this site
-will be published in a public source repository linked from the
-[licensing page](/licensing.html) before this site is made publicly
-available. (DRAFT-CONDITIONAL: the repository does not exist yet; do not
-publish this notice until the link is live and verified.)
+is available from the source repository linked on the
+[licensing page](/licensing.html).
+
+<!-- LINK-PENDING: the public fork repository does not exist yet. Insert and
+verify the repository link on the licensing page before publishing; these
+words are approved contingent on that verified link. -->
 
 ## Bundled components
 
