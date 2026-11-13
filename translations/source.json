@@ -9948,7 +9948,7 @@
     "pageCount": 1
   },
   "3b58028d9d66": {
-    "text": "No. The conversion engine runs entirely in your browser, so network diagrams, floor plans, and org charts are rendered on your own machine and the PDF is saved from there. Nothing is transmitted to a server.",
+    "text": "No. The conversion engine runs entirely in your browser, so network diagrams, floor plans, and org charts are rendered on your own machine and the PDF is saved from there. The tool is designed so nothing is transmitted to a server.",
     "tags": [
       "p"
     ],
@@ -18320,7 +18320,7 @@
     "pageCount": 1
   },
   "6ceb60afc223": {
-    "text": "No. Rendering and pixel inversion happen on a canvas in your browser, and the new PDF is assembled locally. Nothing leaves your computer, and there's no server queue, so the speed depends only on your device.",
+    "text": "No. Rendering and pixel inversion happen on a canvas in your browser, and the new PDF is assembled locally. Your files are designed to stay on your computer, and there's no server queue, so the speed depends only on your device.",
     "tags": [
       "p"
     ],
