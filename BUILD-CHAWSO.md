@@ -33,5 +33,14 @@ SITE_URL=https://pdf.chawso.com
 ALLOW_INDEXING=true
 DISABLE_TOOLS="markdown-to-pdf,word-to-pdf,excel-to-pdf,powerpoint-to-pdf,pages-to-pdf,pub-to-pdf,rtf-to-pdf,vsd-to-pdf,wpd-to-pdf,wps-to-pdf,odg-to-pdf,odp-to-pdf,ods-to-pdf,odt-to-pdf,digital-sign-pdf,validate-signature-pdf,timestamp-pdf"
 (The DISABLE_TOOLS list above replaces the one in the v2 env block: it adds markdown-to-pdf and timestamp-pdf, which are disabled in this deployment.)
-Post-build: rm -rf dist/libreoffice-wasm; cp -r licenses dist/licenses
+Post-build (exact commands, in order, run from the repo root after `npm run build`):
+
+    rm -rf dist/blog dist/libreoffice-wasm dist/funding.json
+    for d in dist/ dist/*/; do rm -f ${d}about.html ${d}advertise.html ${d}contact.html ${d}kura.html ${d}terms.html ${d}hyper-compress.html; done
+    for f in dist/licensing.html dist/*/licensing.html; do sed -i 's|href="https://pdf.chawso.com/licensing">bentopdf.com/licensing|href="https://www.bentopdf.com/licensing">bentopdf.com/licensing|' "$f"; done
+    cp -r licenses dist/licenses
+    npm run seo-audit   # must print "SEO audit: 3216 HTML files passed, sitemap clean."
+
+Rationale: dist/blog and the about/advertise/contact/kura/terms/hyper-compress pages are upstream identity/marketing routes that are excluded from the sitemap and must not deploy (125 HTML files removed; a clean build produces 3341, the deployment 3216). dist/libreoffice-wasm is a leftover of the disabled office tools (47MB+28MB gz exceed the Pages file cap). dist/funding.json is upstream's funding metadata and is not served on pdf.chawso.com (kept verbatim in the source repo). The licensing-link sed repairs one upstream attribution link that scripts/generate-i18n-pages.mjs rewrites to SITE_URL; it must keep pointing at upstream's own licensing page. Verification: the build logs "3216 HTML files passed" from scripts/seo-audit.mjs; any other count means a cleanup step was missed.
+
 Indexing: with ALLOW_INDEXING=true the build indexes public pages; DISABLE_TOOLS pages, 404 and wasm-settings are excluded from the sitemap and kept noindex by scripts/generate-sitemap.mjs + scripts/apply-indexing-policy.mjs (commit fee5629).
