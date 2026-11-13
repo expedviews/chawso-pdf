@@ -710,7 +710,7 @@
     "pageCount": 7
   },
   "03fc0b537e3d": {
-    "text": "You see the compressed size immediately after processing, and you can re-run with a different level or target as many times as you like. Nothing is uploaded, so iteration is instant.",
+    "text": "You see the compressed size immediately after processing, and you can re-run with a different level or target as many times as you like. The tool is designed so nothing is uploaded, so iteration is instant.",
     "tags": [
       "p"
     ],
@@ -1005,7 +1005,7 @@
     "pageCount": 1
   },
   "0583d004e480": {
-    "text": "No. The form is rendered by a PDF.js viewer embedded in the page, your entries are held in that viewer's memory, and the completed PDF is written and downloaded on your device. Nothing you type is transmitted, which is the point when the form holds tax, medical, or ID details.",
+    "text": "No. The form is rendered by a PDF.js viewer embedded in the page, your entries are held in that viewer's memory, and the completed PDF is written and downloaded on your device. What you type is designed to stay on your device, which is the point when the form holds tax, medical, or ID details.",
     "tags": [
       "p"
     ],
@@ -2258,7 +2258,7 @@
     "pageCount": 1
   },
   "0b690af988b3": {
-    "text": "No. The page count is read and the new document is assembled in your browser with pdf-lib, a JavaScript PDF library, and the download comes straight from memory. Nothing is sent to a server.",
+    "text": "No. The page count is read and the new document is assembled in your browser with pdf-lib, a JavaScript PDF library, and the download comes straight from memory. The tool is designed so nothing is sent to a server.",
     "tags": [
       "p"
     ],
@@ -2540,7 +2540,7 @@
     "pageCount": 1
   },
   "0d9fcafc2cc5": {
-    "text": "No. The thumbnails are rendered by your browser and the new file is assembled locally, so nothing is sent anywhere, even for large documents.",
+    "text": "No. The thumbnails are rendered by your browser and the new file is assembled locally, and nothing is sent anywhere by design, even for large documents.",
     "tags": [
       "p"
     ],
@@ -7992,7 +7992,7 @@
     "pageCount": 1
   },
   "2feeaa292c89": {
-    "text": "Protect and secure your PDF documents with Chawso PDF's comprehensive security tools. Encrypt with passwords, add digital signatures, manage permissions, remove sensitive data, and more. All security operations happen locally in your browser for maximum privacy. No cloud uploads, no data retention - your documents stay completely confidential.",
+    "text": "Protect and secure your PDF documents with Chawso PDF's comprehensive security tools. Encrypt with passwords, add digital signatures, manage permissions, remove sensitive data, and more. All security operations are designed to happen locally in your browser. The tools are not built to upload your files to a server for processing.",
     "tags": [
       "p"
     ],
@@ -9121,7 +9121,7 @@
     "pageCount": 1
   },
   "36c2d476d22b": {
-    "text": "No. Page thumbnails are rendered and the final PDF or ZIP is assembled in your browser, and damaged files are repaired locally before loading too. Nothing you drop into the grid leaves your computer.",
+    "text": "No. Page thumbnails are rendered and the final PDF or ZIP is assembled in your browser, and damaged files are repaired locally before loading too. What you drop into the grid is designed to stay on your computer.",
     "tags": [
       "p"
     ],
@@ -10102,7 +10102,7 @@
     "pageCount": 1
   },
   "3c50164c24ca": {
-    "text": "No. Despite the name, nothing is sent to an AI provider or any server; the extraction runs with PyMuPDF compiled to WebAssembly inside your browser. You decide afterward where the JSON goes.",
+    "text": "No. Despite the name, the tool is designed so nothing is sent to an AI provider or any server; the extraction runs with PyMuPDF compiled to WebAssembly inside your browser. You decide afterward where the JSON goes.",
     "tags": [
       "p"
     ],
@@ -10721,7 +10721,7 @@
     "pageCount": 1
   },
   "409c47011c82": {
-    "text": "No. The pages are copied into a new document by pdf-lib running in your browser, and the file is downloaded from there; nothing is transmitted.",
+    "text": "No. The pages are copied into a new document by pdf-lib running in your browser, and the file is downloaded from there; the tool is designed so nothing is transmitted.",
     "tags": [
       "p"
     ],
@@ -13783,7 +13783,7 @@
     "pageCount": 1
   },
   "51af15fdf6c0": {
-    "text": "No. The document is opened and the pages are copied in your browser, and the ZIP is built locally, so nothing is transmitted. A 500-page file only takes as long as your own machine needs to copy the selected pages.",
+    "text": "No. The document is opened and the pages are copied in your browser, and the ZIP is built locally, and the tool is designed so nothing is transmitted. A 500-page file only takes as long as your own machine needs to copy the selected pages.",
     "tags": [
       "p"
     ],
@@ -15397,7 +15397,7 @@
     "pageCount": 1
   },
   "5aeca93135f1": {
-    "text": "No. The message is parsed and rendered entirely in your browser, and no remote images, scripts, or stylesheets referenced by the email are fetched. Open-tracking pixels never fire, and the email's contents stay on your device by design.",
+    "text": "No. The message is parsed and rendered entirely in your browser, and no remote images, scripts, or stylesheets referenced by the email are fetched. Open-tracking pixels are not fetched, and the email's contents stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -17054,7 +17054,7 @@
     "pageCount": 1
   },
   "65366228377c": {
-    "text": "No. CBZ archives are unzipped and rebuilt as PDFs entirely inside your browser, and CBR files are handled by an engine that also runs locally. Nothing from your collection leaves your device.",
+    "text": "No. CBZ archives are unzipped and rebuilt as PDFs entirely inside your browser, and CBR files are handled by an engine that also runs locally. Your collection is designed to stay on your device by design.",
     "tags": [
       "p"
     ],
@@ -17094,7 +17094,7 @@
     "pageCount": 1
   },
   "655fc0df9213": {
-    "text": "No. The editor and every other tool on this page run as WebAssembly inside your browser, so the file is opened, changed, and saved on your own device without a server in between. Nothing is stored, so there's no copy to delete when you're done.",
+    "text": "No. The editor and every other tool on this page run as WebAssembly inside your browser, so the file is opened, changed, and saved on your own device without a server in between. The tool is designed not to store your document, so there's no server copy to delete when you're done.",
     "tags": [
       "p"
     ],
@@ -18572,7 +18572,7 @@
     "pageCount": 1
   },
   "6e90359ae6aa": {
-    "text": "No. The resizing is done by a PDF library running in your browser, and the new file is assembled on your device. Nothing is sent anywhere.",
+    "text": "No. The resizing is done by a PDF library running in your browser, and the new file is assembled on your device. The tool is designed and nothing is sent anywhere by design.",
     "tags": [
       "p"
     ],
@@ -18604,7 +18604,7 @@
     "pageCount": 7
   },
   "6ea0282a3fe7": {
-    "text": "No. Every converter on this page, including the Office, ebook, and image converters, runs as WebAssembly inside your browser tab, so the file is read from your device and the result is written straight back to it. There's no upload queue, no server copy, and nothing to delete afterward.",
+    "text": "No. Every converter on this page, including the Office, ebook, and image converters, runs as WebAssembly inside your browser tab, so the file is read from your device and the result is written straight back to it. The tool is designed with no upload queue and no server copy.",
     "tags": [
       "p"
     ],
@@ -20800,7 +20800,7 @@
     "pageCount": 1
   },
   "7bb626af7a40": {
-    "text": "No. The thumbnails are rendered and the rotated PDF is rebuilt in your browser, and the file downloads under its original name straight from the page. Nothing is sent to a server.",
+    "text": "No. The thumbnails are rendered and the rotated PDF is rebuilt in your browser, and the file downloads under its original name straight from the page. The tool is designed so nothing is sent to a server.",
     "tags": [
       "p"
     ],
@@ -21568,7 +21568,7 @@
     "pageCount": 1
   },
   "8001bf156d98": {
-    "text": "No. The files are read in your browser and rebuilt into PDFs by a Web Worker running the CPDF engine locally, so nothing is transmitted and the page stays responsive during large conversions.",
+    "text": "No. The files are read in your browser and rebuilt into PDFs by a Web Worker running the CPDF engine locally, and the tool is designed so nothing is transmitted and the page stays responsive during large conversions.",
     "tags": [
       "p"
     ],
@@ -22791,7 +22791,7 @@
     "pageCount": 1
   },
   "86b1b8ae1a36": {
-    "text": "No. Rendering, page pairing, OCR, and change detection all run in your browser with WebAssembly and web workers, and nothing is transmitted, so contracts and other confidential drafts stay on your machine.",
+    "text": "No. Rendering, page pairing, OCR, and change detection all run in your browser with WebAssembly and web workers, and the tool is designed so nothing is transmitted, so contracts and other confidential drafts stay on your machine.",
     "tags": [
       "p"
     ],
@@ -23834,7 +23834,7 @@
     "pageCount": 1
   },
   "8c5b10048df7": {
-    "text": "No. Every Chawso PDF tool is free with no account, and because the work happens in your browser there are no server costs to pass on to you.",
+    "text": "No. Every Chawso PDF tool is free with no account, and because the work is designed to happen in your browser there are no server costs to pass on to you.",
     "tags": [
       "p"
     ],
@@ -23864,7 +23864,7 @@
     "pageCount": 1
   },
   "8c94e9fcbb5a": {
-    "text": "No. The FB2 file is parsed and laid out by a PDF engine running in your browser, and only the finished PDF is saved to your device. Nothing is sent to a server, so the conversion also works for drafts and personal documents.",
+    "text": "No. The FB2 file is parsed and laid out by a PDF engine running in your browser, and only the finished PDF is saved to your device. The tool is designed so nothing is sent to a server, so the conversion also works for drafts and personal documents.",
     "tags": [
       "p"
     ],
@@ -25431,7 +25431,7 @@
     "pageCount": 1
   },
   "957de51506ff": {
-    "text": "No. The PDF and the attachments are read and combined in your browser by the CoherentPDF WebAssembly module, and the result is downloaded straight from the page. Nothing is sent to a server.",
+    "text": "No. The PDF and the attachments are read and combined in your browser by the CoherentPDF WebAssembly module, and the result is downloaded straight from the page. The tool is designed so nothing is sent to a server.",
     "tags": [
       "p"
     ],
@@ -29952,7 +29952,7 @@
     "pageCount": 1
   },
   "ae3780ad5f0c": {
-    "text": "No. The file is parsed by pdf.js in your browser as soon as you select it, and nothing is transmitted, so you can inspect a sensitive document before deciding where it goes.",
+    "text": "No. The file is parsed by pdf.js in your browser as soon as you select it, and the tool is designed so nothing is transmitted, so you can inspect a sensitive document before deciding where it goes.",
     "tags": [
       "p"
     ],
@@ -30900,7 +30900,7 @@
     "pageCount": 1
   },
   "b40734eebde4": {
-    "text": "No. QPDF runs as WebAssembly inside your browser, reading and writing the files in memory on your device, and the ZIP is generated locally. Nothing is sent to a server even though the output is meant for web publishing.",
+    "text": "No. QPDF runs as WebAssembly inside your browser, reading and writing the files in memory on your device, and the ZIP is generated locally. The tool is designed so nothing is sent to a server even though the output is meant for web publishing.",
     "tags": [
       "p"
     ],
@@ -37881,7 +37881,7 @@
     "pageCount": 1
   },
   "ddac72a78061": {
-    "text": "You can leave it on Medium. The 100 KB target is already filled in, so Hyper Compress steps image quality down only as far as it needs to. Pick Low instead if you want it to start from higher quality, and for image-only scans that still won't fit, turn on Rasterize pages. Nothing is uploaded, so retries are instant.",
+    "text": "You can leave it on Medium. The 100 KB target is already filled in, so Hyper Compress steps image quality down only as far as it needs to. Pick Low instead if you want it to start from higher quality, and for image-only scans that still won't fit, turn on Rasterize pages. The tool is designed so nothing is uploaded, so retries are instant.",
     "tags": [
       "p"
     ],
@@ -40385,7 +40385,7 @@
     "pageCount": 1
   },
   "ec2905daf5e2": {
-    "text": "No. Rendering and the grayscale filter run on a canvas in your browser tab, and the new PDF is assembled there too. Nothing is sent to a server.",
+    "text": "No. Rendering and the grayscale filter run on a canvas in your browser tab, and the new PDF is assembled there too. The tool is designed so nothing is sent to a server.",
     "tags": [
       "p"
     ],
@@ -40707,7 +40707,7 @@
     "pageCount": 1
   },
   "edfce916cbd2": {
-    "text": "No. Stamping happens inside your browser and the numbered files are written straight to your downloads folder. Nothing about the documents, the case name, or the numbering leaves the machine, which matters for privileged material.",
+    "text": "No. Stamping happens inside your browser and the numbered files are written straight to your downloads folder. The documents, the case name, and the numbering are all designed to stay on the machine, which matters for privileged material.",
     "tags": [
       "p"
     ],
@@ -43382,7 +43382,7 @@
     "pageCount": 1
   },
   "fe23d86ac80b": {
-    "text": "No. The viewer, the stamp editor, and the export all run in your browser, and the stamped PDF is written on your device. Nothing is sent to a server, which matters when you're stamping contracts, inspection reports, or notarized documents.",
+    "text": "No. The viewer, the stamp editor, and the export all run in your browser, and the stamped PDF is written on your device. The tool is designed so nothing is sent to a server, which matters when you're stamping contracts, inspection reports, or notarized documents.",
     "tags": [
       "p"
     ],
