@@ -25,3 +25,13 @@ Self-hosted component provenance: npm coherentpdf@2.5.5 (dist/coherentpdf.browse
 - licenses/ directory with bundled component licence texts; NOTICE.md at repo root.
 - texteditor base14 registration REMOVED (verify-or-exclude; edit-pdf-text renders without it).
 - DEPLOYMENT ENV REQUIRED: set SITE_URL=https://<final origin> at build time, otherwise canonical/hreflang/OG tags point at https://www.bentopdf.com (upstream default). When SITE_URL differs from upstream, the build marks pages noindex unless ALLOW_INDEXING=true - decide per deployment policy.
+
+## Release build (pdf.chawso.com)
+
+Env (in addition to the build command env above):
+SITE_URL=https://pdf.chawso.com
+ALLOW_INDEXING=true
+DISABLE_TOOLS="markdown-to-pdf,word-to-pdf,excel-to-pdf,powerpoint-to-pdf,pages-to-pdf,pub-to-pdf,rtf-to-pdf,vsd-to-pdf,wpd-to-pdf,wps-to-pdf,odg-to-pdf,odp-to-pdf,ods-to-pdf,odt-to-pdf,digital-sign-pdf,validate-signature-pdf,timestamp-pdf"
+(The DISABLE_TOOLS list above replaces the one in the v2 env block: it adds markdown-to-pdf and timestamp-pdf, which are disabled in this deployment.)
+Post-build: rm -rf dist/libreoffice-wasm; cp -r licenses dist/licenses
+Indexing: with ALLOW_INDEXING=true the build indexes public pages; DISABLE_TOOLS pages, 404 and wasm-settings are excluded from the sitemap and kept noindex by scripts/generate-sitemap.mjs + scripts/apply-indexing-policy.mjs (commit fee5629).
