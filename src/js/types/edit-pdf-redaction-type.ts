@@ -32,5 +32,6 @@ export interface ActiveDocumentSource {
 
 export interface AppliedRedactionTracker {
   appliedTexts: (documentId: string) => (string | undefined)[];
+  appliedCount: (documentId: string) => number;
   forget: (documentId: string) => void;
 }

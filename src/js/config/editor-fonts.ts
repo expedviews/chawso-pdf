@@ -1,6 +1,17 @@
-const FONT_CDN =
+// The engine's FontFallbackManager fetches fonts via sync XHR inside a
+// blob-based WASM worker, where root-relative URLs do not resolve against
+// the page origin. Always produce an absolute URL here so the fetch works
+// from any worker context.
+const RAW_FONT_CDN =
   import.meta.env.VITE_EMBEDPDF_FONTS_URL ||
   'https://cdn.jsdelivr.net/npm/@embedpdf';
+const FONT_CDN =
+  RAW_FONT_CDN.startsWith('http://') || RAW_FONT_CDN.startsWith('https://')
+    ? RAW_FONT_CDN
+    : new URL(
+        RAW_FONT_CDN.replace(/^\/+/, ''),
+        globalThis.location?.origin ?? 'http://localhost'
+      ).href;
 
 const CHARSET = {
   ANSI: 0,
